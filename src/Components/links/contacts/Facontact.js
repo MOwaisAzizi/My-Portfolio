@@ -33,7 +33,6 @@ const FaContact = () => {
           <Linkicon iconlink='https://github.com/MOwaisAzizi'>  <i className="fa fa-github" > </i> </Linkicon>
           <Linkicon iconlink='http://www.facebook.com/mowais.azizi'>  <i className="fa fa-facebook" > </i> </Linkicon>
           <Linkicon iconlink='http://wa.me/0798267860'>  <i className="fa fa-whatsapp" > </i> </Linkicon>
-          <Linkicon iconlink='@EngOwais'> <i className="fa fa-telegram" > </i> </Linkicon>
           <Linkicon iconlink='https://www.linkedin.com/in/m-owais-azizi-7440532b4'>  <i className="fa fa-linkedin" > </i> </Linkicon>
           <br />
         </div>

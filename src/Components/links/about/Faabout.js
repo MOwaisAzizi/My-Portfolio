@@ -22,8 +22,8 @@ const Faabout = (props) => {
         <div className="about mb-lg-3 mb-3" >
             <Container>
                 <Row >
-                    <Col className="text pt-0" lg={12} > <b><h1 data-aos="fade-up" className="mx-auto center pt-2 pt-gl-5 pt-md-5 pt-xs-0">من کی هستم؟ </h1> </b>
-                        <p data-aos="fade-up" style={{ direction: 'rtl' }} className="px-lg-5 mx-lg-5 center">
+                    <Col className="text pt-0" lg={12} > <b><h1 data-aos="fade-up" className="mx-auto t-center pt-2 pt-gl-5 pt-md-5 pt-0">من کی هستم؟ </h1> </b>
+                        <p data-aos="fade-up" style={{ direction: 'rtl' }} className="px-lg-5 mx-lg-5 center px-0 mx-0" >
                             من یک توسعه دهنده فرات اند با دو سال تجربه هستم که در افغانستان، هرات زندگی میکنم و
                             من حال بادگیری رشته کمپیوتر ساینس در دانشگاه هرات هستم.
                             من قبلا زیان انگلیسی را آموخته و بعد از آن وارد دانشگاه و موسسه واسا جهت یادگیری فرانت اند شدم و به درستی تمام اش کردم.

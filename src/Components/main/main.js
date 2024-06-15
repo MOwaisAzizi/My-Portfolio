@@ -27,9 +27,14 @@ import { FaArrowDown } from 'react-icons/fa';
 
 function Main(props) {
   const [isenglish, setisenglish] = useState(true)
+  const [isopen,setisopen] = useState(false);
 
-  const handlelangeage = (props) => {
+  const handlelangeage = () => {
     setisenglish(!isenglish)
+  }
+  const toggleNav = () => {
+    setisopen(!isopen)
+    console.log('clicked');
   }
 
   const home = useRef(null);
@@ -52,33 +57,38 @@ function Main(props) {
     <div className='fullpage'>
       {
         isenglish ?
-          
             <nav className='navbar'>
-                    <Nav className='nav-item ul ulENG me-2 ms-md-5  '>
-                      <li className='nav-item ps-lg-5 ps-md-0  ps-1  nav-links ' onClick={() => scrollToSection(home)}>Home</li>
-                      <li className='nav-item ps-md-5 ps-sm-4  ps-2 nav-links ' onClick={() => scrollToSection(instace)}>Projects</li>
-                      <li className=' nav-item ps-md-5 ps-sm-4 ps-2  nav-links' onClick={() => scrollToSection(about)}>about</li>
-                      <li className=' nav-item ps-md-5 ps-sm-4 ps-2 nav-links' onClick={() => scrollToSection(exprence)}>Exprence</li>
-                      <li className='nav-item ps-md-5 ps-sm-4 ps-2 nav-links ' onClick={() => scrollToSection(ablity)}>Skills</li>
-                      <li className='nav-item ps-md-5 ps-sm-4 ps-xs-0 contact nav-links' onClick={() => scrollToSection(contact)}>Contact</li>
-                    </Nav>
+                    <ul className={isopen ? 'navbar-links active ' : 'navbar-links'}>
+                      <li  onClick={() => scrollToSection(home)}>Home</li>
+                      <li  onClick={() => scrollToSection(instace)}>Projects</li>
+                      <li onClick={() => scrollToSection(about)}>about</li>
+                      <li  onClick={() => scrollToSection(exprence)}>Exprence</li>
+                      <li  onClick={() => scrollToSection(ablity)}>Skills</li>
+                      <li  onClick={() => scrollToSection(contact)}>Contact</li>
+                    </ul>
+
+                    <div className='navbartoggle' onClick={toggleNav}>
+                      <i  className={isopen ? 'fa fa-times' : 'fa fa-bars'}></i>
+                    </div>
             </nav>
           
            :
 
           
-            <nav className='navbar'>
-            <Container>
-            <Nav className='ul nav-item text-info ms-sm-5 ps-md-5' style={{ direction: 'rtl' }}>
-                 <li className='nav-item ps-lg-5 ps-md-5 ps-sm-4 pe-1 ps-3  nav-links ' onClick={() => scrollToSection(home)}>خانه</li>
-                      <li className='nav-item ps-md-5 ps-sm-4  ps-3 nav-links ' onClick={() => scrollToSection(instace)}>پروژه ها</li>
-                      <li className=' nav-item ps-md-5 ps-sm-4 ps-3  nav-links' onClick={() => scrollToSection(about)}>درباره</li>
-                      <li className=' nav-item ps-md-5 ps-sm-4 ps-3 nav-links' onClick={() => scrollToSection(exprence)}>تجربه</li>
-                      <li className='nav-item ps-md-5 ps-sm-4 ps-3 nav-links ' onClick={() => scrollToSection(ablity)}>مهارتها</li>
-                      <li className='nav-item ps-md-5 ps-sm-4 ps-xs-0 contact nav-links' onClick={() => scrollToSection(contact)}>ارتباط</li>
-                    </Nav>
-            </Container>
-            </nav>
+           <nav className='navbar ' style={{}}>
+           <ul className={isopen ? 'navbar-links active ' : 'navbar-links'} style={{direction:'rtl'}}>
+             <li  onClick={() => scrollToSection(home)}>خانه</li>
+             <li  onClick={() => scrollToSection(instace)}>پروژه ها</li>
+             <li onClick={() => scrollToSection(about)}>درباره</li>
+             <li  onClick={() => scrollToSection(exprence)}>تجارب</li>
+             <li  onClick={() => scrollToSection(ablity)}>مهارت ها</li>
+             <li  onClick={() => scrollToSection(contact)}>ارتباط</li>
+           </ul>
+
+           <div className='navbartoggle' onClick={toggleNav}>
+             <i  className={isopen ? 'fa fa-times' : 'fa fa-bars'}></i>
+           </div>
+   </nav>
           
       }
 
