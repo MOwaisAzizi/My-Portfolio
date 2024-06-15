@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.nav-icon{
+    display:'inline';
+    text-decoration: none;
+    list-style: none;
+   float: left;
+   margin: auto;
+   margin-top: 0.5vh;
+   text-align: center;
+   margin-left: 2.8vh;
+}

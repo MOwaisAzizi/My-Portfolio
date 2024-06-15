@@ -1,0 +1,25 @@
+.icon1 {
+  position: fixed;
+  right: 16px;
+  top: 70px;
+  color: black;
+  transition: 2s;
+  z-index: 10000;
+  cursor: pointer;
+}
+.icon2 {
+  position: fixed;
+  right: 16px;
+  top: 70px;
+  color: yellow;
+  transition: 2s;
+  cursor: pointer;
+  z-index: 10000;
+}
+@media only screen and (max-width: 356px) {
+  .icon1,
+  .icon2 {
+    top: 98px;
+    right: 10px;
+  }
+}

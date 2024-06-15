@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+.center {
+  text-align: center;
+  line-height: 6vh;
+}
+
+.centerbtn {
+  display: flex;
+  justify-content: center;
+}
+.row {
+  width: 100%;
+}
+.text {
+  text-align: center;
+}
+.about img {
+  width: 100%;
+  height: 90vh;
+}
+.about p {
+  padding: 1vh 2vh 0.5vh 2vh;
+}
+.about h1 {
+}
+.about {
+}
+.contain {
+}
+@media screen and (max-width: 768px) {
+  .about img {
+    width: 100%;
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 360px) {
+  .about img {
+    width: 100%;
+    height: 80vh;
+  }
+}
+
+.cvdiv {
+  width: 100%;
+  text-align: center;
+}
+.a-btn {
+  color: white;
+  text-decoration: none;
+}
