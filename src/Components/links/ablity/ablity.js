@@ -148,10 +148,10 @@ const Ablity = (props) => {
           <span data-aos="fade-left" data-aos-delay="150">Hardworker</span>
           <span data-aos="fade-left" data-aos-delay="200">Friendly</span>
           <span data-aos="fade-left" data-aos-delay="300">Honest</span>
-          <span data-aos="fade-left" data-aos-delay="400">Management</span>
-          <span data-aos="fade-left" data-aos-delay="500">creativity</span>
-          <span data-aos="fade-left" data-aos-delay="600">Energetic</span>
-          <span data-aos="fade-left" data-aos-delay="700">good-tempered</span>
+          <span data-aos="fade-left" data-aos-delay="420">Management</span>
+          <span data-aos="fade-left" data-aos-delay="550">creativity</span>
+          <span data-aos="fade-left" data-aos-delay="680">Energetic</span>
+          <span data-aos="fade-left" data-aos-delay="800">good-tempered</span>
         </div>
       </div>
     </Container>

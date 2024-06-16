@@ -162,7 +162,7 @@ const FaInstances = (props) => {
         <Container className="mb-3 mb-md-0">
           <Row className="more">
             <Col >
-              <Link to='/project'><button className="h ms-lg-1 ms-2" onClick={props.click}>  <i className="fa fa-arrow-left arrow"></i> دیدن بیشتر</button></Link>
+              <Link to='/project'><button className="h ms-lg-1 ms-2 pb-1 pb-sm-0" onClick={props.click}>  <i className="fa fa-arrow-left arrow"></i> دیدن بیشتر</button></Link>
             </Col>
           </Row>
         </Container>

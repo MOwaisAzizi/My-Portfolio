@@ -21,7 +21,8 @@ const Allcomponents = () => {
       }}>
 
 
-<div className="divicons">
+
+
 {
 
 themeshow ?
@@ -31,7 +32,8 @@ themeshow ?
     <i onClick={toggleTheme}><a className="fa fa-moon icon1" ></a></i>
   : null
 }
-</div>
+
+
 
       <Routes>
         <Route path="/" element={<Main click={toggleTheme} />} ></Route>

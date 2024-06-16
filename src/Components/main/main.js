@@ -2,12 +2,10 @@ import React from 'react'
 import Rightmain from './rmain/rightmain'
 import LeftMain from './lmain/leftmain'
 import Middlemain from './mmain/middlemain'
-import 'bootstrap/dist/css/bootstrap.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import './main.css'
-import {Nav} from 'react-bootstrap';
 import Instances from './mmain/instances/instaces'
 import About from '../links/about/about';
 import Exprence from '../links/exprence/exprence';
@@ -108,8 +106,6 @@ function Main(props) {
           <Row>
             <Col lg={4} xl={4} className='mt-lg-5'>
               {isenglish ?
-
-
                 <LeftMain /> :
                 <Faleft />
               }
@@ -130,8 +126,8 @@ function Main(props) {
                   </div> :
 
                   <div className='info'>
-                    <h2 className='pt-2'  style={{textAlign:'center'}}><b>محمد اویس عزیزی</b></h2>
-                    <p className='p-1' >در شهر هرات زندگی میکند و در حال آموختن رشته کمپیوتر ساینس در دانشگاه هرات است. میتوانم برای شما کمک کنم ؟ اگر بلی میتوانید از راه های زیر با من تماس بگیرید <br />
+                    <h2 className='pt-2 ms-2 ms-sm-0'  style={{textAlign:'center'}}><b>محمد اویس عزیزی</b></h2>
+                    <p className='p-1 ms-3 ms-sm-0' >در شهر هرات زندگی میکند و در حال آموختن رشته کمپیوتر ساینس در دانشگاه هرات است. میتوانم برای شما کمک کنم ؟ اگر بلی میتوانید از راه های زیر با من تماس بگیرید <br />
                       <div className='phone mb-3 mb-md-0' >
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-2 contactbtn" data-aos="fade-right" data-aos-delay="800"> <FaArrowDown/> ارتباط با من  </button></span>
                       </div>

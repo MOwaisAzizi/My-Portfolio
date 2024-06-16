@@ -1,33 +1,22 @@
 .icon1 {
-  position: fixed;
-  top: 75px;
-  right: 14px;
   color: black;
+  position: fixed;
+  top: 73px;
+  right: 14px;
   transition: 2s;
-  z-index: 10000;
   cursor: pointer;
+  z-index: 10000;
   font-size: 25px;
-  /* border: solid 5px black; */
 }
 .icon2 {
-  position: fixed;
-  top: 75px;
-  right: 14px;
   color: yellow;
+  position: fixed;
+  top: 73px;
+  right: 13px;
   transition: 2s;
   cursor: pointer;
   z-index: 10000;
-  /* border: solid 5px black; */
   font-size: 25px;
-
-}.divicons{
-  /* display: flex;
-  justify-content: start;
-  margin: 100px; */
-  /* margin: 100px; */
-  /* border: solid 2px black; */
-   /* position: absolute;
-   top: 100px; */
 }
 .app{
   width: 100%;

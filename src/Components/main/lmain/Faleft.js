@@ -12,7 +12,7 @@ class Faleft extends React.Component {
   }
   render() {
     return (
-      <div className='leftmain pt-5 pt-lg-4' style={{ direction: 'rtl' }} >
+      <div className='leftmain pt-5 pt-lg-4 ps-1 ps-sm-0' style={{ direction: 'rtl' }} >
         <Row>
 
           <Col className='pt-5 pt-sm-0'>

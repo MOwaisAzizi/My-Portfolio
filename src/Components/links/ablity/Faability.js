@@ -147,10 +147,10 @@ const FaAblity = (props) => {
           <span data-aos="fade-right" data-aos-delay="100">سخت کوش</span>
           <span data-aos="fade-right" data-aos-delay="200">صمیمی</span>
           <span data-aos="fade-right" data-aos-delay="300">مدیریت</span>
-          <span data-aos="fade-right" data-aos-delay="400">خلاق</span>
-          <span data-aos="fade-right" data-aos-delay="500">صادق</span>
-          <span data-aos="fade-right" data-aos-delay="600">پرانرژی</span>
-          <span data-aos="fade-right" data-aos-delay="700">با اخلاق</span>
+          <span data-aos="fade-right" data-aos-delay="430">خلاق</span>
+          <span data-aos="fade-right" data-aos-delay="550">صادق</span>
+          <span data-aos="fade-right" data-aos-delay="670">پرانرژی</span>
+          <span data-aos="fade-right" data-aos-delay="800">با اخلاق</span>
         </div>
 
       </div>

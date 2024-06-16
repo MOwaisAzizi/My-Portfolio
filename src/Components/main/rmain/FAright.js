@@ -12,7 +12,7 @@ class Faright extends React.Component {
 
   render() {
     return (
-      <div className='rightmain pt-2 pt-lg-4' style={{direction:'rtl'}}>
+      <div className='rightmain pt-2 pt-lg-4 ps-2 ps-sm-0' style={{direction:'rtl'}}>
         <Row>
           <Col >
             <b> <h2 id='right' className='pt-4 pt-lg-1'> </h2></b>

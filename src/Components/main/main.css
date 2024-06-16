@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .main {
   padding-top: 40px;
   width: 100%;
@@ -24,6 +27,7 @@
   list-style: none;
   margin-left: 3rem;
   color: black;
+  transition: 2s;
 }
 .navbar-links li{
   cursor: pointer;
@@ -42,18 +46,32 @@
   color: white;
   }
 
+  .btn-change{
+    border-radius: 8px;
+    color: white;
+    position: fixed;
+    top: 105px;
+    right: 13px;
+    border: none;
+    transition: 0.5s;
+    z-index: 10000;
+    background-color: hsl(240, 94%, 63%);
+  
+  }.btn-change:hover{
+  background-color: white;
+  color: black;
+  }
+
 @media only screen and (max-width: 576px) {
   .navbar-links{
     font-size: 18px;
     display: none;
     flex-direction: column;
-    /* position: absolute;
-    top: 0;
-    right: 0; */
     width: 100%;
     text-align: center;
     margin-left: 0;
     padding:0;
+    transition: 2s;
 
   }.navbar{
     padding: 0;
@@ -71,7 +89,6 @@
  }.navbartoggle{
    display: block;
    position: absolute;
-   
  }
 }
  @media only screen and (max-width: 830px) {
@@ -83,28 +100,17 @@
 }
 
 
-.btn-change{
-  border-radius: 8px;
-  color: white;
-  position: fixed;
-  right: 13px;
-  top: 107px;
-  border: none;
-  transition: 0.5s;
-  z-index: 10000;
-  background-color: hsl(240, 94%, 63%);
-}.btn-change:hover{
-background-color: white;
-color: black;
-}
+
 .contactbtn{
     background-color: rgb(66, 66, 254);
     color: white;
     border-radius: 20px;
     border: none;
     padding: 7px 12px;
-    transition: 0.3s;
+    transition: 0.5s;
+
   }.contactbtn:hover{
     background-color: white;
     color: black;
+
   }

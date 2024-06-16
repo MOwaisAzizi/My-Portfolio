@@ -12,11 +12,11 @@ class LeftMain extends React.Component {
   }
   render() {
     return (
-      <div className='leftmain pt-lg-2 pt-5' >
+      <div className='leftmain pt-lg-2  ' >
         <Row>
 
-          <Col className='pt-4 pt-sm-0' >
-            <b><h2 id='left' className='pt-5 pt-lg-4' style={{ textAlign: 'center' }}><b></b></h2></b>
+          <Col className='pt-4 pt-sm-0 ' >
+            <b><h2 id='left' className='pt-5 pt-lg-4 ' style={{ textAlign: 'center' }}><b></b></h2></b>
             <p className='' style={{ textAlign: 'center' }}>A software engineer from Afghanistan who studing  software engineering at Herat University.
             </p>
           </Col>
