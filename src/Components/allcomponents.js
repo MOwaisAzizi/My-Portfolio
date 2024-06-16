@@ -11,8 +11,8 @@ import { useState, useEffect } from "react";
 
 const Allcomponents = () => {
   const [themeshow, setthemeshow] = useState(true)
-
   const [theme, toggleTheme] = UseDarkMode()
+
   let content = (
     <div className='app'
       style={{
@@ -21,15 +21,18 @@ const Allcomponents = () => {
       }}>
 
 
-      {
+<div className="divicons">
+{
 
-        themeshow ?
-          theme == 'dark' ?
-            <i onClick={toggleTheme} className="mt-sm-5"><a className="fa fa-sun fs-5 icon2" ></a></i>
-            :
-            <i onClick={toggleTheme} className="mt-sm-5"><a className="fa fa-moon fs-5 icon1" ></a></i>
-          : null
-      }
+themeshow ?
+  theme == 'dark' ?
+    <i onClick={toggleTheme}><a className="fa fa-sun icon2" ></a></i>
+    :
+    <i onClick={toggleTheme}><a className="fa fa-moon icon1" ></a></i>
+  : null
+}
+</div>
+
       <Routes>
         <Route path="/" element={<Main click={toggleTheme} />} ></Route>
         <Route path="/project" element={<Project />}  ></Route>

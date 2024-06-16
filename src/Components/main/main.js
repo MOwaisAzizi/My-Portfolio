@@ -34,7 +34,6 @@ function Main(props) {
   }
   const toggleNav = () => {
     setisopen(!isopen)
-    console.log('clicked');
   }
 
   const home = useRef(null);
@@ -75,8 +74,8 @@ function Main(props) {
            :
 
           
-           <nav className='navbar ' style={{}}>
-           <ul className={isopen ? 'navbar-links active ' : 'navbar-links'} style={{direction:'rtl'}}>
+           <nav className='navbar '>
+           <ul className={isopen ? 'navbar-links active ' : 'navbar-links'}  >
              <li  onClick={() => scrollToSection(home)}>خانه</li>
              <li  onClick={() => scrollToSection(instace)}>پروژه ها</li>
              <li onClick={() => scrollToSection(about)}>درباره</li>
@@ -92,16 +91,17 @@ function Main(props) {
           
       }
 
+    {
+            isenglish ?
+              <button onClick={handlelangeage} className='btn-change px-2 py-1' >فا</button>
+              :
+              <button onClick={handlelangeage} className=' btn-change px-1 py-1' >En</button>
+          }
 
       <Container className='main' data-aos="fade-in" data-aos-delay="200" ref={home}>
 
         <div id='section1'>
-          {
-            isenglish ?
-              <button onClick={handlelangeage} className='btn-change px-2'>فا</button>
-              :
-              <button onClick={handlelangeage} className=' btn-change px-1'>En</button>
-          }
+
 
 
 
@@ -119,8 +119,8 @@ function Main(props) {
               <Middlemain >
                 {isenglish ?
                   <div className='info'>
-                    <h2 className='pt-2'  style={{textAlign:'center'}}><b>Mohammad Owais Azizi</b></h2>
-                    <p className='p-1' >Living in Herat city,<br />studing Computer Sience in Herat university.
+                    <h2 className='pt-2 ms-2 ms-sm-0'  style={{textAlign:'center'}}><b>Mohammad Owais Azizi</b></h2>
+                    <p className='p-1 ms-3 ms-sm-0' >Living in Herat city,<br />studing Computer Sience in Herat university.
                       can i help you ? if yes you can contact me all this ways: <br />
                       <div className='phone mb-3 mb-md-0' >
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-2 contactbtn" data-aos="fade-left" data-aos-delay="800"
@@ -149,6 +149,7 @@ function Main(props) {
               }
             </Col>
           </Row>
+        
         </div>
 
       </Container>

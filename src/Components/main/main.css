@@ -5,7 +5,7 @@
 .navbar{
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: 1000;
   width: 100%;
   background-color: rgb(211, 216, 211);
@@ -19,10 +19,10 @@
   margin-top: 7px;
   font-size: 20px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
   list-style: none;
-  padding: 0 1rem;
   margin-left: 3rem;
   color: black;
 }
@@ -48,18 +48,19 @@
     font-size: 18px;
     display: none;
     flex-direction: column;
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    right: 0; */
     width: 100%;
     text-align: center;
-    margin: 1rem 0;
+    margin-left: 0;
     padding:0;
 
   }.navbar{
     padding: 0;
     margin: 0;
-    background-color: none;
+  width: 100vw;
+  
   }
   .navbar-links li{
     padding-bottom: 10px;
@@ -70,13 +71,13 @@
 
  }.navbartoggle{
    display: block;
-
+   position: absolute;
+   
  }
 }
  @media only screen and (max-width: 830px) {
   .navbar-links li{
     padding-left: 1.3rem;
-    /* margin-left: 1.5rem; */
   }.navbar-links{
     margin-left: 0;
   }
@@ -87,13 +88,11 @@
   border-radius: 8px;
   color: white;
   position: fixed;
-  right: 12px;
+  right: 13px;
+  top: 107px;
   border: none;
-  top: 97px;
   transition: 0.5s;
-  z-index: 2000;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  z-index: 10000;
   background-color: hsl(240, 94%, 63%);
 }.btn-change:hover{
 background-color: white;

@@ -14,7 +14,7 @@ const About = (props) => {
           <div className="contain">
             <Col className="text pt-0" lg={12} > <b><h1 data-aos="fade-up" className="mx-auto pt-2 pt-gl-5 pt-md-5 pt-md-5 pt-xs-0 t-center ">So who am I <span style={{ fontSize: '50px' }}>?</span></h1> </b>
 
-              <p data-aos="fade-up" className="center px-0 mx-0"> I am  a frontend developper with 2 years exprence living in Afghanistan, Herat city
+              <p data-aos="fade-up" className="center px-0 mx-0 ps-2 ps-sm-0"> I am  a frontend developper with 2 years exprence living in Afghanistan, Herat city
                 and studing computer science in Herat university right now.
                 I already learned English language and took university and WASSA Organization course
                 for learning web development and i did it well.
@@ -23,7 +23,7 @@ const About = (props) => {
                 I already finished frontend web development in WASSA Organization and has it's certicficate too.
                 <br />
                 <div className="cvdiv mt-3">
-                  <Button className="mb-2 mt-2 btn-primary-cv" data-aos="fade-left" data-aos-delay="500" ><a className="a-btn" href={CV} download='CV'>Download CV <FaDownload /></a></Button>
+                  <Button className="mb-2 mt-2 btn-primary-cv" data-aos="fade-left" data-aos-delay="400" ><a className="a-btn" href={CV} download='CV'>Download CV <FaDownload /></a></Button>
                 </div>
               </p>
 
