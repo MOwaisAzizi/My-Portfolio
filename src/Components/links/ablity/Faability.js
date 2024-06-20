@@ -144,12 +144,12 @@ const FaAblity = (props) => {
           <b>ویژگی ها</b>
         </h2>
         <div className="dspan" style={{ direction: 'rtl' }}>
-          <span data-aos="fade-right" data-aos-delay="100">سخت کوش</span>
-          <span data-aos="fade-right" data-aos-delay="200">صمیمی</span>
-          <span data-aos="fade-right" data-aos-delay="300">مدیریت</span>
-          <span data-aos="fade-right" data-aos-delay="430">خلاق</span>
+          <span data-aos="fade-right" data-aos-delay="150">سخت کوش</span>
+          <span data-aos="fade-right" data-aos-delay="250">صمیمی</span>
+          <span data-aos="fade-right" data-aos-delay="350">مدیریت</span>
+          <span data-aos="fade-right" data-aos-delay="450">خلاق</span>
           <span data-aos="fade-right" data-aos-delay="550">صادق</span>
-          <span data-aos="fade-right" data-aos-delay="670">پرانرژی</span>
+          <span data-aos="fade-right" data-aos-delay="650">پرانرژی</span>
           <span data-aos="fade-right" data-aos-delay="800">با اخلاق</span>
         </div>
 
