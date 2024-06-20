@@ -12,11 +12,11 @@ class Faleft extends React.Component {
   }
   render() {
     return (
-      <div className='leftmain pt-5 pt-lg-4 ps-1 ps-sm-0' style={{ direction: 'rtl' }} >
+      <div className='leftmain mt-5 mt-lg-0 ps-2 ps-lg-0 mb-3 mb-lg-0' style={{ direction: 'rtl' }} >
         <Row>
 
-          <Col className='pt-5 pt-sm-0'>
-            <b><h2 id='left' className='pt-4 pt-lg-1' style={{ textAlign: 'center' }}><b>ا</b></h2></b>
+          <Col className=''>
+            <b><h2 id='left' className=' mt-5 mt-lg-0' style={{ textAlign: 'center' }}><b>ا</b></h2></b>
             <p className='' style={{ textAlign: 'center' }}>
           یک انجینیر نرم افزار از افغانستان که فعلا انجینیری نرم افزار را در دانشگاه <br />هرات  می آموزد.
             </p>

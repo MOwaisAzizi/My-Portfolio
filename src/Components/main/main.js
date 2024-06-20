@@ -91,9 +91,9 @@ function Main(props) {
 
     {
             isenglish ?
-              <button onClick={handlelangeage} className='btn-change px-2 py-1' >فا</button>
+              <button onClick={handlelangeage} className='btn-change fa ' >فا</button>
               :
-              <button onClick={handlelangeage} className=' btn-change px-1 py-1' >En</button>
+              <button onClick={handlelangeage} className=' btn-change en' >En</button>
           }
 
       <Container className='main' data-aos="fade-in" data-aos-delay="200" ref={home}>
@@ -104,7 +104,7 @@ function Main(props) {
 
 
           <Row>
-            <Col lg={4} xl={4} className='mt-lg-5'>
+            <Col lg={4} xl={4}>
               {isenglish ?
                 <LeftMain /> :
                 <Faleft />
@@ -137,7 +137,7 @@ function Main(props) {
               </Middlemain>
             </Col>
 
-            <Col lg={4} xl={4} className='mt-lg-5'>
+            <Col lg={4} xl={4}>
               {isenglish ?
                 <Rightmain />
                 :

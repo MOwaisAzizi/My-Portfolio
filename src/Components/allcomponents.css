@@ -1,8 +1,8 @@
 .icon1 {
   color: black;
   position: fixed;
-  top: 73px;
-  right: 14px;
+  top: 65px;
+  left: 5px;
   transition: 2s;
   cursor: pointer;
   z-index: 10000;
@@ -11,12 +11,20 @@
 .icon2 {
   color: yellow;
   position: fixed;
-  top: 73px;
-  right: 13px;
+  top: 65px;
+  left: 5px;
   transition: 2s;
   cursor: pointer;
   z-index: 10000;
-  font-size: 25px;
+  font-size: 24px;
+}
+@media only screen and (max-width: 576px){
+  .icon2{
+   left: 0px;
+  }
+  .icon1{
+    left: 1px;
+   }
 }
 .app{
   width: 100%;
