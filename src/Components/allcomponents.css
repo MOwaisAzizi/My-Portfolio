@@ -20,12 +20,12 @@
 }
 @media only screen and (max-width: 576px){
   .icon2{
-   left: 1px;
+   left: 2px;
   font-size: 26px;
 
   }
   .icon1{
-    left: 3px;
+    left: 4px;
   font-size: 27px;
 
    }
