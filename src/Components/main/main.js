@@ -65,7 +65,7 @@ function Main(props) {
                     </ul>
 
                     <div className='navbartoggle' onClick={toggleNav}>
-                      <i  className={isopen ? 'fa fa-times' : 'fa fa-bars'}></i>
+                      <i  className={isopen ? 'fa fa-times time' : 'fa fa-bars'}></i>
                     </div>
             </nav>
           
@@ -83,7 +83,7 @@ function Main(props) {
            </ul>
 
            <div className='navbartoggle' onClick={toggleNav}>
-             <i  className={isopen ? 'fa fa-times' : 'fa fa-bars'}></i>
+             <i  className={isopen ? 'fa fa-times time' : 'fa fa-bars'}></i>
            </div>
    </nav>
           
