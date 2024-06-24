@@ -34,8 +34,8 @@ const FaInstances = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Online-Market'><i className="fa fa-github icons"></i> گیت هاب</a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='http://online-market-phi.vercel.app'><i className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Online-Market'><i className="fa fa-github icons"></i> گیت هاب</a></Button>
+                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='http://online-market-phi.vercel.app'><i className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </Row>
                 </div>
@@ -57,8 +57,8 @@ const FaInstances = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Back_Info-Website'><i className="fa fa-github icons"></i></a> گیت هاب</Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/Back_Info-Website/'><i className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Back_Info-Website'><i className="fa fa-github icons"></i></a> گیت هاب</Button>
+                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/Back_Info-Website/'><i className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </Row>
                 </div>
@@ -83,8 +83,8 @@ const FaInstances = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Counter'><i className="fa fa-github icons"></i> گیت هاب</a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/Counter/'><i className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Counter'><i className="fa fa-github icons"></i> گیت هاب</a></Button>
+                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/Counter/'><i className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </Row>
                 </div>
@@ -104,8 +104,8 @@ const FaInstances = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/BankApplication'><i className="fa fa-github icons"> گیت هاب</i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/BankApplication/'><i className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/BankApplication'><i className="fa fa-github icons"></i>گیت هاب</a></Button>
+                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/BankApplication/'><i className="fa fa-globe icons"></i></a>دیدن</Button>
                     </div>
 
                   </Row>
@@ -126,8 +126,8 @@ const FaInstances = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Bootstrap-Project'><i className="fa fa-github icons"></i> گیت هاب </a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/Bootstrap-Project/'><i className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Bootstrap-Project'><i className="fa fa-github icons"></i> گیت هاب </a></Button>
+                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/Bootstrap-Project/'><i className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </Row>
                 </div>
@@ -148,8 +148,8 @@ const FaInstances = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/library'><i className="fa fa-github icons"></i> گیت هاب</a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='http://library-isos.vercel.app'><i className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/library'><i className="fa fa-github icons"></i> گیت هاب</a></Button>
+                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='http://library-isos.vercel.app'><i className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </Row>
                 </div>
