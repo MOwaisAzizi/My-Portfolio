@@ -14,13 +14,13 @@ const About = (props) => {
           <div className="contain">
             <Col className="text pt-0" lg={12} > <b><h1 data-aos="fade-up" className="mx-auto pt-2 pt-gl-5 pt-md-5 pt-md-5 pt-xs-0 t-center ">So who am I <span style={{ fontSize: '50px' }}>?</span></h1> </b>
 
-              <p data-aos="fade-up" className="center px-0 mx-0 ps-2 ps-sm-0"> I am  a frontend developper with 2 years exprence living in Afghanistan, Herat city
-                and studing computer science in Herat university right now.
-                I already learned English language and took university and WASSA Organization course
-                for learning web development and i did it well.
-                I am interested in learning more about web development that includes backend development and AI technology.
-                I am able to build any frontend websites and web Applications and interested in building pair projects.
-                I already finished frontend web development in WASSA Organization and has it's certicficate too.
+              <p data-aos="fade-up" className="center px-0 mx-0 ps-2 ps-sm-0"> I am a professional front-end developer with one year exprence residing in city Herat, Afghanistan.
+              Currently, I am pursuing a degree in computer science at Herat university. I have acquired proficiency in the English language
+               and have successfully completed courses in wev development offered by both the university and WASSA Organization. I am
+              keen on further expanding my knowledge in web development,particularly in the areas of backend developer and AI technology.
+              I possess the capability to construct front-end websites and web applications proficiently and I am enthusiastic about 
+              collaborating on joint projects.Additionally, I have obtained certicfication in frontend web development from WASSA Organization.
+
                 <br />
                 <div className="cvdiv mt-3">
                   <Button className="mb-2 mt-2 btn-primary-cv" data-aos="fade-left" data-aos-delay="400" ><a className="a-btn" href={CV} download='CV'>Download CV <FaDownload /></a></Button>

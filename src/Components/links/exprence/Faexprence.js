@@ -22,9 +22,9 @@ const FaExprence = (props) => {
                         <li data-aos="fade-up" data-aos-delay="50">داشتن تجربه یکساله در زمینه توسعه وب.</li>
                         <li data-aos="fade-up" data-aos-delay="100">کارآموزی در موسسه واسا برای شش ماه.</li>
                         <li data-aos="fade-up" data-aos-delay="150">توسعه پروژه های متقاوت در موسسه واسا.</li>
-                        <li data-aos="fade-up" data-aos-delay="200">ساخت چندین گیم توسط جاوااسکرپت.</li>
-                        <li data-aos="fade-up" data-aos-delay="300">عضو کمیته آی تی و سی اس آف سی اس در دانشگاه هرات 4 ماه.</li>
-                        <li data-aos="fade-up" data-aos-delay="380">ساخت بیش از 25 پروژه مرتبط با وب در یکسال گذشته.</li>
+                        <li data-aos="fade-up" data-aos-delay="200">ساخت چندین گیم جالب توسط جاوااسکرپت و ری اکت.</li>
+                        <li data-aos="fade-up" data-aos-delay="300">عضو فعال کمیته آی تی در دانشگاه هرات برای 4 ماه.</li>
+                        <li data-aos="fade-up" data-aos-delay="380">ساخت بیش از 30 پروژه کوچک در یکسال گذشته.</li>
                      </ul>
                   </div>
 

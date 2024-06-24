@@ -10,7 +10,6 @@ import { useState, useEffect } from "react";
 
 
 const Allcomponents = () => {
-  const [themeshow, setthemeshow] = useState(true)
   const [theme, toggleTheme] = UseDarkMode()
 
   let content = (
@@ -20,23 +19,17 @@ const Allcomponents = () => {
         color: theme == 'dark' ? 'white' : 'black'
       }}>
 
-
-
-
 {
-
-themeshow ?
   theme == 'dark' ?
     <i onClick={toggleTheme}><a className="fa fa-sun icon2" ></a></i>
     :
     <i onClick={toggleTheme}><a className="fa fa-moon icon1" ></a></i>
-  : null
 }
 
 
 
       <Routes>
-        <Route path="/" element={<Main click={toggleTheme} />} ></Route>
+        <Route path="/" element={<Main click={toggleTheme}  />} ></Route>
         <Route path="/project" element={<Project />}  ></Route>
       </Routes>
     </div>

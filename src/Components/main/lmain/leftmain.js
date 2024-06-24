@@ -17,7 +17,7 @@ class LeftMain extends React.Component {
 
           <Col className='mt-5 mt-lg-0' >
             <b><h2 id='left' className='' style={{ textAlign: 'center' }}><b></b></h2></b>
-            <p className='' style={{ textAlign: 'center' }}>A software engineer from Afghanistan who studing  software engineering at Herat University.
+            <p className='' style={{ textAlign: 'center' }}>An Afghan software engineer enrolled in the Software Engineering at Herat University.
             </p>
           </Col>
         </Row>

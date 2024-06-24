@@ -18,7 +18,7 @@ class Faleft extends React.Component {
           <Col className=''>
             <b><h2 id='left' className=' mt-5 mt-lg-0' style={{ textAlign: 'center' }}><b>ا</b></h2></b>
             <p className='' style={{ textAlign: 'center' }}>
-          یک انجینیر نرم افزار از افغانستان که فعلا انجینیری نرم افزار را در دانشگاه <br />هرات  می آموزد.
+          یک انجینیر نرم افزار افغان که فعلا مصروف یادگیری انجینیری نرم افزار در دانشگاه هرات <br/> است.
             </p>
           </Col>
         </Row>

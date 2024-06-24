@@ -98,11 +98,7 @@ function Main(props) {
 
       <Container className='main' data-aos="fade-in" data-aos-delay="200" ref={home}>
 
-        <div id='section1'>
-
-
-
-
+        <div id='section1'  onClick={()=>setisopen(false)}>
           <Row>
             <Col lg={4} xl={4}>
               {isenglish ?
@@ -116,8 +112,8 @@ function Main(props) {
                 {isenglish ?
                   <div className='info'>
                     <h2 className='pt-2 ms-2 ms-sm-0'  style={{textAlign:'center'}}><b>Mohammad Owais Azizi</b></h2>
-                    <p className='p-1 ms-3 ms-sm-0' >Living in Herat city,<br />studing Computer Sience in Herat university.
-                      can i help you ? if yes you can contact me all this ways: <br />
+                    <p className='p-1 ms-3 ms-sm-0' >Living in Herat city, pursuing studies in Computer Sience in Herat university.
+                     Should you require assistance? please feel free to contact me through any of the provided ways. <br />
                       <div className='phone mb-3 mb-md-0' >
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-2 contactbtn" data-aos="fade-left" data-aos-delay="800"
                         >Contact me <FaArrowDown/></button></span>

@@ -19,12 +19,12 @@ const Exprence = (props) => {
                   <div className="dtext">
                      <h3 data-aos="fade-up" className="ms-4"><b>What did i do ?</b></h3>
                      <ul className="exp-ul" data-aos="fade-up" >
-                        <li data-aos="fade-up" data-aos-delay="50">I have one years exprence in web developement.</li>
+                        <li data-aos="fade-up" data-aos-delay="50">I have one year exprence in web developement.</li>
                         <li data-aos="fade-up" data-aos-delay="100">Working as a apprentice in WASSA organization for 6 mounth.</li>
-                        <li data-aos="fade-up" data-aos-delay="150">Building dozen of project in WASSA organization.</li>
-                        <li data-aos="fade-up" data-aos-delay="200">Building some games by using HTML,CSS and JS.</li>
-                        <li data-aos="fade-up" data-aos-delay="300">Beeing the memeber of IT community and csOfcs in Herat university for about 4 mounth.</li>
-                        <li data-aos="fade-up" data-aos-delay="380">building more than 25 mini project by html, css,j s,react ,bootstrap in past year.</li>
+                        <li data-aos="fade-up" data-aos-delay="150">Building numerous of projects in WASSA organization.</li>
+                        <li data-aos="fade-up" data-aos-delay="200">Building some funny games by using HTML,CSS, JS and react.</li>
+                        <li data-aos="fade-up" data-aos-delay="300">Beeing an active memeber of IT community in Herat university for about 4 mounth.</li>
+                        <li data-aos="fade-up" data-aos-delay="380">building more than 30 mini project by html, css,js, bootstrap, react in past year.</li>
                      </ul>
                   </div>
 

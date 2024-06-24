@@ -16,7 +16,7 @@ class Rightmain extends React.Component {
         <Row>
           <Col >
             <b> <h2 id='right' className=''> </h2></b>
-            <p className=''>A Frondend developer who focuses on writing depth, clean, elegant and efficient  code. <br /> </p>
+            <p className=''>A Frond-end developer with a focus on writing depth, clean, elegant and efficient code. </p>
           </Col>
         </Row>
       </div>

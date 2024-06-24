@@ -53,22 +53,22 @@
     border-radius: 10px;
     color: white;
     position: fixed;
-    top: 110px;
-    left: 10px;
+    top: 105px;
+    right: 10px;
     border: none;
     transition: 0.5s;
     z-index: 10000;
     background-color: hsl(240, 94%, 63%);
 
   }.btn-change:hover{
-  background-color: white;
-  color: black;
+  background-color: rgb(17, 3, 207);
   } .fa{
-    padding: 9px 8px;
+    padding: 8px 7px;
   }
   .en{
     padding: 3px;
   }
+
 
 @media only screen and (max-width: 576px) {
   .navbar-links{
@@ -105,6 +105,8 @@
   padding: 6px 5px;
 }.btn-change{
   left: 10px;
+  right: auto;
+  top: 110px;
 }
 }
  @media only screen and (max-width: 830px) {
@@ -115,8 +117,13 @@
   }
 }
 
-
-
+@media only screen and (max-width: 750px){
+.btn-change{
+  left: 10px;
+  right: auto;
+  top: 110px;
+}
+}
 .contactbtn{
     background-color: rgb(66, 66, 254);
     color: white;

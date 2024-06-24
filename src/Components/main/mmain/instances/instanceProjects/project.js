@@ -20,7 +20,7 @@ const Project = (props) => {
 
 
   return (
-    <div className="project">
+    <div className="project pt-3 pt-md-0">
       <Link to={'/'} className="link" onClick={props.back}> <i className="fa fa-arrow-left leftArrow"></i> <span className="back">Back</span></Link>
       <Container>
         <Row className="pt-3 pb-5 pt-md-5">

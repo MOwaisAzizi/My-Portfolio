@@ -9,7 +9,7 @@
     height: 10px;
     z-index: 1000;
     position: fixed;
-    top: 13px;
+    top: 3px;
     left: 7px;
 }.leftArrow:hover{
  color: white;
@@ -23,8 +23,8 @@
     padding-top: 5px;
     font-size: 20px;
     position: fixed;
-    left:40px;
-    top: 6px;
+    left:38px;
+    top: 5.5px;
     z-index: 1000;
   }
   .li{
@@ -54,4 +54,14 @@
   }a{
     text-decoration: none;
     color: black;
+  }
+  @media screen and (max-width: 800px) {
+    .back {
+      left: 28px;
+      font-size: 18px;
+
+    }.leftArrow{
+     left: 0px;
+     font-size: 21px;
+    }
   }
