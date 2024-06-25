@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'font-awesome/css/font-awesome.min.css'
 import './App.css'
@@ -6,13 +6,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Main from "./Components/main/main";
 import Project from "./Components/main/mmain/instances/instanceProjects/project";
 import UseDarkMode from "./Dark-mode";
-
+import { FaDribbbleSquare } from "react-icons/fa";
 
 
 const App = () => {
 
     const [theme, toggleTheme] = UseDarkMode()
-
+    const [showIcon,setShowIcon] = useState(true) 
     let content = (
         <div className='app'
             style={{
@@ -20,10 +20,12 @@ const App = () => {
                 color: theme == 'dark' ? 'white' : 'black'
             }}>
             {
+                showIcon ?
                 theme == 'dark' ?
                     <i onClick={toggleTheme}><a className="fa fa-sun icon2" ></a></i>
                     :
                     <i onClick={toggleTheme}><a className="fa fa-moon icon1" ></a></i>
+                    :null
             }
 
             <Router>

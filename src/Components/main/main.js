@@ -78,7 +78,11 @@ function Main(props) {
           :
 
 
-          <nav className='navbar '>
+          <nav className='navbar '
+          style={{
+            background: props.theme == 'dark' ? 'rgb(128, 128, 128)' : 'rgb(211, 216, 211)',
+            color: props.theme == 'dark' ? 'white' : 'black'
+          }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links'}  >
               <li onClick={() => scrollToSection(home)}>خانه</li>
               <li onClick={() => scrollToSection(instace)}>پروژه ها</li>
