@@ -3,12 +3,14 @@
 }
 .center {
   text-align: center;
-  line-height: 6vh;.center {
-  text-align: center;
   line-height: 6vh;
 }
+.btn-primary-cv{
+  background-color: rgb(43, 43, 248);
+  border-radius: 5px;
+  color: white;
+  border: none;
 }
-
 .centerbtn {
   display: flex;
   justify-content: center;
@@ -25,12 +27,6 @@
 }
 .about p {
   padding: 1vh 2vh 0.5vh 2vh;
-}
-.about h1 {
-}
-.about {
-}
-.contain {
 }
 @media screen and (max-width: 768px) {
   .about img {

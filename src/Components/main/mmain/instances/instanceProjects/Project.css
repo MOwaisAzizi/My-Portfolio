@@ -58,11 +58,11 @@
   @media screen and (max-width: 800px) {
     .back {
       left: 28px;
-      font-size: 18px;
+      font-size: 19px;
 
     }.leftArrow{
      left: 0px;
-     font-size: 21px;
+     font-size: 22px;
     }
   }
   @media only screen and (max-width: 576px) {
