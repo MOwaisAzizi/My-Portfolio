@@ -24,7 +24,7 @@ const FaContact = () => {
             <input className="me-lg-5 me-sm-3 me-2" style={{ direction: 'rtl' }} type="text" name='email-from' id="emailfrom" placeholder="عنوان شما"></input> <br />
             <label className="me-lg-5 me-sm-3 me-2" >پیام شما</label> <br />
             <textarea className="me-lg-5 me-sm-3 me-2" style={{ direction: 'rtl' }} name='message' id="message" placeholder="پیام شما" rows={5}></textarea> <br />
-            <button type="submit" className="btn btn-primary button me-lg-5 me-sm-3 me-2">ارسال <FaPaperPlane color="white" /></button>
+            <button type="submit" className="btn btn-primary button me-lg-5 me-sm-3 me-2 px-2 py-1  px-md-3 py-md-2 text-white">ارسال <FaPaperPlane color="white" /></button>
           </form>
         </div>
 

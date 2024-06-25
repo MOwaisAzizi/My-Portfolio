@@ -23,7 +23,7 @@ const Contact = () => {
             <input type="text" name='email-from' id="emailfrom" placeholder="your Content"></input> <br />
             <label >Message:</label> <br />
             <textarea name='message' id="message" placeholder="your Message" rows={5}></textarea> <br />
-            <button type="submit" className="btn btn-primary button">Send <FaPaperPlane color="white" /></button>
+            <button type="submit" className="btn btn-primary button px-2 py-1  px-md-3 py-md-2 text-white">Send <FaPaperPlane color="white" className="me-2 me-sm-0" /></button>
           </form>
         </div>
 

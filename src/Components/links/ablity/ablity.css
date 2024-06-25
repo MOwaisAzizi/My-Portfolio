@@ -72,62 +72,62 @@ p {
 
 .html {
   width: 95%;
-  animation: html 4s;
+  animation: html 4s ease-out;
   background: linear-gradient(135deg, rgb(26, 247, 52), rgb(7, 211, 58));
 }
 .css {
   width: 90%;
-  animation: css 4s;
+  animation: css 4s ease-out;
   background: linear-gradient(135deg, rgb(249, 249, 74), rgb(242, 242, 3));
 }
 .js {
   width: 85%;
-  animation: js 4s;
+  animation: js 4s ease-out;
   background: linear-gradient(135deg, rgb(67, 38, 255), rgb(3, 7, 242));
 }
 .bootstrap {
   width: 95%;
-  animation: bootstrap 4s;
+  animation: bootstrap 4s ease-out;
   background: linear-gradient(135deg, rgb(26, 243, 247), rgb(3, 204, 208));
 }
 .react {
   width: 90%;
-  animation: react 4s;
+  animation: react 4s ease-out;
   background: linear-gradient(135deg, rgb(243, 36, 36), rgb(208, 8, 5));
 }
 .API {
   width: 80%;
-  animation: API 4s;
+  animation: API 4s ease-out;
   background: linear-gradient(135deg, rgb(233, 31, 176), rgb(208, 5, 151));
 }
 .mysql {
   width: 70%;
-  animation: mysql 4s;
+  animation: mysql 4s ease-out;
   background: linear-gradient(135deg, rgb(34, 228, 144), rgb(3, 181, 104));
 }
 .ICDL {
   width: 85%;
-  animation: ICDL 4s;
+  animation: ICDL 4s ease-out;
   background: linear-gradient(135deg, rgb(163, 43, 222), rgb(142, 10, 207));
 }
 .java {
   width: 50%;
-  animation: java 4s;
+  animation: java 4s ease-out;
   background: linear-gradient(135deg, rgb(50, 151, 245), rgb(20, 134, 240));
 }
 .farsi {
   width: 98%;
-  animation: farsi 5s;
+  animation: farsi 5s ease-out;
   background: linear-gradient(135deg, rgb(125, 252, 66), rgb(80, 241, 6));
 }
 .english {
   width: 75%;
-  animation: english 5s;
+  animation: english 5s ease-out;
   background: linear-gradient(135deg, rgb(249, 249, 60), rgb(243, 243, 1));
 }
 .pashto {
   width: 40%;
-  animation: pashto 5s;
+  animation: pashto 5s ease-out;
   background: linear-gradient(135deg, rgb(250, 96, 96), rgb(244, 4, 4));
 }
 

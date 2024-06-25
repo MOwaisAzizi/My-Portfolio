@@ -22,7 +22,6 @@ const Project = (props) => {
   return (
     <div className="project pt-3 pt-md-0">
       <Link to={'/'} className="link" onClick={props.back}> <i className="fa fa-arrow-left leftArrow"></i> <span className="back">Back</span></Link>
-      <Container>
         <Row className="pt-3 pb-5 pt-md-5">
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3 ">
@@ -155,7 +154,6 @@ const Project = (props) => {
             <p className="card-title">HTML, CSS, JS</p>
           </Col>
         </Row>
-      </Container>
 
     </div>
   )
