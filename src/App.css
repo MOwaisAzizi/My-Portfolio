@@ -10,3 +10,36 @@
     font-size: 16px;
   }
 }
+.icon1 {
+  color: black;
+  position: fixed;
+  top: 65px;
+  right: 5px;
+  transition: 2s;
+  cursor: pointer;
+  z-index: 10000;
+  font-size: 26px;
+}
+.icon2 {
+  color: yellow;
+  position: fixed;
+  top: 65px;
+  right: 3.5px;
+  transition: 2s;
+  cursor: pointer;
+  z-index: 10000;
+  font-size: 25px;
+}
+@media only screen and (max-width: 750px){
+  .icon2{
+    left: 2px;
+    font-size: 26px;
+    right: auto;
+ 
+   }
+   .icon1{
+     left: 4px;
+     font-size: 27px;
+     right: auto;
+    }
+}
