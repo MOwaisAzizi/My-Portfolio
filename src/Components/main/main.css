@@ -44,7 +44,7 @@
 }
 
 .navbar-links li:hover{
-  color: white;
+  color:blue
   }
 
   .btn-change{
@@ -59,7 +59,7 @@
     background-color: hsl(240, 94%, 63%);
 
   }.btn-change:hover{
-  background-color: rgb(17, 3, 207);
+  background-color: rgb(60, 47, 248);
   } .fa{
     padding: 8px 7px;
   }
@@ -94,9 +94,11 @@
  }
  .fa{
   padding: 10px 7px;
+
 }
 .en{
   padding: 6px 5px;
+
 }.btn-change{
   left: 10px;
   right: auto;

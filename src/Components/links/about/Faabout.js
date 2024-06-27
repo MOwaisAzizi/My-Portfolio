@@ -32,7 +32,7 @@ const Faabout = (props) => {
                             من قبلا توسعه فرانت اند را در موسسه واسا تمام کرده و تصدیق نامه آنرا نیز دارم.
                             <br />
                             <div className="cvdiv mt-3">
-                                <Button className="mb-2 mt-2 btn-primary-cv p-2 px-md-3 py-md-3" data-aos="fade-right" data-aos-delay="400" ><a href={CV} download='CV' className="a-btn">دانلود سی وی <FaDownload /></a></Button>
+                                <Button className="mb-2 mt-2 btn-primary-cv p-2 px-md-3 py-md-2" data-aos="fade-right" data-aos-delay="400" ><a href={CV} download='CV' className="a-btn">دانلود سی وی <FaDownload /></a></Button>
                             </div>
                         </p>
                     </Col>
