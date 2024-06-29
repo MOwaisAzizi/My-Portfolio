@@ -83,8 +83,8 @@ const FaInstances = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Counter'><i className="fa fa-github icons"></i> گیت هاب</a></Button>
-                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/Counter/'><i className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Counter4'><i className="fa fa-github icons"></i> گیت هاب</a></Button>
+                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='https://counter4.vercel.app'><i className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </Row>
                 </div>
