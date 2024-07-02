@@ -14,7 +14,7 @@
   color: black;
   position: fixed;
   top: 65px;
-  right: 5px;
+  right: 4.5px;
   transition: 2s;
   cursor: pointer;
   z-index: 10000;
@@ -24,7 +24,7 @@
   color: yellow;
   position: fixed;
   top: 65px;
-  right: 3.5px;
+  right: 3px;
   transition: 2s;
   cursor: pointer;
   z-index: 10000;
@@ -38,7 +38,7 @@
  
    }
    .icon1{
-     left: 3px;
+     left: 3.5px;
      font-size: 27px;
      right: auto;
     }

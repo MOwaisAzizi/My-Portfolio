@@ -9,3 +9,9 @@
     text-align: center;
     margin: auto;
 }
+@media screen and (max-width: 1000px) {
+    .middlemain img{
+        width: 225px;
+        height: 225px;
+    }
+  }

@@ -24,7 +24,7 @@ const Exprence = (props) => {
                         <li data-aos="fade-up" data-aos-delay="150">Building numerous of projects in WASSA organization.</li>
                         <li data-aos="fade-up" data-aos-delay="200">Building some funny games by using HTML,CSS, JS and react.</li>
                         <li data-aos="fade-up" data-aos-delay="300">Beeing an active memeber of IT community in Herat university for about 4 mounth.</li>
-                        <li data-aos="fade-up" data-aos-delay="380">building more than 30 mini project by html, css,js, bootstrap, react in past year.</li>
+                        <li data-aos="fade-up" data-aos-delay="400">building more than 30 mini project by html, css,js, bootstrap, react in past year.</li>
                      </ul>
                   </div>
 
