@@ -9,9 +9,9 @@ const Exprence = (props) => {
       <div data-aos="fade-in" data-aos-delay="200"  >
          <Container className="exprence mt-lg-2 mt-0">
             <Row className="row">
-               <Col lg={12} className="img pt-lg-5 pt-md-5 pt-4">
-                  <div className="img" >
-                     <img src={pic4} data-aos="fade-up"></img>
+               <Col lg={12} className="img pt-lg-5 pt-md-5 pt-4" >
+                  <div className="img"  data-aos="fade-up">
+                     <img src={pic4}></img>
                   </div>
                </Col>
 
