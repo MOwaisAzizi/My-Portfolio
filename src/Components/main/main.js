@@ -49,8 +49,6 @@ function Main(props) {
     })
   }
 
-  const [theme, toggleTheme] = UseDarkMode()
-
   return (
 
     <div className='fullpage'>
@@ -78,12 +76,12 @@ function Main(props) {
           :
 
 
-          <nav className='navbar '
+          <nav className='navbar faMain '
           style={{
             background: props.theme == 'dark' ? 'rgb(128, 128, 128)' : 'rgb(211, 216, 211)',
             color: props.theme == 'dark' ? 'white' : 'black'
           }}>
-            <ul className={isopen ? 'navbar-links active ' : 'navbar-links'}  >
+            <ul className={isopen ? 'navbar-links active ' : 'navbar-links Navfarsi'}  >
               <li onClick={() => scrollToSection(home)}>خانه</li>
               <li onClick={() => scrollToSection(instace)}>پروژه ها</li>
               <li onClick={() => scrollToSection(about)}>درباره</li>
@@ -126,17 +124,17 @@ function Main(props) {
                     <p className='p-1 ms-3 ms-sm-0' >Living in Herat city, pursuing studies in Computer Sience in Herat university.
                       Should you require assistance? please feel free to contact me through any of the provided ways: <br />
                       <div className='phone mb-3 mb-md-0' >
-                        <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-2 contactbtn" data-aos="fade-left" data-aos-delay="500"
+                        <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2" data-aos="fade-left" data-aos-delay="500"
                         >Contact me <FaArrowDown /></button></span>
                       </div>
                     </p>
                   </div> :
 
-                  <div className='info'>
+                  <div className='info faMain'>
                     <h2 className='pt-2 ms-2 ms-sm-0' style={{ textAlign: 'center' }}><b>محمد اویس عزیزی</b></h2>
-                    <p className='p-1 ms-3 ms-sm-0' >در شهر هرات زندگی میکند و در حال آموختن رشته کمپیوتر ساینس در دانشگاه هرات است. میتوانم برای شما کمک کنم ؟ اگر بلی میتوانید از راه های زیر با من تماس بگیرید <br />
+                    <p className='p-1 ms-3 ms-sm-0 ' >در شهر هرات زندگی میکند و در حال آموختن رشته کمپیوتر ساینس در دانشگاه هرات است.آیا به کمک ضرورت دارید ؟ اگر بلی میتوانید از راه های زیر با من تماس بگیرید <br />
                       <div className='phone mb-3 mb-md-0' >
-                        <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-2 contactbtn" data-aos="fade-right" data-aos-delay="800"> <FaArrowDown /> ارتباط با من  </button></span>
+                        <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2" data-aos="fade-right" data-aos-delay="800"> <FaArrowDown /> ارتباط با من  </button></span>
                       </div>
                     </p>
                   </div>

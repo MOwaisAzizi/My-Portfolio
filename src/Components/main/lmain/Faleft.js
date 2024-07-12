@@ -8,11 +8,11 @@ class Faleft extends React.Component {
 
   componentDidMount() {
     const myElement = document.querySelector('#left')
-    init(myElement, { showCursor: false, strings: ['انجینیر نرم افزاز'] })
+    init(myElement, { showCursor: false, strings: ['انجینیر نرم افزار'] })
   }
   render() {
     return (
-      <div className='leftmain mt-5 mt-lg-0 ps-2 ps-lg-0 mb-3 mb-lg-0' style={{ direction: 'rtl' }} >
+      <div className='leftmain faLeft mt-5 mt-lg-0 ps-2 ps-lg-0 mb-3 mb-lg-0' style={{ direction: 'rtl' }} >
         <Row>
 
           <Col className=''>

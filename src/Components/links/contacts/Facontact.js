@@ -13,7 +13,7 @@ const FaContact = () => {
 
   }
   return (
-    <div className="dhole mt-5 pb-5" style={{ direction: 'rtl' }}>
+    <div className="dhole mt-5 pb-5 faconect" style={{ direction: 'rtl' }}>
       <Container className="contain">
         <div className="form">
           <form id="contact-form" onSubmit={sendEmail} method="POST">

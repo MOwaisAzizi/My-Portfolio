@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'CustomFont';
-    src: url('./fonts/XanhMono-Regular.ttf');
+    src: url('./fonts/Inter-Medium.ttf');
   }
   #root {
     font-family: 'CustomFont';
-
   }

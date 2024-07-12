@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'myFont';
+  src: url('../../../../public/FarsiFont/Vazir.ttf');
+}
+.faAbout {
+  font-family: 'myFont';
+}
 * {
   box-sizing: border-box;
 }
@@ -47,6 +54,9 @@
 .cvdiv {
   width: 100%;
   text-align: center;
+}.btn-down:hover{
+  background-color: rgb(6, 6, 192);
+  transition: 0.5s;
 }
 .a-btn {
   color: white;

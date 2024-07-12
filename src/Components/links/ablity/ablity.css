@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'myFont';
+  src: url('../../../../public/FarsiFont/Vazir.ttf');
+}
+.faAblity {
+  font-family: 'myFont';
+}
+
 .dspan {
   margin: auto;
   width: 80%;

@@ -16,7 +16,7 @@ const FaExprence = (props) => {
                </Col>
 
                <Col lg={12} className="text">
-                  <div className="dtext dftext">
+                  <div className="dtext dftext faexprence">
                      <h3 data-aos="fade-up" className="me-5"><b>چیکار انجام دادم؟</b></h3>
                      <ul className="exp-ul" data-aos="fade-up">
                         <li data-aos="fade-up" data-aos-delay="50">داشتن تجربه یکساله در زمینه توسعه وب.</li>

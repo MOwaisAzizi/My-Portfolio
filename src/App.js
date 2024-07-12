@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Main from "./Components/main/main";
 import Project from "./Components/main/mmain/instances/instanceProjects/project";
 import UseDarkMode from "./Dark-mode";
-import { FaDribbbleSquare } from "react-icons/fa";
+
 
 
 const App = () => {
@@ -27,7 +27,8 @@ const App = () => {
                     <i onClick={toggleTheme}><a className="fa fa-moon icon1" ></a></i>
                     :null
             }
-
+            <faSunBright/>
+{/* <i class="fa-sharp fa-light fa-sun-bright"></i><i class="fa-solid fa-sun-bright"></i> */}
             <Router>
                 <Routes>
                     <Route path="/" element={<Main theme={theme} />}></Route>

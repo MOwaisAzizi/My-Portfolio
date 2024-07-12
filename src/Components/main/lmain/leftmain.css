@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('../../../../public/FarsiFont/Vazir.ttf');
+  }
+  .faLeft {
+    font-family: 'myFont';
+  }
+
 .leftmain{
     text-align: center;
    display: flex;

@@ -20,7 +20,7 @@ const FaInstances = (props) => {
 
 
   return (
-    <div className="instance">
+    <div className="instance faInstance">
       <div className="pb-3">
         <h2 className="pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">نمونه از پروژه های من</h2>
         <Row>

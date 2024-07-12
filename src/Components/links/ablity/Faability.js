@@ -81,7 +81,7 @@ const FaAblity = (props) => {
 
 
   return (
-    <Container className="pb-5 mt-5">
+    <Container className="pb-5 mt-5 faAblity">
       <div  >
         <div class="skills">
           <h1>مهارت ها</h1>

@@ -23,7 +23,7 @@ const About = (props) => {
 
                 <br />
                 <div className="cvdiv mt-3">
-                  <button className="mb-2 mt-2 btn-primary-cv px-2 py-1 px-md-2 py-md-1" data-aos="fade-left" data-aos-delay="300" ><a className="a-btn" href={CV} download='CV'>Download CV <FaDownload /></a></button>
+                  <button className="mb-2 mt-2 btn-primary-cv px-2 py-1 px-md-2 py-md-1 btn-down" data-aos="fade-left" data-aos-delay="300" ><a className="a-btn" href={CV} download='CV'>Download CV <FaDownload /></a></button>
                 </div>
               </p>
 
