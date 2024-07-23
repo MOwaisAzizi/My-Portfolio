@@ -299,7 +299,7 @@ const Project = (props) => {
                   <Row>
                     <div className='links'>
                       <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Countries-Data-App'>Github <i className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/Countries-Data-App/'>Visit <i className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/Countries-Data-App'>Visit <i className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -483,7 +483,7 @@ const Project = (props) => {
                   <Row>
                     <div className='links'>
                       <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Mem_Generator'>Github <i className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='https://memgerrator.vercel.app/'>Visit <i className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='https://memgerrator.vercel.app'>Visit <i className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
