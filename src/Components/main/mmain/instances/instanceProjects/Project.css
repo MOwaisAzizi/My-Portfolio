@@ -3,23 +3,27 @@
     height: 100%;
 }.leftArrow{
     font-size: 25px;
-    color: rgb(92, 92, 249);
     padding-left: 5px;
     width: 30px;
     height: 10px;
     z-index: 1000;
     position: fixed;
-    top: 3px;
+    top: 3.5px;
     left: 7px;
 }.leftArrow:hover{
  color: white;
+ font-size: 28px;
+ transition: 0.5s font-size;
+
 }
 .back:hover{
   color: white;
+  font-size: 22px;
+ transition: 0.5s font-size;
+
  }
 .back{
     text-decoration: none;
-    color: rgb(92, 92, 249);
     padding-top: 5px;
     font-size: 20px;
     position: fixed;

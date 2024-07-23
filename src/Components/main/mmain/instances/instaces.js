@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import counter from './counter.png'
-import market from './market.png'
 import note from './note.png'
 import sell from './sell.png'
 import lib from './lib.png'
 import library from './library.png'
+import mapty from './Mapty.png'
+import RandomGame from './RandomGame.png'
 import './instance.css'
 import { Card, Row, Col, Container, Button } from "react-bootstrap";
 import { Link } from 'react-router-dom'
@@ -19,6 +19,56 @@ const Instances = (props) => {
   const [showlinks5, setshowlinks5] = useState(false)
   const [showlinks6, setshowlinks6] = useState(false)
 
+  function showlinks1Handler(){
+    setshowlinks1(showlink=>!showlink)
+    setshowlinks2(false)
+    setshowlinks3(false)
+    setshowlinks4(false)
+    setshowlinks5(false)
+    setshowlinks6(false)
+    
+  }
+  function showlinks2Handler(){
+    setshowlinks2(showlink=>!showlink)
+    setshowlinks1(false)
+    setshowlinks3(false)
+    setshowlinks4(false)
+    setshowlinks5(false)
+    setshowlinks6(false)
+  }
+  function showlinks3Handler(){
+    setshowlinks3(showlink=>!showlink)
+    setshowlinks1(false)
+    setshowlinks2(false)
+    setshowlinks4(false)
+    setshowlinks5(false)
+    setshowlinks6(false)
+  }
+  function showlinks4Handler(){
+    setshowlinks4(showlink=>!showlink)
+    setshowlinks1(false)
+    setshowlinks2(false)
+    setshowlinks3(false)
+    setshowlinks5(false)
+    setshowlinks6(false)
+  }
+  function showlinks5Handler(){
+    setshowlinks5(showlink=>!showlink)
+    setshowlinks2(false)
+    setshowlinks3(false)
+    setshowlinks4(false)
+    setshowlinks1(false)
+    setshowlinks6(false)
+  }
+  function showlinks6Handler(){
+    setshowlinks6(showlink=>!showlink)
+    setshowlinks2(false)
+    setshowlinks3(false)
+    setshowlinks4(false)
+    setshowlinks5(false)
+    setshowlinks1(false)
+  }
+
   return (
     <div className="instance">
       <div className="pb-3">
@@ -26,7 +76,7 @@ const Instances = (props) => {
         <Row>
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
             <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Shopping App</h3>
-            <li className="li" onClick={() => setshowlinks1(!showlinks1)}>
+            <li className="li" onClick={showlinks1Handler}>
               <Card className="card " >
                 <img className="Card-img" src={sell}></img>
               </Card>
@@ -46,44 +96,44 @@ const Instances = (props) => {
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Bank Website</h3>
-            <li className="li" onClick={() => setshowlinks2(!showlinks2)} >
+            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mapty-ToDO-list</h3>
+            <li className="li" onClick={showlinks2Handler} >
               <Card className="card" >
-                <img className="Card-img " src={market}></img>
+                <img className="Card-img " src={mapty}></img>
               </Card>
 
               {showlinks2 ?
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/Back_Info-Website'>Github <i className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='http://mowaisazizi.github.io/Back_Info-Website/'>Visit <i className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/Mapty-ToDoList'>Github <i className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='https://mapty-gules.vercel.app'>Visit <i className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
                 : null}
             </li>
 
-            <p className="card-title">HTML, CSS, JS</p>
+            <p className="card-title">HTML, CSS, JS(OOP)</p>
 
 
           </Col>
 
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Counter</h3>
-            <li className='li' onClick={() => setshowlinks3(!showlinks3)} >
+            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Dice Game</h3>
+            <li className='li' onClick={showlinks3Handler} >
 
               <Card className="card"  >
-                <img className="card-img" src={counter}></img>
+                <img className="card-img" src={RandomGame}></img>
               </Card>
 
               {showlinks3 ?
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/Counter4'>Github <i className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='https://counter4.vercel.app'>Visit <i className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/Random-Match-Game'>Github <i className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='https://game-iota-five.vercel.app'>Visit <i className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -94,7 +144,7 @@ const Instances = (props) => {
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
             <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Bank Application</h3>
-            <li className='li' onClick={() => setshowlinks4(!showlinks4)}>
+            <li className='li' onClick={showlinks4Handler}>
               <Card className="card " >
                 <img className="card-img" src={note}></img>
               </Card>
@@ -116,11 +166,11 @@ const Instances = (props) => {
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3">
             <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Info Website</h3>
-            <li className='li' onClick={() => setshowlinks6(!showlinks6)}>
+            <li className='li' onClick={showlinks5Handler}>
               <Card className="card" >
                 <img className="card-img" src={lib}></img>
               </Card>
-              {showlinks6 ?
+              {showlinks5 ?
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
@@ -138,11 +188,11 @@ const Instances = (props) => {
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
             <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Library</h3>
-            <li className='li' onClick={() => setshowlinks5(!showlinks5)}>
+            <li className='li' onClick={showlinks6Handler}>
               <Card className="card" >
                 <img className="card-img" src={library}></img>
               </Card>
-              {showlinks5 ?
+              {showlinks6 ?
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
@@ -163,7 +213,7 @@ const Instances = (props) => {
         <Container className="mb-3 mb-md-0 mt-2">
           <Row className="more">
             <Col >
-              <Link to='/project'>  <button className="h ms-lg-1 ms-2" onClick={props.click}>See More <i className="fa fa-arrow-right arrow"></i></button></Link>
+              <Link to='/project'>  <button className="h ms-lg-1 ms-2 py-md-1" onClick={props.click}>See More <i className="fa fa-arrow-right arrow"></i></button></Link>
             </Col>
           </Row>
         </Container>

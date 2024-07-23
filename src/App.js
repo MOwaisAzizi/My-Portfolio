@@ -32,7 +32,7 @@ const App = () => {
             <Router>
                 <Routes>
                     <Route path="/" element={<Main theme={theme} />}></Route>
-                    <Route path="/project" element={<Project />}  ></Route>
+                    <Route path="/project" element={<Project theme = {theme}/>}   ></Route>
                 </Routes>
             </Router>
         </div>

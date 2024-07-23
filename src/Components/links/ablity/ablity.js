@@ -26,7 +26,7 @@ const Ablity = (props) => {
 
     const callback = (entries, observer) => {
       const [entry] = entries
-      console.log(entry);
+
       if (entry.isIntersecting) {
         animatedRef1.current.classList.add('html')
         animatedRef2.current.classList.add('css')

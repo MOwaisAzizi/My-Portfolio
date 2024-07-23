@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import counter from './counter.png'
-import market from './market.png'
+import mapty from './Mapty.png'
+import RandomGame from './RandomGame.png'
 import note from './note.png'
 import sell from './sell.png'
 import lib from './lib.png'
@@ -18,6 +18,55 @@ const FaInstances = (props) => {
   const [showlinks5, setshowlinks5] = useState(false)
   const [showlinks6, setshowlinks6] = useState(false)
 
+  function showlinks1Handler(){
+    setshowlinks1(showlink=>!showlink)
+    setshowlinks2(false)
+    setshowlinks3(false)
+    setshowlinks4(false)
+    setshowlinks5(false)
+    setshowlinks6(false)
+    
+  }
+  function showlinks2Handler(){
+    setshowlinks2(showlink=>!showlink)
+    setshowlinks1(false)
+    setshowlinks3(false)
+    setshowlinks4(false)
+    setshowlinks5(false)
+    setshowlinks6(false)
+  }
+  function showlinks3Handler(){
+    setshowlinks3(showlink=>!showlink)
+    setshowlinks1(false)
+    setshowlinks2(false)
+    setshowlinks4(false)
+    setshowlinks5(false)
+    setshowlinks6(false)
+  }
+  function showlinks4Handler(){
+    setshowlinks4(showlink=>!showlink)
+    setshowlinks1(false)
+    setshowlinks2(false)
+    setshowlinks3(false)
+    setshowlinks5(false)
+    setshowlinks6(false)
+  }
+  function showlinks5Handler(){
+    setshowlinks5(showlink=>!showlink)
+    setshowlinks2(false)
+    setshowlinks3(false)
+    setshowlinks4(false)
+    setshowlinks1(false)
+    setshowlinks6(false)
+  }
+  function showlinks6Handler(){
+    setshowlinks6(showlink=>!showlink)
+    setshowlinks2(false)
+    setshowlinks3(false)
+    setshowlinks4(false)
+    setshowlinks5(false)
+    setshowlinks1(false)
+  }
 
   return (
     <div className="instance faInstance">
@@ -26,7 +75,7 @@ const FaInstances = (props) => {
         <Row>
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
             <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فروشگاه</h3>
-            <li className="li" onClick={() => setshowlinks1(!showlinks1)}>
+            <li className="li" onClick={ showlinks1Handler}>
               <Card className="card " >
                 <img className="Card-img" src={sell}></img>
               </Card>
@@ -46,10 +95,10 @@ const FaInstances = (props) => {
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">ویبسایت بانک</h3>
-            <li className="li" onClick={() => setshowlinks2(!showlinks2)} >
+            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">لیست یاداشت ها با نقشه</h3>
+            <li className="li" onClick={ showlinks2Handler} >
               <Card className="card" >
-                <img className="Card-img " src={market}></img>
+                <img className="Card-img " src={mapty}></img>
               </Card>
 
 
@@ -57,34 +106,34 @@ const FaInstances = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Back_Info-Website'><i className="fa fa-github icons"></i></a> گیت هاب</Button>
-                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/Back_Info-Website/'><i className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Mapty-ToDoList'><i className="fa fa-github icons"></i></a> گیت هاب</Button>
+                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='https://mapty-gules.vercel.app'><i className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </Row>
                 </div>
                 : null}
             </li>
 
-            <p className="card-title">HTML, CSS, JS</p>
+            <p className="card-title">HTML, CSS, JS(OOP)</p>
 
 
           </Col>
 
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">شمارنده</h3>
-            <li className='li' onClick={() => setshowlinks3(!showlinks3)} >
+            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">گیم تاس</h3>
+            <li className='li' onClick={ showlinks3Handler} >
 
               <Card className="card"  >
-                <img className="card-img" src={counter}></img>
+                <img className="card-img" src={RandomGame}></img>
               </Card>
 
               {showlinks3 ?
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Counter4'><i className="fa fa-github icons"></i> گیت هاب</a></Button>
-                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='https://counter4.vercel.app'><i className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Random-Match-Game'><i className="fa fa-github icons"></i> گیت هاب</a></Button>
+                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='https://game-iota-five.vercel.app'><i className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </Row>
                 </div>
@@ -96,7 +145,7 @@ const FaInstances = (props) => {
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
             <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">اپلیکیشن بانک</h3>
-            <li className='li' onClick={() => setshowlinks4(!showlinks4)}>
+            <li className='li' onClick={showlinks4Handler}>
               <Card className="card " >
                 <img className="card-img" src={note}></img>
               </Card>
@@ -118,11 +167,11 @@ const FaInstances = (props) => {
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3">
             <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">ویبسایت معلوماتی</h3>
-            <li className='li' onClick={() => setshowlinks6(!showlinks6)}>
+            <li className='li' onClick={ showlinks5Handler}>
               <Card className="card" >
                 <img className="card-img" src={lib}></img>
               </Card>
-              {showlinks6 ?
+              {showlinks5 ?
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
@@ -140,11 +189,11 @@ const FaInstances = (props) => {
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
             <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">کتابخانه</h3>
-            <li className='li' onClick={() => setshowlinks5(!showlinks5)}>
+            <li className='li' onClick={ showlinks6Handler}>
               <Card className="card" >
                 <img className="card-img" src={library}></img>
               </Card>
-              {showlinks5 ?
+              {showlinks6 ?
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
@@ -162,7 +211,7 @@ const FaInstances = (props) => {
         <Container className="mb-3 mb-md-0">
           <Row className="more">
             <Col >
-              <Link to='/project'><button className="h ms-lg-1 ms-2 pb-2 pb-sm-0" onClick={props.click}>  <i className="fa fa-arrow-left arrow"></i> دیدن بیشتر</button></Link>
+              <Link to='/project'><button className="h ms-lg-1 ms-2 pt-md-1" onClick={props.click}>  <i className="fa fa-arrow-left arrow mb-1 mb-md-2"></i> دیدن بیشتر</button></Link>
             </Col>
           </Row>
         </Container>
