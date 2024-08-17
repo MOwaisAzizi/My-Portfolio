@@ -28,12 +28,12 @@ const Contact = () => {
         </div>
 
         <div className="dlinks" >
-
-          <Linkicon iconlink='https://github.com/MOwaisAzizi'>  <i className="fa fa-github" > </i> </Linkicon>
+          <Linkicon iconlink='https://github.com/MOwaisAzizi'>  <i className="fa fa-github github" > </i> </Linkicon>
           <Linkicon iconlink='http://www.facebook.com/mowais.azizi'>  <i className="fa fa-facebook face" > </i> </Linkicon>
-          <Linkicon iconlink='https://wa.me/93798267860'>  <i className="fa fa-whatsapp" > </i> </Linkicon>
-          <Linkicon iconlink='https://t.me/EngOwais'>  <i className="fa fa-telegram" > </i> </Linkicon>
-          <Linkicon iconlink='https://www.linkedin.com/in/m-owais-azizi-7440532b4'>  <i className="fa fa-linkedin" > </i> </Linkicon>
+          <Linkicon iconlink='https://t.me/EngOwais'>  <i className="fa fa-telegram telegram" > </i> </Linkicon>
+          <Linkicon iconlink='https://www.linkedin.com/in/m-owais-azizi-7440532b4'>  <i className="fa fa-linkedin linkedin" > </i> </Linkicon>
+          <Linkicon iconlink='https://wa.me/93798267860'>  <i className="fa fa-whatsapp whatsapp" > </i> </Linkicon>
+         
           <br />
         </div>
 

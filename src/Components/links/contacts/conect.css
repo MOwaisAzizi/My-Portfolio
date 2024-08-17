@@ -53,11 +53,30 @@ label {
   font-size: 22px;
 }
 .dlinks i {
-  color: black;
+  color: blue;
   border-radius: 50%;
-  padding: 5px;
   background-color: white;
+  
 }
+.dlinks i .face{
+ background-color: blue;
+ color: white;
+}
+.dlinks i .telegram{
+color: blue;
+background-color: white;
+ }
+ .dlinks i .whatsapp{
+  background-color: rgb(13, 238, 13);
+  color: white;
+ }
+ .dlinks i .github{
+  color: black;
+ }
+ .dlinks i .linkedin{
+  background-color: rgb(8, 8, 209);
+  color: white;
+ }
 
 @media screen and (max-width: 1000px) {
   .form {
@@ -67,6 +86,6 @@ label {
 }
 @media screen and (max-width: 800px) {
   .dlinks {
-    font-size: 18px;
+    font-size: 20px;
   }
 }

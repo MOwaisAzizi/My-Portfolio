@@ -19,12 +19,13 @@ import FaAblity from '../links/ablity/Faability';
 import FaContact from '../links/contacts/Facontact';
 import Faabout from '../links/about/Faabout';
 import FaExprence from '../links/exprence/Faexprence';
-import { FaArrowDown } from 'react-icons/fa';
+import { FaArrowDown, FaFontAwesome } from 'react-icons/fa';
 import UseDarkMode from "../../Dark-mode";
 import 'font-awesome/css/font-awesome.min.css'
 
 
 function Main(props) {
+
   const [isenglish, setisenglish] = useState(true)
   const [isopen, setisopen] = useState(false)
 
@@ -48,6 +49,7 @@ function Main(props) {
       behavior: 'smooth'
     })
   }
+
 
   return (
 
@@ -77,10 +79,10 @@ function Main(props) {
 
 
           <nav className='navbar faMain '
-          style={{
-            background: props.theme == 'dark' ? 'rgb(128, 128, 128)' : 'rgb(211, 216, 211)',
-            color: props.theme == 'dark' ? 'white' : 'black'
-          }}>
+            style={{
+              background: props.theme == 'dark' ? 'rgb(128, 128, 128)' : 'rgb(211, 216, 211)',
+              color: props.theme == 'dark' ? 'white' : 'black'
+            }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links Navfarsi'}  >
               <li onClick={() => scrollToSection(home)}>خانه</li>
               <li onClick={() => scrollToSection(instace)}>پروژه ها</li>
@@ -125,7 +127,7 @@ function Main(props) {
                       Should you require assistance? please feel free to contact me through any of the provided ways: <br />
                       <div className='phone mb-3 mb-md-0' >
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2" data-aos="fade-left" data-aos-delay="500"
-                        >Contact me <FaArrowDown /></button></span>
+                        >Contact Me <FaArrowDown /></button></span>
                       </div>
                     </p>
                   </div> :
@@ -135,6 +137,7 @@ function Main(props) {
                     <p className='p-1 ms-3 ms-sm-0 ' >در شهر هرات زندگی میکند و در حال آموختن رشته کمپیوتر ساینس در دانشگاه هرات است.آیا به کمک ضرورت دارید ؟ اگر بلی میتوانید از راه های زیر با من تماس بگیرید <br />
                       <div className='phone mb-3 mb-md-0' >
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2" data-aos="fade-right" data-aos-delay="800"> <FaArrowDown /> ارتباط با من  </button></span>
+                     
                       </div>
                     </p>
                   </div>
@@ -156,7 +159,8 @@ function Main(props) {
       </Container>
 
       <div onClick={() => setisopen(false)}>
-        <div ref={instace}> {isenglish ? <Instances click={props.clicked} /> : <FaInstances click={props.clicked} />}</div>
+        <div ref={instace}> {isenglish ?
+          <Instances click={props.clicked} /> : <FaInstances click={props.clicked} />}</div>
         <div ref={about}> {isenglish ? <About /> : <Faabout />}</div>
         <div ref={exprence}> {isenglish ? <Exprence /> : <FaExprence />}</div>
         <div ref={ablity}> {isenglish ? <Ablity /> : <FaAblity />}</div>

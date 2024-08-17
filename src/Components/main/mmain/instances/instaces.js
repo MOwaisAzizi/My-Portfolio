@@ -10,7 +10,7 @@ import { Card, Row, Col, Container, Button } from "react-bootstrap";
 import { Link } from 'react-router-dom'
 
 
-const Instances = (props) => {
+const Instances = ({click}) => {
 
   const [showlinks1, setshowlinks1] = useState(false)
   const [showlinks2, setshowlinks2] = useState(false)
@@ -65,12 +65,13 @@ const Instances = (props) => {
     setshowlinks2(false)
     setshowlinks3(false)
     setshowlinks4(false)
-    setshowlinks5(false)
     setshowlinks1(false)
+    setshowlinks5(false)
   }
 
+
   return (
-    <div className="instance">
+    <div className="instance" >
       <div className="pb-3">
         <h2 className="pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">My Instance Projecs</h2>
         <Row>
@@ -213,7 +214,7 @@ const Instances = (props) => {
         <Container className="mb-3 mb-md-0 mt-2">
           <Row className="more">
             <Col >
-              <Link to='/project'>  <button className="h ms-lg-1 ms-2 py-md-1" onClick={props.click}>See More <i className="fa fa-arrow-right arrow"></i></button></Link>
+              <Link to='/project'>  <button className="h ms-lg-1 ms-2 py-md-1" onClick={click}>See More <i className="fa fa-arrow-right arrow"></i></button></Link>
             </Col>
           </Row>
         </Container>
