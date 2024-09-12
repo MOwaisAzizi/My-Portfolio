@@ -5,6 +5,7 @@ import Middlemain from './mmain/middlemain'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
+import { Navbar } from 'react-bootstrap';
 import './main.css'
 import Instances from './mmain/instances/instaces'
 import About from '../links/about/about';
@@ -20,9 +21,7 @@ import FaContact from '../links/contacts/Facontact';
 import Faabout from '../links/about/Faabout';
 import FaExprence from '../links/exprence/Faexprence';
 import { FaArrowDown, FaFontAwesome } from 'react-icons/fa';
-import UseDarkMode from "../../Dark-mode";
 import 'font-awesome/css/font-awesome.min.css'
-
 
 function Main(props) {
 
@@ -34,6 +33,9 @@ function Main(props) {
   }
   const toggleNav = () => {
     setisopen(!isopen)
+  }
+  const style = {
+    height:'auto'
   }
 
   const home = useRef(null);
@@ -50,7 +52,6 @@ function Main(props) {
     })
   }
 
-
   return (
 //#f3f3f3   rgb(211, 216, 211) rgb(128, 128, 128) rgb(171, 171, 171)
 
@@ -60,7 +61,8 @@ function Main(props) {
           <nav className='navbar'
             style={{
               background: props.theme == 'dark' ? 'linear-gradient(to right, rgb(128, 128, 128), rgb(107, 107, 107))' : 'linear-gradient(to right, rgb(211, 216, 211) , rgb(181, 189, 181))',
-              color: props.theme == 'dark' ? 'white' : 'black'
+              color: props.theme == 'dark' ? 'white' : 'black',
+              height: isopen ? 'auto' : '57px'
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links'}>
               <li onClick={() => scrollToSection(home)}>Home</li>
@@ -71,17 +73,24 @@ function Main(props) {
               <li onClick={() => scrollToSection(contact)}>Contact</li>
             </ul>
 
-            <div className='navbartoggle' onClick={toggleNav}>
-              <i className={isopen ? 'fa fa-times time' : 'fa fa-bars'}></i>
-            </div>
+          <Navbar.Brand ref={home} onClick={() => scrollToSection(home)} className=" fw-bold logo">
+              Azizi
+               </Navbar.Brand>
+            
+            {/* <div className='navbartoggle' onClick={toggleNav} > */}
+            <i onClick={toggleNav} className={isopen ? 'fa fa-times time navbartoggle' : 'fa fa-bars navbartoggle'}></i>
+
+            {/* </div> */}
           </nav>
           
           :
 
-          <nav className='navbar faMain '
+          <nav className=' faNavbar faMain '
             style={{
               background: props.theme == 'dark' ? 'linear-gradient(to right, rgb(128, 128, 128), rgb(107, 107, 107))' : 'linear-gradient(to right, rgb(211, 216, 211) , rgb(181, 189, 181))',
-              color: props.theme == 'dark' ? 'white' : 'black'
+              color: props.theme == 'dark' ? 'white' : 'black',
+              height: isopen ? 'auto' : '57px'
+
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links Navfarsi'}  >
               <li onClick={() => scrollToSection(home)}>خانه</li>
@@ -92,9 +101,13 @@ function Main(props) {
               <li onClick={() => scrollToSection(contact)}>ارتباط</li>
             </ul>
 
-            <div className='navbartoggle' onClick={toggleNav}>
-              <i className={isopen ? 'fa fa-times time' : 'fa fa-bars'}></i>
-            </div>
+        <Navbar.Brand ref={home} onClick={() => scrollToSection(home)} className=" fw-bold logoFa">
+              عزیزی
+               </Navbar.Brand>
+         
+            {/* <div className='navbartoggle' onClick={toggleNav}> */}
+              <i onClick={toggleNav} className={isopen ? 'fa fa-times timef navbartogglef' : 'fa fa-bars navbartogglef'}></i>
+            {/* </div> */}
           </nav>
 
       }
@@ -107,9 +120,10 @@ function Main(props) {
           <button onClick={handlelangeage} className=' btn-change en' >En</button>
       }
 
+
       <Container className='main' ref={home}>
 
-        <div id='section1' onClick={() => setisopen(false)}>
+        <div id='#' onClick={() => setisopen(false)}>
           <Row >
             <Col lg={4} xl={4}>
               {isenglish ?
@@ -122,8 +136,8 @@ function Main(props) {
               <Middlemain >
                 {isenglish ?
                   <div className='info'>
-                    <h2 className='pt-2 ms-2 ms-sm-0' style={{ textAlign: 'center' }}><b>Mohammad Owais Azizi</b></h2>
-                    <p className='p-1 ms-3 ms-sm-0' >Living in Herat city, pursuing studies in Computer Sience in Herat university.
+                    <h2 className='pt-2 ms-3 ms-sm-0' style={{ textAlign: 'center' }}><b>Mohammad Owais Azizi</b></h2>
+                    <p className='p-1 ms-4 ms-sm-0' >Living in Herat city, pursuing studies in Computer Sience in Herat university.
                       Should you require assistance? please feel free to contact me through any of the provided ways: <br />
                       <div className='phone mb-1 mb-md-0' >
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2" data-aos="fade-left" data-aos-delay="500"
@@ -164,7 +178,7 @@ function Main(props) {
         <div ref={about}> {isenglish ? <About /> : <Faabout />}</div>
         <div ref={exprence}> {isenglish ? <Exprence /> : <FaExprence />}</div>
         <div ref={ablity}> {isenglish ? <Ablity /> : <FaAblity />}</div>
-        <div ref={contact}> {isenglish ? <Contact theme = {props.theme}/> : <FaContact theme = {props.theme} />}</div>
+        <div ref={contact}> {isenglish ? <Contact theme = {props.theme} click = {()=>scrollToSection(home)} refResult={home}/> : <FaContact theme = {props.theme} click = {()=>scrollToSection(home)} refResult={home} />}</div>
       </div>
     </div>
   );

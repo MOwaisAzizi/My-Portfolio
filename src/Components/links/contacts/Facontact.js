@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser'
 import Linkicon from "../../linkicons/linkicon";
 import { FaPaperPlane } from 'react-icons/fa'
 
-const FaContact = ({theme}) => {
+const FaContact = ({theme,refResult,click}) => {
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,7 +20,7 @@ const FaContact = ({theme}) => {
   return (
     <div className="dhole mt-5 pb-5 faconect" style={{ direction: 'rtl' }}>
       <Container className="contain">
-        <div className="form" style={style}>
+        <div className="form py-4" style={style}>
           <form id="contact-form" onSubmit={sendEmail} method="POST">
             <h1 style={{ textAlign: 'center', color: 'black' }}>ارتباط با من</h1>
             <label className="me-lg-5 me-sm-3 me-2" >ایمیل آدرس شما</label> <br />
@@ -43,6 +43,8 @@ const FaContact = ({theme}) => {
           <br />
         </div>
       </Container>
+      <button className='goTop' onClick={click} ref={refResult}>&#11014;</button>
+
     </div>
   );
 }

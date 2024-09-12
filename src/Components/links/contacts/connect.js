@@ -2,10 +2,9 @@ import React from "react";
 import './conect.css'
 import { Container, Row, Col } from "react-bootstrap";
 import emailjs from '@emailjs/browser'
-import Linkicon from "../../linkicons/linkicon";
 import { FaPaperPlane } from 'react-icons/fa'
 
-const Contact = ({theme}) => {
+const Contact = ({theme,click,refResult}) => {
 
 
   const sendEmail = (e) => {
@@ -44,6 +43,8 @@ const style = {
         </div>
 
       </Container>
+      <button className='goTop' onClick={click} ref={refResult}>&#11014;</button>
+
     </div>
   );
 }

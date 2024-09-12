@@ -9,14 +9,14 @@ import UseDarkMode from "./Dark-mode";
 
 
 const App = () => {
-    // rgb(235, 225, 225)
+    // rgb(235, 225, 225) #121212 2b3035
     const [theme, toggleTheme] = UseDarkMode()
     const [showIcon,setShowIcon] = useState(true) 
     
     let content = (
         <div className='app'
             style={{
-                background: theme == 'dark' ? '#2b3035' : 'rgb(235, 225, 225)',
+                background: theme == 'dark' ? '#121212' : 'rgb(235, 225, 225)',
                 color: theme == 'dark' ? 'white' : 'black'
             }}>
             {

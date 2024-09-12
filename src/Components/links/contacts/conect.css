@@ -8,6 +8,7 @@
 
 .dhole {
   height: auto;
+  position: relative;
 }
 .form {
   width: 70%;
@@ -76,6 +77,22 @@ background-color: white;
   background-color: rgb(8, 8, 209);
   color: white;
  }
+ .goTop{
+  background-color: rgb(58, 58, 243);
+  border: none;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: white;
+}.goTop:hover{
+  background-color: rgb(5, 5, 211);
+  height: 40px;
+  width: 40px;
+  transition: 0.5s all;
+}
 
 @media screen and (max-width: 1000px) {
   .form {
