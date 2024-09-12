@@ -1,7 +1,6 @@
 import React from 'react'
 import owais from './owais.jpg'
 import './middlemain.css'
-import { useState } from 'react'
 
 const Middlemain = (props) => {
 

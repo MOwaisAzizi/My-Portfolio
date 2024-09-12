@@ -10,9 +10,9 @@ const About = (props) => {
   return (
     <div className="about mb-lg-3 mb-2 mt-3">
       <Container>
-        <Row className="">
-          <div className="contain">
-            <Col className="text pt-0" lg={12} > <b><h1 data-aos="fade-up" className="mx-auto pt-2 pt-gl-5 pt-md-5 pt-md-5 pt-xs-0 t-center ">So who am I <span style={{ fontSize: '50px' }}>?</span></h1> </b>
+        {/* <Row className=""> */}
+          {/* <div className="contain"> */}
+            <div className="text pt-0" lg={12} > <b><h1 data-aos="fade-up" className="mx-auto pt-0 pt-gl-5 pt-md-5 t-center ">So who am I <span style={{ fontSize: '50px' }}>?</span></h1> </b>
 
               <p data-aos="fade-up" className="center px-0 mx-0 ps-2 ps-sm-0"> I am a professional front-end developer with one year exprence residing in city Herat, Afghanistan.
               Currently, I am pursuing a degree in computer science at Herat university. I have acquired proficiency in the English language
@@ -23,16 +23,16 @@ const About = (props) => {
 
                 <br />
                 <div className="cvdiv mt-3">
-                  <button className="mb-2 mt-2 btn-primary-cv px-2 py-1 px-md-2 py-md-1 btn-down" data-aos="fade-left" data-aos-delay="300" ><a className="a-btn" href={CV} download='CV'>Download CV <FaDownload /></a></button>
+                  <button className="mb-2 mt-2 btn-primary-cv px-3 py-1 px-md-3 py-md-1 btn-down" data-aos="fade-left" data-aos-delay="300" ><a className="a-btn" href={CV} download='CV'>Download CV <FaDownload /></a></button>
                 </div>
               </p>
 
 
               {props.child}
 
-            </Col>
-          </div>
-        </Row>
+            </div>
+          {/* </div> */}
+        {/* </Row> */}
       </Container>
     </div>
   )

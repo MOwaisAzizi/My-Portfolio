@@ -11,9 +11,7 @@
 }
 .form {
   width: 70%;
-  background-color: rgb(211, 216, 211);
   margin: auto;
-  color: black;
   border-radius: 10px;
   padding: 10px;
   box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
@@ -47,33 +45,34 @@ label {
 .dlinks {
   display: flex;
   margin: auto;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 10px;
-  width: 15%;
+  width: 16rem;
   font-size: 22px;
+  /* border: solid 1px black; */
 }
 .dlinks i {
-  color: blue;
+  color: white;
   border-radius: 50%;
-  background-color: white;
-  
+  padding: 8px;
 }
-.dlinks i .face{
- background-color: blue;
+.dlinks .face{
+ background-color: rgb(51, 51, 249);
  color: white;
 }
-.dlinks i .telegram{
-color: blue;
+.dlinks  .telegram{
+color: rgb(70, 124, 225);
 background-color: white;
  }
- .dlinks i .whatsapp{
+ .dlinks .whatsapp{
   background-color: rgb(13, 238, 13);
   color: white;
  }
- .dlinks i .github{
+ .dlinks .github{
   color: black;
+  background-color: white;
  }
- .dlinks i .linkedin{
+ .dlinks .linkedin{
   background-color: rgb(8, 8, 209);
   color: white;
  }
@@ -87,5 +86,9 @@ background-color: white;
 @media screen and (max-width: 800px) {
   .dlinks {
     font-size: 20px;
-  }
+  width: 13rem;
+
+}  .dlinks i {
+padding: 5px;
+}
 }

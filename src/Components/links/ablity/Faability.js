@@ -146,7 +146,7 @@ const FaAblity = (props) => {
         <div className="dspan" style={{ direction: 'rtl' }}>
           <span data-aos="fade-right" data-aos-delay="150">سخت کوش</span>
           <span data-aos="fade-right" data-aos-delay="300">صمیمی</span>
-          <span data-aos="fade-right" data-aos-delay="450">مدیریت</span>
+          <span data-aos="fade-right" data-aos-delay="450">مدیریت بالا</span>
           <span data-aos="fade-right" data-aos-delay="600">خلاق</span>
           <span data-aos="fade-right" data-aos-delay="750">صادق</span>
           <span data-aos="fade-right" data-aos-delay="900">پرانرژی</span>

@@ -74,7 +74,7 @@ const FaInstances = (props) => {
         <h2 className="pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">نمونه از پروژه های من</h2>
         <Row>
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فروشگاه</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فروشگاه</h4>
             <li className="li" onClick={ showlinks1Handler}>
               <Card className="card " >
                 <img className="Card-img" src={sell}></img>
@@ -95,7 +95,7 @@ const FaInstances = (props) => {
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">لیست یاداشت ها با نقشه</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">لیست یاداشت ها با نقشه</h4>
             <li className="li" onClick={ showlinks2Handler} >
               <Card className="card" >
                 <img className="Card-img " src={mapty}></img>
@@ -121,7 +121,7 @@ const FaInstances = (props) => {
 
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">گیم تاس</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">گیم تاس</h4>
             <li className='li' onClick={ showlinks3Handler} >
 
               <Card className="card"  >
@@ -144,7 +144,7 @@ const FaInstances = (props) => {
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">اپلیکیشن بانک</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">اپلیکیشن بانک</h4>
             <li className='li' onClick={showlinks4Handler}>
               <Card className="card " >
                 <img className="card-img" src={note}></img>
@@ -166,7 +166,7 @@ const FaInstances = (props) => {
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">ویبسایت معلوماتی</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">ویبسایت معلوماتی</h4>
             <li className='li' onClick={ showlinks5Handler}>
               <Card className="card" >
                 <img className="card-img" src={lib}></img>
@@ -188,7 +188,7 @@ const FaInstances = (props) => {
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">کتابخانه</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">کتابخانه</h4>
             <li className='li' onClick={ showlinks6Handler}>
               <Card className="card" >
                 <img className="card-img" src={library}></img>
@@ -211,7 +211,7 @@ const FaInstances = (props) => {
         <Container className="mb-3 mb-md-0">
           <Row className="more">
             <Col >
-              <Link to='/project'><button className="h ms-lg-1 ms-2 pt-md-1" onClick={props.click}>  <i className="fa fa-arrow-left arrow mb-1 mb-md-2"></i> دیدن بیشتر</button></Link>
+              <Link to='/project'><button className="h ms-lg-1 ms-2 pt-md-1" onClick={props.click}> <span className="faarrow" >&larr;</span> دیدن بیشتر</button></Link>
             </Col>
           </Row>
         </Container>

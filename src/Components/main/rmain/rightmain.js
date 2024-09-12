@@ -12,13 +12,13 @@ class Rightmain extends React.Component {
 
   render() {
     return (
-      <div className='rightmain mt-4 mt-lg-0 mb-5 mb-lg-0'>
-        <Row>
-          <Col >
+      <div className='rightmain mt-4 mt-lg-0 ps-3 ps-lg-0 mb-5 mb-lg-0'>
+        {/* <Row> */}
+          <div >
             <b> <h2 id='right' className=''> </h2></b>
             <p className=''>A Frond-end developer with a focus on writing depth, clean, elegant and efficient code. </p>
-          </Col>
-        </Row>
+          </div>
+        {/* </Row> */}
       </div>
 
     )

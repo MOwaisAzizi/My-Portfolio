@@ -5,18 +5,25 @@ import emailjs from '@emailjs/browser'
 import Linkicon from "../../linkicons/linkicon";
 import { FaPaperPlane } from 'react-icons/fa'
 
-const Contact = () => {
+const Contact = ({theme}) => {
+
+
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_wbk8n58', 'template_cd72onu', e.target, 'D6YlJfjXbdiipAnl2')
-
   }
+
+const style = {
+  background: theme=='dark' ? 'linear-gradient(to right, rgb(128, 128, 128), rgb(107, 107, 107))' :'linear-gradient(to right, rgb(211, 216, 211) , rgb(181, 189, 181))',
+  color: theme == 'dark' ? 'white' : 'black'
+}
+
   return (
     <div className="dhole mt-5 pb-5">
       <Container className="contain">
-        <div className="form">
+        <div className="form py-4" style={style}>
           <form id="contact-form" onSubmit={sendEmail} method="POST">
-            <h1 style={{ textAlign: 'center', color: 'black' }}>Contact Me</h1>
+            <h1 style={{ textAlign: 'center'}}>Contact Me</h1>
             <label >Your Email Address:</label> <br />
             <input type="text" name='email-from' id="emailfrom" placeholder="your Email Address" className="input"></input> <br />
             <label >Content:</label> <br />
@@ -28,12 +35,11 @@ const Contact = () => {
         </div>
 
         <div className="dlinks" >
-          <Linkicon iconlink='https://github.com/MOwaisAzizi'>  <i className="fa fa-github github" > </i> </Linkicon>
-          <Linkicon iconlink='http://www.facebook.com/mowais.azizi'>  <i className="fa fa-facebook face" > </i> </Linkicon>
-          <Linkicon iconlink='https://t.me/EngOwais'>  <i className="fa fa-telegram telegram" > </i> </Linkicon>
-          <Linkicon iconlink='https://www.linkedin.com/in/m-owais-azizi-7440532b4'>  <i className="fa fa-linkedin linkedin" > </i> </Linkicon>
-          <Linkicon iconlink='https://wa.me/93798267860'>  <i className="fa fa-whatsapp whatsapp" > </i> </Linkicon>
-         
+          <a href='https://github.com/MOwaisAzizi'>  <i className="fa fa-github github" > </i> </a>
+          <a href='http://www.facebook.com/mowais.azizi'>  <i className="fa fa-facebook face" > </i> </a>
+          <a href='https://t.me/EngOwais'>  <i className="fa fa-telegram telegram" > </i> </a>
+          <a href='https://www.linkedin.com/in/m-owais-azizi-7440532b4'>  <i className="fa fa-linkedin linkedin" > </i> </a>
+          <a href='https://wa.me/93798267860'>  <i className="fa fa-whatsapp whatsapp" > </i> </a>
           <br />
         </div>
 

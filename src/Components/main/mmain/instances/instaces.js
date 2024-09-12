@@ -72,13 +72,13 @@ const Instances = ({click}) => {
 
   return (
     <div className="instance" >
-      <div className="pb-3">
+      <div className="pb-md-3 pb-1">
         <h2 className="pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">My Instance Projecs</h2>
         <Row>
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Shopping App</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Shopping App</h4>
             <li className="li" onClick={showlinks1Handler}>
-              <Card className="card " >
+              <Card className="card" >
                 <img className="Card-img" src={sell}></img>
               </Card>
               {showlinks1 ?
@@ -97,7 +97,7 @@ const Instances = ({click}) => {
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mapty-ToDO-list</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mapty-ToDO-list</h4>
             <li className="li" onClick={showlinks2Handler} >
               <Card className="card" >
                 <img className="Card-img " src={mapty}></img>
@@ -122,7 +122,7 @@ const Instances = ({click}) => {
 
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Dice Game</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Dice Game</h4>
             <li className='li' onClick={showlinks3Handler} >
 
               <Card className="card"  >
@@ -144,7 +144,7 @@ const Instances = ({click}) => {
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Bank Application</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Bank Application</h4>
             <li className='li' onClick={showlinks4Handler}>
               <Card className="card " >
                 <img className="card-img" src={note}></img>
@@ -166,7 +166,7 @@ const Instances = ({click}) => {
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Info Website</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Info Website</h4>
             <li className='li' onClick={showlinks5Handler}>
               <Card className="card" >
                 <img className="card-img" src={lib}></img>
@@ -188,7 +188,7 @@ const Instances = ({click}) => {
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Library</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Library</h4>
             <li className='li' onClick={showlinks6Handler}>
               <Card className="card" >
                 <img className="card-img" src={library}></img>
@@ -214,7 +214,7 @@ const Instances = ({click}) => {
         <Container className="mb-3 mb-md-0 mt-2">
           <Row className="more">
             <Col >
-              <Link to='/project'>  <button className="h ms-lg-1 ms-2 py-md-1" onClick={click}>See More <i className="fa fa-arrow-right arrow"></i></button></Link>
+              <Link to='/project'>  <button className="h ms-lg-1 ms-2 py-md-1" onClick={click}>See More <span className="arrow">&rarr;</span></button></Link>
             </Col>
           </Row>
         </Container>

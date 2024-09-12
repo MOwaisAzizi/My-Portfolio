@@ -52,13 +52,14 @@ function Main(props) {
 
 
   return (
+//#f3f3f3   rgb(211, 216, 211) rgb(128, 128, 128) rgb(171, 171, 171)
 
     <div className='fullpage'>
       {
         isenglish ?
           <nav className='navbar'
             style={{
-              background: props.theme == 'dark' ? 'rgb(128, 128, 128)' : 'rgb(211, 216, 211)',
+              background: props.theme == 'dark' ? 'linear-gradient(to right, rgb(128, 128, 128), rgb(107, 107, 107))' : 'linear-gradient(to right, rgb(211, 216, 211) , rgb(181, 189, 181))',
               color: props.theme == 'dark' ? 'white' : 'black'
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links'}>
@@ -74,13 +75,12 @@ function Main(props) {
               <i className={isopen ? 'fa fa-times time' : 'fa fa-bars'}></i>
             </div>
           </nav>
-
+          
           :
-
 
           <nav className='navbar faMain '
             style={{
-              background: props.theme == 'dark' ? 'rgb(128, 128, 128)' : 'rgb(211, 216, 211)',
+              background: props.theme == 'dark' ? 'linear-gradient(to right, rgb(128, 128, 128), rgb(107, 107, 107))' : 'linear-gradient(to right, rgb(211, 216, 211) , rgb(181, 189, 181))',
               color: props.theme == 'dark' ? 'white' : 'black'
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links Navfarsi'}  >
@@ -107,10 +107,10 @@ function Main(props) {
           <button onClick={handlelangeage} className=' btn-change en' >En</button>
       }
 
-      <Container className='main' data-aos="fade-in" data-aos-delay="200" ref={home}>
+      <Container className='main' ref={home}>
 
         <div id='section1' onClick={() => setisopen(false)}>
-          <Row>
+          <Row >
             <Col lg={4} xl={4}>
               {isenglish ?
                 <LeftMain /> :
@@ -125,7 +125,7 @@ function Main(props) {
                     <h2 className='pt-2 ms-2 ms-sm-0' style={{ textAlign: 'center' }}><b>Mohammad Owais Azizi</b></h2>
                     <p className='p-1 ms-3 ms-sm-0' >Living in Herat city, pursuing studies in Computer Sience in Herat university.
                       Should you require assistance? please feel free to contact me through any of the provided ways: <br />
-                      <div className='phone mb-3 mb-md-0' >
+                      <div className='phone mb-1 mb-md-0' >
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2" data-aos="fade-left" data-aos-delay="500"
                         >Contact Me <FaArrowDown /></button></span>
                       </div>
@@ -135,7 +135,7 @@ function Main(props) {
                   <div className='info faMain'>
                     <h2 className='pt-2 ms-2 ms-sm-0' style={{ textAlign: 'center' }}><b>محمد اویس عزیزی</b></h2>
                     <p className='p-1 ms-3 ms-sm-0 ' >در شهر هرات زندگی میکند و در حال آموختن رشته کمپیوتر ساینس در دانشگاه هرات است.آیا به کمک ضرورت دارید ؟ اگر بلی میتوانید از راه های زیر با من تماس بگیرید <br />
-                      <div className='phone mb-3 mb-md-0' >
+                      <div className='phone mb-4 mb-md-0' >
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2" data-aos="fade-right" data-aos-delay="800"> <FaArrowDown /> ارتباط با من  </button></span>
                      
                       </div>
@@ -164,7 +164,7 @@ function Main(props) {
         <div ref={about}> {isenglish ? <About /> : <Faabout />}</div>
         <div ref={exprence}> {isenglish ? <Exprence /> : <FaExprence />}</div>
         <div ref={ablity}> {isenglish ? <Ablity /> : <FaAblity />}</div>
-        <div ref={contact}> {isenglish ? <Contact /> : <FaContact />}</div>
+        <div ref={contact}> {isenglish ? <Contact theme = {props.theme}/> : <FaContact theme = {props.theme} />}</div>
       </div>
     </div>
   );

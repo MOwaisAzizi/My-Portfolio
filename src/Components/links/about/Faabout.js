@@ -21,9 +21,11 @@ const Faabout = (props) => {
     return (
         <div className="about mb-lg-3 mb-3 faAbout" >
             <Container>
-                <Row >
-                    <Col className="text pt-0" lg={12} > <b><h1 data-aos="fade-up" className="mx-auto t-center pt-2 pt-gl-5 pt-md-5 pt-0">من کی هستم؟ </h1> </b>
-                        <p data-aos="fade-up" style={{ direction: 'rtl' }} className="px-lg-5 mx-lg-5 center px-0 mx-0" >
+                {/* <Row > */}
+                    {/* <div className="text pt-0" lg={12} > */}
+                         <b>
+                        <h1 data-aos="fade-up" className="mx-auto  t-center pt-2 pt-gl-5 pt-md-5 pt-0">من کی هستم؟ </h1> </b>
+                        <p data-aos="fade-up" style={{ direction: 'rtl' }} className="px-lg-5 mx-lg-5 center px-1 mx-0" >
                             من یک توسعه دهنده فرات اند با یک سال تجربه هستم که در افغانستان، هرات زندگی میکنم و
                             من حال بادگیری رشته کمپیوتر ساینس در دانشگاه هرات هستم.
                             من قبلا زیان انگلیسی را آموخته و بعد از آن وارد دانشگاه و موسسه واسا جهت یادگیری فرانت اند شدم و به درستی تمام اش کردم.
@@ -32,11 +34,11 @@ const Faabout = (props) => {
                             من قبلا توسعه فرانت اند را در موسسه واسا تمام کرده و تصدیق نامه آنرا نیز دارم.
                             <br />
                             <div className="cvdiv mt-3">
-                                <Button className="mb-2 mt-2 btn-primary-cv p-2 px-md-3 py-md-3 btn-down" data-aos="fade-right" data-aos-delay="400" ><a href={CV} download='CV' className="a-btn">دانلود سی وی <FaDownload /></a></Button>
+                                <button className="mb-2 mt-2 btn-primary-cv py-1 px-3 px-md-3 py-md-1 btn-down" data-aos="fade-right" data-aos-delay="400" ><a href={CV} download='CV' className="a-btn">دانلود سی وی <FaDownload /></a></button>
                             </div>
                         </p>
-                    </Col>
-                </Row>
+                    {/* </div> */}
+                {/* </Row> */}
             </Container>
         </div>
     )

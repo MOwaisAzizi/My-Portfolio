@@ -16,7 +16,12 @@
 .main {
   padding-top: 40px;
   width: 100%;
+}#section1{
+padding: 0;
+margin: 0;
+
 }
+
 .navbar{
   position: fixed;
   top: 0;
@@ -28,15 +33,31 @@
   justify-content: space-between;
   align-items:center;
   height: 60px;
+  /* background-color: rgb(107, 107, 107); */
 }
+
+/* .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem; */
+
+
 .navbar-links{
   margin-top: 7px;
   font-size: 20px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   list-style: none;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
+  gap: 4rem;
 }
 .Navfarsi{
   font-size: 22px;

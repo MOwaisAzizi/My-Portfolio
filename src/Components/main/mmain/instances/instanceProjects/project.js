@@ -249,7 +249,7 @@ const Project = (props) => {
         <Row className="pt-3 pb-5 pt-md-5">
 
         <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3 ">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Travel List</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Travel List</h4>
             <li className="li" onClick={showlinks1Handler } >
               <Card className="card" >
                 <img className="card-img" src={travel}></img>
@@ -269,7 +269,7 @@ const Project = (props) => {
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3 ">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Eat-Split-App</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Eat-Split-App</h4>
             <li className="li" onClick={showlinks2Handler}>
               <Card className="card" >
                 <img className="card-img" src={split}></img>
@@ -289,7 +289,7 @@ const Project = (props) => {
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3 ">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Countries-Data-App</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Countries-Data-App</h4>
             <li className="li" onClick={showlinks3Handler}>
               <Card className="card" >
                 <img className="card-img" src={country}></img>
@@ -310,7 +310,7 @@ const Project = (props) => {
 
        
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Pig Game</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Pig Game</h4>
             <li className='li' onClick={showlinks13Handler} >
               <Card className="card" >
                 <img className="card-img" src={game2}></img>
@@ -331,7 +331,7 @@ const Project = (props) => {
 
     
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Bank Website</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Bank Website</h4>
             <li className="li" onClick={showlinks6Handler} >
               <Card className="card" >
                 <img className="Card-img " src={market}></img>
@@ -356,7 +356,7 @@ const Project = (props) => {
 
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Counter</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Counter</h4>
             <li className='li' onClick={showlinks7Handler} >
 
               <Card className="card"  >
@@ -385,7 +385,7 @@ const Project = (props) => {
 
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3 ">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Calculator</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Calculator</h4>
             <li className="li" onClick={showlinks8Handler}>
               <Card className="card" >
                 <img className="card-img" src={colculator}></img>
@@ -406,7 +406,7 @@ const Project = (props) => {
 
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Company Website</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Company Website</h4>
             <li className='li' onClick={showlinks9Handler}>
               <Card className="card" >
                 <img className="card-img" src={intro} ></img>
@@ -428,7 +428,7 @@ const Project = (props) => {
 
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">To Do List</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">To Do List</h4>
             <li className='li' onClick={showlinks10Handler}>
               <Card className="card" >
                 <img className="card-img" src={noteMangage}></img>
@@ -453,7 +453,7 @@ const Project = (props) => {
 
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Guess My Number</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Guess My Number</h4>
             <li className='li' onClick={showlinks11Handler}>
               <Card className="card" >
                 <img className="card-img" src={game1}></img>
@@ -473,7 +473,7 @@ const Project = (props) => {
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3 ">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mem-Generator</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mem-Generator</h4>
             <li className="li" onClick={showlinks4Handler}>
               <Card className="card" >
                 <img className="card-img" src={mem}></img>
@@ -494,7 +494,7 @@ const Project = (props) => {
 
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3">
-            <h3 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Store</h3>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Store</h4>
             <li className='li' onClick={showlinks12Handler} >
               <Card className="card" >
                 <img className="card-img" src={company}></img>
