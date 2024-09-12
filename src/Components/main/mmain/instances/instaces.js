@@ -73,7 +73,7 @@ const Instances = ({click}) => {
   return (
     <div className="instance" >
       <div className="pb-md-3 pb-1">
-        <h2 className="pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">My Instance Projecs</h2>
+        <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">My Instance Projecs</h2>
         <Row>
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Shopping App</h4>

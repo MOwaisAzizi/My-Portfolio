@@ -73,9 +73,9 @@ function Main(props) {
               <li onClick={() => scrollToSection(contact)}>Contact</li>
             </ul>
 
-          <Navbar.Brand ref={home} onClick={() => scrollToSection(home)} className=" fw-bold logo">
+          {/* <Navbar.Brand ref={home} onClick={() => scrollToSection(home)} className=" fw-bold logo">
               Azizi
-               </Navbar.Brand>
+               </Navbar.Brand> */}
             
             {/* <div className='navbartoggle' onClick={toggleNav} > */}
             <i onClick={toggleNav} className={isopen ? 'fa fa-times time navbartoggle' : 'fa fa-bars navbartoggle'}></i>
@@ -101,9 +101,9 @@ function Main(props) {
               <li onClick={() => scrollToSection(contact)}>ارتباط</li>
             </ul>
 
-        <Navbar.Brand ref={home} onClick={() => scrollToSection(home)} className=" fw-bold logoFa">
+        {/* <Navbar.Brand ref={home} onClick={() => scrollToSection(home)} className=" fw-bold logoFa">
               عزیزی
-               </Navbar.Brand>
+               </Navbar.Brand> */}
          
             {/* <div className='navbartoggle' onClick={toggleNav}> */}
               <i onClick={toggleNav} className={isopen ? 'fa fa-times timef navbartogglef' : 'fa fa-bars navbartogglef'}></i>

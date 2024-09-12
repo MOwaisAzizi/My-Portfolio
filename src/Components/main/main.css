@@ -124,13 +124,13 @@ margin: 0;
   font-size: 1.5rem;
   z-index: 10000;
   position: fixed;
-  right: 5px;
+  left: 5px;
   top: 6px;
 
 }.timef{
   font-size: 1.8rem;
   position: fixed;
-  right: 5px;
+  left: 5px;
   top: 5px;
 }
 
@@ -220,12 +220,14 @@ margin: 0;
 }
 
 .logoFa{
+  display: none;
   left: 0.9rem;
   top: 0.6rem;
   font-size: 25px;
 
 }
 .logo{
+  display: none;
   right: 0;
   top: 0.45rem;
   font-size: 24px;

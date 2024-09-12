@@ -71,7 +71,7 @@ const FaInstances = (props) => {
   return (
     <div className="instance faInstance">
       <div className="pb-3">
-        <h2 className="pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">نمونه از پروژه های من</h2>
+        <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">نمونه از پروژه های من</h2>
         <Row>
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فروشگاه</h4>
