@@ -7,10 +7,9 @@ import Main from "./Components/main/main";
 import Project from "./Components/main/mmain/instances/instanceProjects/project";
 import UseDarkMode from "./Dark-mode";
 
+
 const App = () => {
     const [theme, toggleTheme] = UseDarkMode()
-
-
 
     let content = (
         <div className='app'
@@ -28,13 +27,14 @@ const App = () => {
                    
             }
 
-
-          <Router>
+       <Router>
                 <Routes>
                     <Route path="/" element={<Main theme={theme} />}></Route>
                     <Route path="/project" element={<Project theme = {theme}/>}   ></Route>
                 </Routes>
             </Router>
+   
+
 
         </div>
 

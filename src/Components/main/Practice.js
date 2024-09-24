@@ -100,17 +100,3 @@
 //        {React.cloneElement(children)}
 //     </div>;
 // };
-import useCursor from "./useCursor";
-import React from "react";
-// export default Practice;
-export default function Practice ({ children }) {
-    const ref = useCursor();
-  
-    return (
-      <div ref={ref}>
-        {React.Children.map(children, child => 
-          React.cloneElement(child)
-        )}
-      </div>
-    );
-  };
