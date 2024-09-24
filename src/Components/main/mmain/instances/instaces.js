@@ -138,35 +138,13 @@ const Instances = ({theme}) => {
   return (
     <div className="instance" >
 
-{/* <Container> */}
-{/* <div className="slider">
-
-<div className="slides" style={{ transform: `translateX(-${currentIndex * 34}%)` }}>
-
-{
-    images.map((image, index) => <div className="slide" key={index}><img src={image} alt={`slide ${index + 1}`} className="img-slide" />
-    </div>
-    )
-  }
-</div>
-
-  <button onClick={prevSlide} className="arrows arrow-left">&larr; </button>
-<button onClick={nextSlide} className="arrows arrow-right">&rarr;</button>
-</div> */}
-
-
- {/* </Container> */}
-
-
-
 <Container className=" contain"> 
    <div className="pb-md-3 pb-1 slider ">
 
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">My Instance Projecs</h2>
 
-        <div className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 450 : width <700 && width>500 ? currentIndex * 520 :  currentIndex * 302}px)` }}>
+        <div className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 450 : width <700 && width>500 ? currentIndex * 520 :  currentIndex * 315}px)` }}>
          
-        {/* width >= 500 ? currentIndex * 450 : currentIndex * 293 */}
 
           <div data-aos="fade-up" className="mb-3 slide">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mapty-ToDO-list</h4>

@@ -131,7 +131,7 @@ const FaInstances = (props) => {
    <div className="pb-3 slider">
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">نمونه از پروژه های من</h2>
         {/* <Row> */}
-   <div  className="slides" style={{ transform: `translateX(-${ width >= 750 ? currentIndex * 450 : width <750 && width>500 ? currentIndex * 520 :  currentIndex * 302}px)` }}>
+   <div  className="slides" style={{ transform: `translateX(-${ width >= 750 ? currentIndex * 450 : width <750 && width>500 ? currentIndex * 520 :  currentIndex * 310}px)` }}>
 
 
           <div  data-aos="fade-up" className="mb-3 slide">
