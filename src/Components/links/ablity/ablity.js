@@ -1,9 +1,15 @@
 import React, { useEffect, useRef } from "react";
 import './ablity.css'
-import { Row, Col, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
-const Ablity = (props) => {
+const Ablity = ({theme}) => {
 
+  const style={
+    background: theme == 'dark' ?'#52d3d8': '#98eecc',
+    color: theme == 'dark' ? 'white' : 'black',
+    boxShadow:theme == 'dark' ? '7px 7px 15px #22abaf':'5px 5px 15px #49bc8e'
+  }
+  
   const animatedRef1 = useRef(null)
   const animatedRef2 = useRef(null)
   const animatedRef3 = useRef(null)
@@ -144,14 +150,14 @@ const Ablity = (props) => {
         <h2 data-aos="fade-up" className="mb-3">
           <b> Properties</b>
         </h2>
-        <div className="dspan">
-          <span data-aos="fade-left" data-aos-delay="150">Hardworker</span>
-          <span data-aos="fade-left" data-aos-delay="300">Friendly</span>
-          <span data-aos="fade-left" data-aos-delay="450">Honest</span>
-          <span data-aos="fade-left" data-aos-delay="600">High Management</span>
-          <span data-aos="fade-left" data-aos-delay="750">creativity</span>
-          <span data-aos="fade-left" data-aos-delay="900">Energetic</span>
-          <span data-aos="fade-left" data-aos-delay="1100">good-tempered</span>
+        <div className="dspan" >
+          <span data-aos="fade-left" data-aos-delay="150" style={style}>Hardworker</span>
+          <span data-aos="fade-left" data-aos-delay="300" style={style}>Friendly</span>
+          <span data-aos="fade-left" data-aos-delay="450" style={style}>Honest</span>
+          <span data-aos="fade-left" data-aos-delay="600" style={style}>High Management</span>
+          <span data-aos="fade-left" data-aos-delay="750" style={style}>creativity</span>
+          <span data-aos="fade-left" data-aos-delay="900" style={style}>Energetic</span>
+          <span data-aos="fade-left" data-aos-delay="1100" style={style}>good-tempered</span>
         </div>
       </div>
     </Container>

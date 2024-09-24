@@ -12,9 +12,11 @@ const FaContact = ({theme,refResult,click}) => {
     emailjs.sendForm('service_wbk8n58', 'template_cd72onu', e.target, 'D6YlJfjXbdiipAnl2')
   }
 
-  const style = {
-    background: theme=='dark' ? 'linear-gradient(to right, rgb(128, 128, 128), rgb(107, 107, 107))' :'linear-gradient(to right, rgb(211, 216, 211) , rgb(181, 189, 181))',
-    color: theme == 'dark' ? 'white' : 'black'
+  const style={
+    background: theme == 'dark' ?'#52d3d8': '#98eecc',
+    color: theme == 'dark' ? 'white' : 'black',
+    boxShadow:theme == 'dark' ? '7px 7px 15px #22abaf':'5px 5px 15px #49bc8e'
+
   }
 
   return (
@@ -43,7 +45,7 @@ const FaContact = ({theme,refResult,click}) => {
           <br />
         </div>
       </Container>
-      <button className='goTop' onClick={click} ref={refResult}>&#11014;</button>
+      <button className='goTop' style={style} onClick={click} ref={refResult}>&#11014;</button>
 
     </div>
   );

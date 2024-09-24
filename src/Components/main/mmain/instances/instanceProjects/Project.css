@@ -1,6 +1,6 @@
 .project{
     width: 100%;
-    height: 100%;
+    height: 500vh;
 }.leftArrow{
     font-size: 25px;
     padding-left: 5px;
@@ -11,15 +11,13 @@
     top: 3.5px;
     left: 7px;
 }.leftArrow:hover{
- color: white;
  font-size: 28px;
- transition: 0.5s font-size;
+ transition: 0.5s all;
 
 }
 .back:hover{
-  color: white;
   font-size: 22px;
- transition: 0.5s font-size;
+ transition: 0.5s all;
 
  }
 .back{

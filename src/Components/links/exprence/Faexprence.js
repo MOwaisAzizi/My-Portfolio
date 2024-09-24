@@ -8,17 +8,16 @@ const FaExprence = () => {
    return (
       <div data-aos="fade-in" data-aos-delay="200" style={{ direction: 'rtl' }}>
          <Container className="exprence mt-lg-2 mt-0">
-            {/* <Row className="row"> */}
                <div lg={12} className="img pt-lg-5 pt-md-5 pt-4">
                   <div className="img" data-aos="fade-right" data-aos-delay="50">
                      <img src={pic4} data-aos="fade-right" data-aos-delay="100"></img>
                   </div>
                </div>
 
-               <div lg={12} className="text">
+               <div  className="text ms-2 ps-sm-0">
                   <div className="dtext dftext faexprence">
                      <h3 data-aos="fade-up" className="me-4"><b>چیکار انجام دادم؟</b></h3>
-                     <ul className="exp-ul" data-aos="fade-up">
+                     <ul className=" exp-ul-fa me-3 me-sm-0" data-aos="fade-up">
                         <li data-aos="fade-up" data-aos-delay="50">داشتن تجربه یک و نیم ساله در زمینه توسعه وب.</li>
                         <li data-aos="fade-up" data-aos-delay="100">کارآموزی در موسسه واسا برای شش ماه.</li>
                         <li data-aos="fade-up" data-aos-delay="150">توسعه پروژه های متقاوت در موسسه واسا.</li>
@@ -30,7 +29,6 @@ const FaExprence = () => {
 
                </div>
 
-            {/* </Row> */}
          </Container>
       </div>
    )

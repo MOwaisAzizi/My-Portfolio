@@ -1,8 +1,17 @@
 import React, { useRef, useEffect } from "react";
 import './ablity.css'
-import { Row, Col, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
-const FaAblity = (props) => {
+const FaAblity = ({theme}) => {
+
+  const style={
+    background: theme == 'dark' ?'#52d3d8': '#98eecc',
+    color: theme == 'dark' ? 'white' : 'black',
+    boxShadow:theme == 'dark' ? '5px 5px 10px #22abaf':'5px 5px 15px #49bc8e',
+    direction: 'rtl'
+  }
+
+
   const animatedRef1 = useRef(null)
   const animatedRef2 = useRef(null)
   const animatedRef3 = useRef(null)
@@ -143,13 +152,13 @@ const FaAblity = (props) => {
           <b>ویژگی ها</b>
         </h2>
         <div className="dspan" style={{ direction: 'rtl' }}>
-          <span data-aos="fade-right" data-aos-delay="150">سخت کوش</span>
-          <span data-aos="fade-right" data-aos-delay="300">صمیمی</span>
-          <span data-aos="fade-right" data-aos-delay="450">مدیریت بالا</span>
-          <span data-aos="fade-right" data-aos-delay="600">خلاق</span>
-          <span data-aos="fade-right" data-aos-delay="750">صادق</span>
-          <span data-aos="fade-right" data-aos-delay="900">پرانرژی</span>
-          <span data-aos="fade-right" data-aos-delay="1100">با اخلاق</span>
+          <span data-aos="fade-right" data-aos-delay="150" style={style}>سخت کوش</span>
+          <span data-aos="fade-right" data-aos-delay="300" style={style}>صمیمی</span>
+          <span data-aos="fade-right" data-aos-delay="450" style={style}>مدیریت بالا</span>
+          <span data-aos="fade-right" data-aos-delay="600" style={style}>خلاق</span>
+          <span data-aos="fade-right" data-aos-delay="750" style={style}>صادق</span>
+          <span data-aos="fade-right" data-aos-delay="900" style={style}>پرانرژی</span>
+          <span data-aos="fade-right" data-aos-delay="1100" style={style}>با اخلاق</span>
         </div>
 
       </div>

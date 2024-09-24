@@ -8,17 +8,15 @@ const Exprence = (props) => {
    return (
       <div data-aos="fade-in" data-aos-delay="200"  >
          <Container className="exprence mt-lg-2 mt-0">
-            {/* <Row className="row"> */}
-               <div lg={12} className="img pt-lg-5 pt-md-5 pt-4" >
+               <div  className="img pt-lg-5 pt-md-5 pt-4" >
                   <div className="img"  data-aos="fade-left" data-aos-delay="50">
                      <img src={pic4}></img>
                   </div>
                </div>
 
-               {/* <Col lg={12} className="text"> */}
                   <div className="dtext">
                      <h3 data-aos="fade-up" className="ms-4"><b>What did i do ?</b></h3>
-                     <ul className="exp-ul" data-aos="fade-up" >
+                     <ul className="exp-ul ms-2 ms-sm-0" data-aos="fade-up" >
                         <li data-aos="fade-up" data-aos-delay="50">I have one and half year exprence in web developement.</li>
                         <li data-aos="fade-up" data-aos-delay="100">Working as a apprentice in WASSA organization for 6 mounth.</li>
                         <li data-aos="fade-up" data-aos-delay="150">Building numerous of projects in WASSA organization.</li>
@@ -28,9 +26,6 @@ const Exprence = (props) => {
                      </ul>
                   </div>
 
-               {/* </Col> */}
-
-            {/* </Row> */}
          </Container>
       </div>
    )

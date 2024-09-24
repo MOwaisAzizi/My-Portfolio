@@ -6,16 +6,18 @@ import { FaPaperPlane } from 'react-icons/fa'
 
 const Contact = ({theme,click,refResult}) => {
 
-
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_wbk8n58', 'template_cd72onu', e.target, 'D6YlJfjXbdiipAnl2')
   }
 
-const style = {
-  background: theme=='dark' ? 'linear-gradient(to right, rgb(128, 128, 128), rgb(107, 107, 107))' :'linear-gradient(to right, rgb(211, 216, 211) , rgb(181, 189, 181))',
-  color: theme == 'dark' ? 'white' : 'black'
-}
+ const style={
+  background: theme == 'dark' ?'#52d3d8': '#98eecc',
+  color: theme == 'dark' ? 'white' : 'black',
+  boxShadow:theme == 'dark' ? '5px 5px 15px #22abaf':'5px 5px 15px #49bc8e'
+
+
+  }
 
   return (
     <div className="dhole mt-5 pb-5">
@@ -43,7 +45,7 @@ const style = {
         </div>
 
       </Container>
-      <button className='goTop' onClick={click} ref={refResult}>&#11014;</button>
+      <button className='goTop' style={style} onClick={click} ref={refResult}>&#11014;</button>
 
     </div>
   );

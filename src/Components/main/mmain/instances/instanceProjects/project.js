@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useRef,useEffect } from "react";
 import './Project.css'
 import intro from '../intro.png'
 import company from '../company.png'
@@ -8,14 +8,23 @@ import colculator from '../colculator.png'
 import noteMangage from '../noteManage.png'
 import travel from '../travel.png'
 import split from '../split.png'
-import mem from '../mem.png'
+import alarm from '../alarm.png'
 import country from '../country.png'
 import market from '../market.png'
-import counter from '../counter.png'
+import calculator from '../culculator2.png'
+import lib from '../lib.png'
+
 import { Link } from "react-router-dom";
 import { Row, Col, Button, Card } from "react-bootstrap";
 
 const Project = (props) => {
+
+  const style2 = {
+    color: props.theme == 'dark' ? '#52d3d8' : '#58f1b4',
+  }
+  const style = {
+    color: props.theme == 'dark' ? 'white' : 'black',
+  }
 
   const [showlinks1, setshowlinks1] = useState(false)
   const [showlinks2, setshowlinks2] = useState(false)
@@ -241,10 +250,14 @@ const Project = (props) => {
   }
 
 
+
+
+
+
   return (
-    <div className="project pt-3 pt-md-0">
+    <div className="project pt-3 pt-md-0" >
       <Link to={'/'} className="link" onClick={props.back}>
-         <i className="fa fa-arrow-left leftArrow" style={{color:props.theme == 'dark' ? 'white' : 'rgb(92, 92, 249)'}}></i> <span style={{color:props.theme == 'dark' ? 'white' : 'rgb(92, 92, 249)'}} className="back">Back</span></Link>
+         <i style={style} className="fa fa-arrow-left leftArrow" ></i> <span style={style} className="back">Back</span></Link>
         
         <Row className="pt-3 pb-5 pt-md-5">
 
@@ -258,8 +271,8 @@ const Project = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/travel-list-note'>Github <i className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='https://travel-ashy-eight.vercel.app'>Visit <i className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/travel-list-note'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='https://travel-ashy-eight.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -278,14 +291,35 @@ const Project = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Eat-split-app'>Github <i className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='https://split-eat.vercel.app'>Visit <i className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Eat-split-app'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='https://split-eat.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
                 : null}
             </li>
             <p className="card-title">React, CSS</p>
+          </Col>
+
+          <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3">
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Info Website</h4>
+            <li className='li' onClick={showlinks7Handler} >
+              <Card className="card" >
+                <img className="card-img" src={lib}></img>
+              </Card>
+              {showlinks7 ?
+                <div className="backdrop" >
+                      <Row>
+                    <div className='links'  >
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/Bootstrap-Project'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='http://mowaisazizi.github.io/Bootstrap-Project/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                    </div>
+                  </Row>
+                </div>
+                : null}
+
+            </li>
+            <p className="card-title">HTML, CSS, bootstrap,SCSS</p>
           </Col>
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3 ">
@@ -298,8 +332,8 @@ const Project = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Countries-Data-App'>Github <i className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/Countries-Data-App'>Visit <i className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Countries-Data-App'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/Countries-Data-App'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -308,6 +342,29 @@ const Project = (props) => {
             <p className="card-title">HTML, CSS, JS</p>
           </Col>
 
+          <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Calculator</h4>
+            <li className="li" onClick={showlinks5Handler} >
+              <Card className="card" >
+                <img className="Card-img " src={calculator}></img>
+              </Card>
+
+              {showlinks5 ?
+                <div className="backdrop">
+                  <Row>
+                    <div className='links'  >
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/React-Culculator'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='https://react-culculator.vercel.app/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                    </div>
+                  </Row>
+                </div>
+                : null}
+            </li>
+
+            <p className="card-title">React, CSS</p>
+
+
+          </Col>
        
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Pig Game</h4>
@@ -319,8 +376,8 @@ const Project = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Pig-Game'>Github <i className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='https://mowaisazizi.github.io/Pig-Game/'>Visit <i className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Pig-Game'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='https://mowaisazizi.github.io/Pig-Game/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -341,8 +398,8 @@ const Project = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/Back_Info-Website'>Github <i className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='http://mowaisazizi.github.io/Back_Info-Website/'>Visit <i className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/Back_Info-Website'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='http://mowaisazizi.github.io/Back_Info-Website/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -356,32 +413,28 @@ const Project = (props) => {
 
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Counter</h4>
-            <li className='li' onClick={showlinks7Handler} >
-
-              <Card className="card"  >
-                <img className="card-img" src={counter}></img>
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Alarm-Clock</h4>
+            <li className="li" onClick={showlinks4Handler} >
+              <Card className="card" >
+                <img className="Card-img " src={alarm}></img>
               </Card>
 
-              {showlinks7 ?
+              {showlinks4 ?
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/Counter4'>Github <i className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='https://counter4.vercel.app'>Visit <i className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/React-Culculator'>Github <i className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='https://react-culculator.vercel.app/'>Visit <i className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
                 : null}
             </li>
+
             <p className="card-title">React, CSS</p>
+
+
           </Col>
-
-
-
-
-
-
 
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3 ">
@@ -472,25 +525,7 @@ const Project = (props) => {
             <p className="card-title">HTML, CSS, JS</p>
           </Col>
 
-          <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3 ">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mem-Generator</h4>
-            <li className="li" onClick={showlinks4Handler}>
-              <Card className="card" >
-                <img className="card-img" src={mem}></img>
-              </Card>
-              {showlinks4 ?
-                <div className="backdrop" >
-                  <Row>
-                    <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Mem_Generator'>Github <i className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='https://memgerrator.vercel.app'>Visit <i className="fa fa-globe icons"></i></a></Button>
-                    </div>
-                  </Row>
-                </div>
-                : null}
-            </li>
-            <p className="card-title">React, CSS</p>
-          </Col>
+
 
 
           <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3">

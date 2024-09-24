@@ -19,8 +19,25 @@
   text-align: start;
 }
 .exp-ul {
-  list-style: disc;
+  list-style:none;
+  margin: 0;
+  padding: 0;
 }
+.exp-ul li::before {
+content: '✔';
+padding-right: 5px;
+}
+.exp-ul-fa {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  margin-left: 15px;
+  /* padding-left: 10px; */
+}
+.exp-ul-fa li::before {
+  content: '✔';
+  padding-left: 5px;
+  }
 .dtext {
   margin: auto;
   width: 50%;

@@ -12,6 +12,8 @@
 
 *{
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 .main {
   padding-top: 40px;
@@ -48,7 +50,6 @@ margin: 0;
   align-items:center;
   height: 60px;
   direction: rtl;
-  /* background-color: rgb(107, 107, 107); */
   padding: 0;
   width: 100%;
 }
@@ -71,7 +72,9 @@ margin: 0;
 }.Navfarsi{
  margin-right: 6rem;
  font-size: 22px;
+ margin-top: 10px;
 }
+
 .logo{
   font-family: 'Rfont';
   cursor: pointer;
@@ -81,22 +84,22 @@ margin: 0;
   right: 3rem;
   top: 0.2rem;
   color: inherit;
+  z-index: 2000
+
 }
 .logoFa{
   font-family: 'myFont';
   cursor: pointer;
-  font-size: 29px;
+  font-size: 30px;
   position: fixed;
   left: 4rem;
   top: 0.1rem;
   color: inherit;
-
-    /* width: 10rem; */
+  z-index: 2000
 
 }
 .navbar-links li{
   cursor: pointer;
-  /* padding-left: 3rem; */
 }
 .navbartoggle{
   display: none;
@@ -113,10 +116,7 @@ margin: 0;
   left: 5px;
   top: 3px;
 }
-.contactbtn:hover{
-  transition: transform 2s ease;
-  transform: rotate(360deg);
-}
+
 
 .navbartogglef{
   display: none;
@@ -146,15 +146,12 @@ margin: 0;
   }
   .btn-change{
     border-radius: 10px;
-    color: white;
     position: fixed;
     top: 101px;
     right: 10px;
     border: none;
     transition: 0.5s;
     z-index: 19000;
-
-    background-color: hsl(240, 94%, 63%);
     font-family: 'Rfont';
 
   }.btn-change:hover{
@@ -166,10 +163,23 @@ margin: 0;
     padding: 3px;
   }
 
+  .contactbtn{
+    border-radius: 20px;
+    border: none;
+    animation:example 2s infinite;
+    transition: 0.5s;
+    box-shadow: 10px 10px 15px #42ca94 ;    
+  }
+  
+  @keyframes example {
+    0%   {transform: scale(1);}
+    90%  {transform: scale(1.25);}
+    100%  {transform: scale(1);}
+  }
 
 @media only screen and (max-width: 800px) {
   .navbar-links{
-    font-size: 18px;
+    font-size: 17px;
     display: none;
     flex-direction: column;
     width: 100%;
@@ -183,9 +193,7 @@ margin: 0;
   }.navbar,.faNavbar{
     height: auto;
   }
-  .navbar-links li{
-    /* padding-bottom: 10px; */
-  }
+
   .navbar-links.active{
     display: flex;
     background-color: inherit;
@@ -193,12 +201,11 @@ margin: 0;
  }.navbartoggle{
    display: block;
 
-   /* //////////////////////////////// */
  }
  .navbartogglef{
   display: block;
+  left: 5px;
 
-  /* //////////////////////////////// */
 }
  .fa{
   padding: 10px 7px;
@@ -214,37 +221,30 @@ margin: 0;
 }
 .navbar{
   width: 100vw;
-  height: 60px;
+  height: 55px;
 }.faNavbar{
   width: 100%;
 }
 
 .logoFa{
-  display: none;
-  left: 0.9rem;
+  /* display: none; */
+  right: 0.9rem;
   top: 0.6rem;
   font-size: 25px;
 
 }
 .logo{
-  display: none;
   right: 0;
   top: 0.45rem;
   font-size: 24px;
 
+}.timef{
+  left: 5px;
 }
 }
  @media only screen and (max-width: 850px) {
-  .navbar-links li{
-    /* padding-left: 4.5vw; */
-  }.navbar-links{
+.navbar-links{
     margin-left: 1.5rem;
-  }
-}
-@media only screen and (max-width: 650px) {
-  .navbar-links li{
-    /* padding-left: 3.5vw; */
-  }.navbar-links{
   }
 }
 
@@ -255,16 +255,5 @@ margin: 0;
   right: auto;
   top: 110px;
 }
-}
-.contactbtn{
-    background-color: rgb(66, 66, 254);
-    color: white;
-    border-radius: 20px;
-    border: none;
-    transition: 0.5s;
-  }.contactbtn:hover{
-    background-color: white;
-    color: black;
-    transition: 1s all;
 
-  }
+}

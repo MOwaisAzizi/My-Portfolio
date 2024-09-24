@@ -1,17 +1,16 @@
-import React from "react";
 import './about.css'
-import { Link } from "react-router-dom";
-import { Row, Col, Button, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
 import CV from './CV.pdf'
+import React, { useEffect, useRef } from 'react';
+
 
 const About = (props) => {
 
-  return (
-    <div className="about mb-lg-3 mb-2 mt-3">
+
+  return (<div className="about mb-lg-3 mb-2 mt-3" >
       <Container>
-        {/* <Row className=""> */}
-          {/* <div className="contain"> */}
+
             <div className="text pt-0" lg={12} > <b><h1 data-aos="fade-up" className="mx-auto pt-0 pt-gl-5 pt-md-5 t-center ">So who am I <span style={{ fontSize: '50px' }}>?</span></h1> </b>
 
               <p data-aos="fade-up" className="center px-0 mx-0 ps-2 ps-sm-0"> I am a professional front-end developer with one year exprence residing in city Herat, Afghanistan.
@@ -23,16 +22,14 @@ const About = (props) => {
 
                 <br />
                 <div className="cvdiv mt-3">
-                  <button className="mb-2 mt-2 btn-primary-cv px-3 py-1 px-md-3 py-md-1 btn-down" data-aos="fade-left" data-aos-delay="300" ><a className="a-btn" href={CV} download='CV'>Download CV <FaDownload /></a></button>
+                  <button style={{background: props.theme == 'dark' ? '#02f5fd': '#98eecc', boxShadow:props.theme == 'dark' ? '6px 6px 15px #22abaf':'5px 5px 25px #49bc8e'}} 
+                  className="mb-2 mt-2 btn-primary-cv px-3 py-1 px-md-3 py-md-1 btn-down" data-aos="fade-left" data-aos-delay="300" ><a style={{color: props.theme == 'dark' ?'white': 'black',}} className="a-btn" href={CV} download='CV'>Download CV <FaDownload /></a></button>
                 </div>
               </p>
-
 
               {props.child}
 
             </div>
-          {/* </div> */}
-        {/* </Row> */}
       </Container>
     </div>
   )
