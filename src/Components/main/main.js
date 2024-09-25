@@ -139,8 +139,8 @@ function Main(props) {
                     <h2 className='pt-2 ms-3 ms-sm-0' style={{ textAlign: 'center' }}><b>Mohammad Owais Azizi</b></h2>
                     <p className='p-1 ms-4 ms-sm-0' >Living in Herat city, pursuing studies in Computer Sience in Herat university.
                       Should you require assistance? please feel free to contact me through any of the provided ways: <br />
-                      <div className='phone mb-1 mb-md-0' >
-                        <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2" data-aos="fade-left" data-aos-delay="500"
+                      <div className='phone mb-1 mb-md-0' data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                        <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2"
                           style={{ background: props.theme == 'dark' ? '#02f5fd' : '#98eecc', color: props.theme == 'dark' ? 'white' : 'black', boxShadow: props.theme == 'dark' ? '6px 6px 15px #22abaf' : '5px 5px 25px #49bc8e' }} >Contact Me <FaArrowDown /></button></span>
                       </div>
                     </p>
@@ -149,8 +149,8 @@ function Main(props) {
                   <div className='info faMain'>
                     <h2 className='pt-2 ms-2 ms-sm-0' style={{ textAlign: 'center' }}><b>محمد اویس عزیزی</b></h2>
                     <p className='p-1 ms-3 ms-sm-0 ' >در شهر هرات زندگی میکند و در حال آموختن رشته کمپیوتر ساینس در دانشگاه هرات است.آیا به کمک ضرورت دارید ؟ اگر بلی میتوانید از راه های زیر با من تماس بگیرید <br />
-                      <div className='phone mb-4 mb-md-0' >
-                        <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2" data-aos="fade-right"
+                      <div className='phone mb-4 mb-md-0' data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                        <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2"
                           data-aos-delay="800" style={{ background: props.theme == 'dark' ? '#02f5fd' : '#98eecc', color: props.theme == 'dark' ? 'white' : 'black', boxShadow: props.theme == 'dark' ? '6px 6px 15px #22abaf' : '5px 5px 25px #49bc8e' }} > <FaArrowDown /> ارتباط با من  </button></span>
 
                       </div>
@@ -181,7 +181,6 @@ function Main(props) {
         <div ref={ablity}> {isenglish ? <Ablity theme={props.theme} /> : <FaAblity theme={props.theme} />}</div>
         <div ref={contact}> {isenglish ? <Contact theme={props.theme} click={() => scrollToSection(home)} refResult={home} /> : <FaContact theme={props.theme} click={() => scrollToSection(home)} refResult={home} />}</div>
       </div>
-
 
 
     </div>

@@ -152,13 +152,13 @@ const FaAblity = ({theme}) => {
           <b>ویژگی ها</b>
         </h2>
         <div className="dspan" style={{ direction: 'rtl' }}>
-          <span data-aos="fade-right" data-aos-delay="150" style={style}>سخت کوش</span>
-          <span data-aos="fade-right" data-aos-delay="300" style={style}>صمیمی</span>
-          <span data-aos="fade-right" data-aos-delay="450" style={style}>مدیریت بالا</span>
-          <span data-aos="fade-right" data-aos-delay="600" style={style}>خلاق</span>
-          <span data-aos="fade-right" data-aos-delay="750" style={style}>صادق</span>
-          <span data-aos="fade-right" data-aos-delay="900" style={style}>پرانرژی</span>
-          <span data-aos="fade-right" data-aos-delay="1100" style={style}>با اخلاق</span>
+          <span data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000" style={style}>سخت کوش</span>
+          <span data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" style={style}>صمیمی</span>
+          <span data-aos="fade-right" data-aos-delay="450" data-aos-duration="1000" style={style}>مدیریت بالا</span>
+          <span data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000" style={style}>خلاق</span>
+          <span data-aos="fade-right" data-aos-delay="750" data-aos-duration="1000" style={style}>صادق</span>
+          <span data-aos="fade-right" data-aos-delay="900" data-aos-duration="1000" style={style}>پرانرژی</span>
+          <span data-aos="fade-right" data-aos-delay="1100" data-aos-duration="1000" style={style}>با اخلاق</span>
         </div>
 
       </div>

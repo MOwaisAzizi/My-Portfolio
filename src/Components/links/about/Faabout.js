@@ -32,8 +32,8 @@ const Faabout = (props) => {
                             .من قادر هستم که هر گونه ویب سایت و ویب اپلیکیشن را بسازم و علاقه مند به کار کردن روی پروژه های تیمی هستم.
                             من قبلا توسعه فرانت اند را در موسسه واسا تمام کرده و تصدیق نامه آنرا نیز دارم.
                             <br />
-                            <div className="cvdiv mt-3">
-                                <button style={{background: props.theme == 'dark' ?'#02f5fd': '#8ef7cd',boxShadow:props.theme == 'dark' ? '9px 9px 15px #22abaf':'5px 5px 25px #49bc8e'}} className="mb-2 mt-2 btn-primary-cv py-1 px-3 px-md-3 py-md-1" data-aos="fade-right" data-aos-delay="400" ><a style={{color: props.theme == 'dark' ?'white': 'black',}} href={CV} download='CV' className="a-btn">دانلود سی وی <FaDownload /></a></button>
+                            <div className="cvdiv mt-3" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                                <button style={{background: props.theme == 'dark' ?'#02f5fd': '#8ef7cd',boxShadow:props.theme == 'dark' ? '9px 9px 15px #22abaf':'5px 5px 25px #49bc8e'}} className="mb-2 mt-2 btn-primary-cv py-1 px-3 px-md-3 py-md-1" ><a style={{color: props.theme == 'dark' ?'white': 'black',}} href={CV} download='CV' className="a-btn">دانلود سی وی <FaDownload /></a></button>
                             </div>
                         </p>
             </Container>

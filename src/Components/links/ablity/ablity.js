@@ -151,13 +151,13 @@ const Ablity = ({theme}) => {
           <b> Properties</b>
         </h2>
         <div className="dspan" >
-          <span data-aos="fade-left" data-aos-delay="150" style={style}>Hardworker</span>
-          <span data-aos="fade-left" data-aos-delay="300" style={style}>Friendly</span>
-          <span data-aos="fade-left" data-aos-delay="450" style={style}>Honest</span>
-          <span data-aos="fade-left" data-aos-delay="600" style={style}>High Management</span>
-          <span data-aos="fade-left" data-aos-delay="750" style={style}>creativity</span>
-          <span data-aos="fade-left" data-aos-delay="900" style={style}>Energetic</span>
-          <span data-aos="fade-left" data-aos-delay="1100" style={style}>good-tempered</span>
+          <span data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000" style={style}>Hardworker</span>
+          <span data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000" style={style}>Friendly</span>
+          <span data-aos="fade-left" data-aos-delay="450" data-aos-duration="1000" style={style}>Honest</span>
+          <span data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000" style={style}>High Management</span>
+          <span data-aos="fade-left" data-aos-delay="750" data-aos-duration="1000" style={style}>creativity</span>
+          <span data-aos="fade-left" data-aos-delay="900" data-aos-duration="1000" style={style}>Energetic</span>
+          <span data-aos="fade-left" data-aos-delay="1100" data-aos-duration="1000" style={style}>good-tempered</span>
         </div>
       </div>
     </Container>

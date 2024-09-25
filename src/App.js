@@ -8,11 +8,12 @@ import Project from "./Components/main/mmain/instances/instanceProjects/project"
 import UseDarkMode from "./Dark-mode";
 
 
+
 const App = () => {
     const [theme, toggleTheme] = UseDarkMode()
 
     let content = (
-        <div className='app'
+            <div className='app'
             style={{
                 background: theme == 'dark' ? '#121212' : '#fff8e8',
                 color: theme == 'dark' ? 'white' : 'black'
@@ -26,6 +27,8 @@ const App = () => {
                     <i onClick={toggleTheme}><a className="fa fa-moon icon1" ></a></i>
                    
             }
+
+
 
        <Router>
                 <Routes>

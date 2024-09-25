@@ -13,7 +13,6 @@ class Faleft extends React.Component {
   render() {
     return (
       <div className='leftmain faLeft mt-4 mt-lg-0 ps-3 ps-lg-0 mb-3 mb-lg-0' style={{ direction: 'rtl' }} >
-        {/* <Row> */}
 
           <div className=''>
             <b><h2 id='left' className=' mt-5 mt-lg-0' style={{ textAlign: 'center' }}><b>ا</b></h2></b>
@@ -21,7 +20,6 @@ class Faleft extends React.Component {
           یک انجینیر نرم افزار افغان که فعلا مصروف یادگیری انجینیری نرم افزار در دانشگاه هرات <br/> است.
             </p>
           </div>
-        {/* </Row> */}
       </div>
     )
   }

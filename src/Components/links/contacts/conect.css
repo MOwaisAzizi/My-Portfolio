@@ -70,8 +70,10 @@ background-color: white;
   color: white;
  }
  .dlinks .github{
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
+  /* padding: 0;
+  margin: 0; */
  }
  .dlinks .linkedin{
   background-color: rgb(8, 8, 209);
