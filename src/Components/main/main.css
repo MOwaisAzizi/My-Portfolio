@@ -71,7 +71,7 @@ margin: 0;
 }.Navfarsi{
  margin-right: 6rem;
  font-size: 22px;
- margin-top: 10px;
+ margin-top: 11px;
 }
 
 .logo{
@@ -92,7 +92,7 @@ margin: 0;
   font-size: 30px;
   position: fixed;
   left: 4rem;
-  top: 0.1rem;
+  top: 0.2rem;
   color: inherit;
   z-index: 2000
 
@@ -136,7 +136,7 @@ margin: 0;
 .navbar-links li:hover{
   color: blue;
   transition: 0.35s all;
-  font-size: 21px;
+  font-size: 21.5px;
 
   }
   .Navfarsi li:hover{
@@ -153,8 +153,6 @@ margin: 0;
     z-index: 19000;
     font-family: 'Rfont';
 
-  }.btn-change:hover{
-  background-color: rgb(19, 5, 221);
   } .fa{
     padding: 7.75px 7px;
   }
@@ -214,8 +212,8 @@ margin: 0;
   padding: 6px 4px;
 
 }.btn-change{
-  left: 10px;
-  right: auto;
+  /* left: 10px;
+  right: auto; */
   top: 110px;
 }
 .navbar{
@@ -250,8 +248,8 @@ margin: 0;
 
 @media only screen and (max-width: 750px){
 .btn-change{
-  left: 10px;
-  right: auto;
+  /* left: 10px;
+  right: auto; */
   top: 110px;
 }
 

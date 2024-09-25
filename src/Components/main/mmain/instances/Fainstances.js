@@ -22,6 +22,10 @@ const FaInstances = (props) => {
     color: props.theme == 'dark' ? 'white' : 'black',
     boxShadow: props.theme == 'dark' ? '0px 5px 15px #22abaf':'0px 2px 15px #47cc97 '
   }
+  const style1 = {
+    background: props.theme=='dark' ? '#52d3d8' : '#98eecc',
+    color: props.theme == 'dark' ? 'white' : 'black',
+  }
 
   const style2 = {
     color: props.theme == 'dark' ? '#52d3d8' : '#58f1b4',
@@ -134,7 +138,7 @@ const FaInstances = (props) => {
    <div  className="slides" style={{ transform: `translateX(-${ width >= 750 ? currentIndex * 450 : width <750 && width>500 ? currentIndex * 520 :  currentIndex * 320}px)` }}>
 
 
-          <div  data-aos="fade-up" className="mb-3 slide">
+          <div  data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">لیست یاداشت ها با نقشه</h4>
             <li className="li" onClick={ showlinks2Handler} >
               <Card className="card" >
@@ -159,7 +163,7 @@ const FaInstances = (props) => {
 
           </div>
 
-          <div data-aos="fade-up" className="mb-3 slide">
+          <div data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">آب و هوا</h4>
             <li className="li" onClick={showlinks7Handler} >
               <Card className="card" >
@@ -184,7 +188,7 @@ const FaInstances = (props) => {
 
           </div >
 
-          <div  data-aos="fade-up" className="mb-3 slide">
+          <div  data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فروشگاه</h4>
             <li className="li" onClick={ showlinks1Handler}>
               <Card className="card " >
@@ -305,155 +309,17 @@ const FaInstances = (props) => {
  </div>
 
         <Container className="mb-3 mb-md-0 mt-3">
-          <Row className="more">
-            <Col >
-              <Link to='/project'><button style={style} className="h ms-lg-1 ms-2 pt-md-1" onClick={props.click}> <span className="faarrow" >&larr;</span> دیدن بیشتر</button></Link>
-            </Col>
-          </Row>
+          {/* <Row className="more"> */}
+            <div  className="mb-4 mb-md-0  mt-4 me-3 me-sm-0">
+              <Link to='/project'><button style={style} className="h ms-lg-1 ms-2 pt-md-1 More " onClick={props.click}> <span className="faarrow" >&larr;</span> دیدن بیشتر</button></Link>
+            </div>
+          {/* </Row> */}
         </Container>
       </div>
    </Container>
-   <button onClick={prevSlide} className="arrows arrow-left" style={style}>&larr; </button>
-       <button onClick={nextSlide} className="arrows arrow-right" style={style}>&rarr;</button>
+   <button onClick={prevSlide} className="arrows arrow-left" style={style1}>&larr; </button>
+       <button onClick={nextSlide} className="arrows arrow-right" style={style1}>&rarr;</button>
     </div>
   )
 }
 export default FaInstances
-
-
-
-// <Row>
-// <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-//   <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فروشگاه</h4>
-//   <li className="li" onClick={ showlinks1Handler}>
-//     <Card className="card " >
-//       <img className="Card-img" src={sell}></img>
-//     </Card>
-//     {showlinks1 ?
-//       <div className="backdrop" >
-//         <Row>
-//           <div className='links'>
-//             <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Online-Market' ><i className="fa fa-github icons"></i> گیت هاب</a></Button>
-//             <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='http://online-market-phi.vercel.app'><i className="fa fa-globe icons"></i> دیدن</a></Button>
-//           </div>
-//         </Row>
-//       </div>
-//       : null}
-//   </li>
-
-//   <p className="card-title">React, API, CSS</p>
-// </Col>
-
-// <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-//   <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">لیست یاداشت ها با نقشه</h4>
-//   <li className="li" onClick={ showlinks2Handler} >
-//     <Card className="card" >
-//       <img className="Card-img " src={mapty}></img>
-//     </Card>
-
-
-//     {showlinks2 ?
-//       <div className="backdrop">
-//         <Row>
-//           <div className='links'  >
-//             <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Mapty-ToDoList'><i className="fa fa-github icons"></i></a> گیت هاب</Button>
-//             <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='https://mapty-gules.vercel.app'><i className="fa fa-globe icons"></i> دیدن</a></Button>
-//           </div>
-//         </Row>
-//       </div>
-//       : null}
-//   </li>
-
-//   <p className="card-title">HTML, CSS, JS(OOP)</p>
-
-
-// </Col>
-
-
-// <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-//   <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">گیم تاس</h4>
-//   <li className='li' onClick={ showlinks3Handler} >
-
-//     <Card className="card"  >
-//       <img className="card-img" src={RandomGame}></img>
-//     </Card>
-
-//     {showlinks3 ?
-//       <div className="backdrop">
-//         <Row>
-//           <div className='links'  >
-//             <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Random-Match-Game'><i className="fa fa-github icons"></i> گیت هاب</a></Button>
-//             <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='https://game-iota-five.vercel.app'><i className="fa fa-globe icons"></i> دیدن</a></Button>
-//           </div>
-//         </Row>
-//       </div>
-//       : null}
-//   </li>
-
-//   <p className="card-title">React, CSS</p>
-// </Col>
-
-// <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-//   <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">اپلیکیشن بانک</h4>
-//   <li className='li' onClick={showlinks4Handler}>
-//     <Card className="card " >
-//       <img className="card-img" src={note}></img>
-//     </Card>
-//     {showlinks4 ?
-//       <div className="backdrop">
-//         <Row>
-//           <div className='links'  >
-//             <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/BankApplication'><i className="fa fa-github icons"></i>گیت هاب</a></Button>
-//             <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/BankApplication/'><i className="fa fa-globe icons"></i></a>دیدن</Button>
-//           </div>
-
-//         </Row>
-//       </div>
-//       : null}
-//   </li>
-
-//   <p className="card-title">HTML, CSS, JS</p>
-// </Col>
-
-// <Col lg={4} md={6} data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3">
-//   <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">ویبسایت معلوماتی</h4>
-//   <li className='li' onClick={ showlinks5Handler}>
-//     <Card className="card" >
-//       <img className="card-img" src={lib}></img>
-//     </Card>
-//     {showlinks5 ?
-//       <div className="backdrop">
-//         <Row>
-//           <div className='links'  >
-//             <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/Bootstrap-Project'><i className="fa fa-github icons"></i> گیت هاب </a></Button>
-//             <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='http://mowaisazizi.github.io/Bootstrap-Project/'><i className="fa fa-globe icons"></i> دیدن</a></Button>
-//           </div>
-//         </Row>
-//       </div>
-//       : null}
-//   </li>
-//   <br />
-//   <br />
-//   <p className="card-title">HTML, CSS, Bootstrap, SCSS</p>
-// </Col>
-
-// <Col lg={4} md={6} data-aos="fade-up" className="mb-3">
-//   <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">کتابخانه</h4>
-//   <li className='li' onClick={ showlinks6Handler}>
-//     <Card className="card" >
-//       <img className="card-img" src={library}></img>
-//     </Card>
-//     {showlinks6 ?
-//       <div className="backdrop">
-//         <Row>
-//           <div className='links'  >
-//             <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/library'><i className="fa fa-github icons"></i> گیت هاب</a></Button>
-//             <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-delay="200"><a href='http://library-isos.vercel.app'><i className="fa fa-globe icons"></i> دیدن</a></Button>
-//           </div>
-//         </Row>
-//       </div>
-//       : null}
-//   </li>
-//   <p className="card-title">React, API, CSS</p>
-// </Col>
-// </Row>
