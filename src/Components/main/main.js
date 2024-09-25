@@ -62,7 +62,7 @@ function Main(props) {
             style={{
               background: props.theme == 'dark' ? '#52d3d8' : '#98eecc',
               color: props.theme == 'dark' ? 'white' : 'black',
-              boxShadow: props.theme == 'dark' ? '3px 3px 10px #22abaf' : '0px 2px 15px #49bc8e',
+              boxShadow: props.theme == 'dark' ? '3px 3px 10px #22abaf' : '0px 1px 15px #49bc8e',
               height: isopen ? 'auto' : '57px'
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links'}>
@@ -90,7 +90,7 @@ function Main(props) {
             style={{
               background: props.theme == 'dark' ? '#52d3d8' : '#98eecc',
               color: props.theme == 'dark' ? 'white' : 'black',
-              boxShadow: props.theme == 'dark' ? '9px 9px 15px #22abaf' : '5px 5px 25px #49bc8e',
+              boxShadow: props.theme == 'dark' ? '3px 3px 10px #22abaf' : '0px 1px 15px #49bc8e',
 
               height: isopen ? 'auto' : '57px'
             }}>
