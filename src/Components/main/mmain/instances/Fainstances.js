@@ -309,11 +309,9 @@ const FaInstances = (props) => {
  </div>
 
         <Container className="mb-3 mb-md-0 mt-3">
-          {/* <Row className="more"> */}
             <div  className="mb-4 mb-md-0  mt-4 me-3 me-sm-0">
               <Link to='/project'><button style={style} className="h ms-lg-1 ms-2 pt-md-1 More " onClick={props.click}> <span className="faarrow" >&larr;</span> دیدن بیشتر</button></Link>
             </div>
-          {/* </Row> */}
         </Container>
       </div>
    </Container>
