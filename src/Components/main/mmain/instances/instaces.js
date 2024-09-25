@@ -146,7 +146,7 @@ const Instances = ({theme}) => {
         <div className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 450 : width <700 && width>500 ? currentIndex * 520 :  currentIndex * 365}px)` }}>
          
 
-          <div data-aos="fade-up" className="mb-3 slide">
+          <div data-aos="fade-up" className="mb-3 slide" data-aos-duration="1000">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mapty-ToDO-list</h4>
             <li className="li" onClick={showlinks2Handler} >
               <Card className="card" >
@@ -171,7 +171,7 @@ const Instances = ({theme}) => {
 
           </div >
 
-          <div data-aos="fade-up" className="mb-3 slide">
+          <div data-aos="fade-up" className="mb-3 slide" data-aos-duration="1000">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Weather-App</h4>
             <li className="li" onClick={showlinks7Handler} >
               <Card className="card" >
@@ -196,7 +196,7 @@ const Instances = ({theme}) => {
 
           </div >
 
-          <div data-aos="fade-up" className="mb-3 slide">
+          <div data-aos="fade-up" className="mb-3 slide" data-aos-duration="1000">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Shopping App</h4>
             <li className="li" onClick={showlinks1Handler}>
               <Card className="card" >
@@ -313,11 +313,9 @@ const Instances = ({theme}) => {
 
  </div>
         <Container className="">
-          {/* <Row className="more" > */}
             <div className="mb-3 mb-md-0  mt-4 me-3 me-sm-0">
               <Link to='/project'>  <button style={style} className="h ms-lg-1 ms-2 py-md-1" >See More <span className="arrow">&rarr;</span></button></Link>
             </div>
-          {/* </Row> */}
         </Container>
 
       </div>
