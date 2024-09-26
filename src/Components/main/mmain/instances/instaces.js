@@ -105,7 +105,6 @@ const Instances = ({theme}) => {
   }
 
   const [currentIndex, setCurrentIndex] = useState(0)
-  const[AcitveDots,setAcitveDots] = useState(0)
   const [width,setWidth] = useState(window.innerWidth)  
   
 
@@ -122,17 +121,14 @@ const Instances = ({theme}) => {
 
   function nextSlide() {
     setCurrentIndex(preIndex => preIndex==images.length ? preIndex = 0 : (preIndex + 1) % images.length)
-    setAcitveDots(cur=>cur+1)
   }
   
   function prevSlide() {
     setCurrentIndex(preIndex => preIndex === 0 ? width >= 750 ? images.length - 3 : images.length - 1 : preIndex - 1)
-    setAcitveDots(cur=>cur-1)
   }
 
   function acitveHandler(active){    
     setCurrentIndex(active)
-    setAcitveDots(active)
     
   }
 
@@ -144,7 +140,7 @@ const Instances = ({theme}) => {
 
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">My  Projects Instances</h2>
 
-        <div className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 436 : width <700 && width>500 ? currentIndex * 520 : width <500 && width>400 ? currentIndex * 480 :currentIndex * 370}px)` }}>
+        <div className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 436 : width <700 && width>500 ? currentIndex * 520 : width <500 && width>400 ? currentIndex * 480 :currentIndex * 375}px)` }}>
          
 
           <div data-aos="fade-up" className="mb-3 slide" data-aos-duration="1000">

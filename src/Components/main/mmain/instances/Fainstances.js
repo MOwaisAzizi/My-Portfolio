@@ -96,7 +96,6 @@ const FaInstances = (props) => {
 
 
   const [currentIndex, setCurrentIndex] = useState(0)
-  const[AcitveDots,setAcitveDots] = useState(0)
   const [width,setWidth] = useState(window.innerWidth)  
   
 
@@ -113,17 +112,14 @@ const FaInstances = (props) => {
 
   function nextSlide() {
     setCurrentIndex(preIndex => preIndex==images.length ? preIndex = 0 : (preIndex + 1) % images.length)
-    setAcitveDots(cur=>cur+1)
   }
   
   function prevSlide() {
     setCurrentIndex(preIndex => preIndex === 0 ?  width >= 850 ? images.length - 2 : images.length - 1 : preIndex - 1)
-    setAcitveDots(cur=>cur-1)
   }
 
   function acitveHandler(active){    
     setCurrentIndex(active)
-    setAcitveDots(active)
     
   }
 
@@ -134,7 +130,7 @@ const FaInstances = (props) => {
    <div className="pb-3 slider">
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">نمونه های پروژه های من</h2>
 
-   <div  className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 436 : width <700 && width>500 ? currentIndex * 520 : width <500 && width>400 ? currentIndex * 480 :currentIndex * 370}px)` }}>
+   <div  className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 436 : width <700 && width>500 ? currentIndex * 520 : width <500 && width>400 ? currentIndex * 480 :currentIndex * 375}px)` }}>
 
 
       
