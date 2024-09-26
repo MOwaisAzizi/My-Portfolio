@@ -3,19 +3,18 @@ import mapty from './Mapty.png'
 import RandomGame from './RandomGame.png'
 import note from './note.png'
 import sell from './sell.png'
-import lib from './lib.png'
 import library from './library.png'
 import weather from './weather.png'
 import Movie from './movie.png'
 import './instance.css'
-import { Card, Row, Col, Container, Button } from "react-bootstrap";
+import { Card, Row, Container, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 
 
 
 const FaInstances = (props) => {
-  const images = [note, sell, lib, library, mapty, RandomGame,weather,Movie]
+  const images = [note, sell, library, mapty, RandomGame,weather,Movie]
 
   const style = {
     background: props.theme=='dark' ? '#52d3d8' : '#98eecc',
@@ -135,7 +134,7 @@ const FaInstances = (props) => {
    <div className="pb-3 slider">
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">نمونه پروژه های من</h2>
         {/* <Row> */}
-   <div  className="slides" style={{ transform: `translateX(-${ width >= 750 ? currentIndex * 450 : width <750 && width>500 ? currentIndex * 520 :  currentIndex * 330}px)` }}>
+   <div  className="slides" style={{ transform: `translateX(-${ width >= 750 ? currentIndex * 450 : width <750 && width>500 ? currentIndex * 520 :  currentIndex * 345}px)` }}>
 
 
           <div  data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
