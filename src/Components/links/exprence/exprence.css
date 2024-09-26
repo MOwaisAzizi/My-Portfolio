@@ -32,7 +32,6 @@ padding-right: 5px;
   margin: 0;
   padding: 0;
   margin-left: 15px;
-  /* padding-left: 10px; */
 }
 .exp-ul-fa li::before {
   content: '✔';
