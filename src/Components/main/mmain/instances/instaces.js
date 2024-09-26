@@ -158,8 +158,8 @@ const Instances = ({theme}) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/Mapty-ToDoList'>Github <i style={style2}  className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='https://mapty-gules.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Mapty-ToDoList'>Github <i style={style2}  className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://mapty-gules.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -183,8 +183,8 @@ const Instances = ({theme}) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/Weather-App'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='https://weather-app-delta-ebon.vercel.app/'>Visit <i  style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Weather-App'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://weather-app-delta-ebon.vercel.app/'>Visit <i  style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -207,8 +207,8 @@ const Instances = ({theme}) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/Online-Market'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='http://online-market-phi.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Online-Market'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='http://online-market-phi.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -230,8 +230,8 @@ const Instances = ({theme}) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/Random-Match-Game'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='https://game-iota-five.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Random-Match-Game'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://game-iota-five.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -250,8 +250,8 @@ const Instances = ({theme}) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2 " data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/BankApplication'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='http://mowaisazizi.github.io/BankApplication/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2 " data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/BankApplication'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='http://mowaisazizi.github.io/BankApplication/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>
 
                   </Row>
@@ -272,8 +272,8 @@ const Instances = ({theme}) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a className="ps-1" href='https://github.com/MOwaisAzizi/MoveList-app'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a className="ps-1" href='https://movielist-phi.vercel.app/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/MoveList-app'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://movielist-phi.vercel.app/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -293,8 +293,8 @@ const Instances = ({theme}) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/library' className="ps-1">Github<i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-delay="200"><a href='http://library-isos.vercel.app' className="ps-1">Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/library' className="ps-1">Github<i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a href='http://library-isos.vercel.app' className="ps-1">Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
