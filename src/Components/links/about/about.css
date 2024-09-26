@@ -10,7 +10,7 @@
 }
 .center {
   text-align: center;
-  line-height: 6vh;
+  line-height:2.5rem
 }
 .btn-primary-cv{
   border-radius: 25px;
@@ -42,15 +42,22 @@
 .about p {
   padding: 1vh 2vh 0.5vh 2vh;
 }
+
+
 @media screen and (max-width: 768px) {
   .about img {
     width: 100%;
     height: 90vh;
   }.center {
-    line-height: 4.25vh;
+    line-height: 2rem;
     text-align:start;
   }
 }
+@media screen and (max-width: 575px) {
+  .center {
+      line-height: 1.7rem;
+  }
+    }
 @media screen and (max-width: 360px) {
   .about img {
     width: 100%;
@@ -68,6 +75,5 @@
   text-align: center;
 }
 .a-btn {
-  /* color: white; */
   text-decoration: none;
 }
