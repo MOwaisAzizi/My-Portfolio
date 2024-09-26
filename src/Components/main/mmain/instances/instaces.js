@@ -144,33 +144,8 @@ const Instances = ({theme}) => {
 
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">My  Projects Instances</h2>
 
-        <div className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 436 : width <700 && width>500 ? currentIndex * 520 : width <500 && width>400 ? currentIndex * 480 :currentIndex * 365}px)` }}>
+        <div className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 436 : width <700 && width>500 ? currentIndex * 520 : width <500 && width>400 ? currentIndex * 480 :currentIndex * 370}px)` }}>
          
-
-          <div data-aos="fade-up" className="mb-3 slide" data-aos-duration="1000">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mapty-ToDO-list</h4>
-            <li className="li" onClick={showlinks2Handler} >
-              <Card className="card" >
-                <img className="Card-img " src={mapty}></img>
-              </Card>
-
-              { showlinks2 ?
-                <div className="backdrop">
-                  <Row>
-                    <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Mapty-ToDoList'>Github <i style={style2}  className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://mapty-gules.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
-                    </div>
-                  </Row>
-                </div>
-                : null}
-            </li>
-            <br/>
-
-            <p className="card-title">HTML, CSS, JS(OOP)</p>
-
-
-          </div >
 
           <div data-aos="fade-up" className="mb-3 slide" data-aos-duration="1000">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Weather-App</h4>
@@ -193,6 +168,32 @@ const Instances = ({theme}) => {
             <br/>
 
             <p className="card-title">React, CSS, API</p>
+
+
+          </div >
+
+          
+          <div data-aos="fade-up" className="mb-3 slide" data-aos-duration="1000">
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mapty-ToDO-list</h4>
+            <li className="li" onClick={showlinks2Handler} >
+              <Card className="card" >
+                <img className="Card-img " src={mapty}></img>
+              </Card>
+
+              { showlinks2 ?
+                <div className="backdrop">
+                  <Row>
+                    <div className='links'  >
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Mapty-ToDoList'>Github <i style={style2}  className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://mapty-gules.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                    </div>
+                  </Row>
+                </div>
+                : null}
+            </li>
+            <br/>
+
+            <p className="card-title">HTML, CSS, JS(OOP)</p>
 
 
           </div >

@@ -133,34 +133,11 @@ const FaInstances = (props) => {
    <Container className="contain">
    <div className="pb-3 slider">
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">نمونه های پروژه های من</h2>
-        {/* <Row> */}
-   <div  className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 436 : width <700 && width>500 ? currentIndex * 520 : width <500 && width>400 ? currentIndex * 480 :currentIndex * 365}px)` }}>
+
+   <div  className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 436 : width <700 && width>500 ? currentIndex * 520 : width <500 && width>400 ? currentIndex * 480 :currentIndex * 370}px)` }}>
 
 
-          <div  data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">لیست یاداشت ها با نقشه</h4>
-            <li className="li" onClick={ showlinks2Handler} >
-              <Card className="card" >
-                <img className="Card-img " src={mapty}></img>
-              </Card>
-
-
-              {showlinks2 ?
-                <div className="backdrop">
-                  <div>
-                    <div className='links'  >
-                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Mapty-ToDoList'><i style={style2} className="fa fa-github icons"></i></a> گیت هاب</Button>
-                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-duration="500"><a href='https://mapty-gules.vercel.app'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
-                    </div>
-                  </div>
-                </div>
-                : null}
-            </li>
-
-            <p className="card-title">HTML, CSS, JS(OOP)</p>
-
-
-          </div>
+      
 
           <div data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">آب و هوا</h4>
@@ -186,6 +163,31 @@ const FaInstances = (props) => {
 
 
           </div >
+
+          <div  data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">لیست یاداشت ها با نقشه</h4>
+            <li className="li" onClick={ showlinks2Handler} >
+              <Card className="card" >
+                <img className="Card-img " src={mapty}></img>
+              </Card>
+
+
+              {showlinks2 ?
+                <div className="backdrop">
+                  <div>
+                    <div className='links'  >
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Mapty-ToDoList'><i style={style2} className="fa fa-github icons"></i></a> گیت هاب</Button>
+                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-duration="500"><a href='https://mapty-gules.vercel.app'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
+                    </div>
+                  </div>
+                </div>
+                : null}
+            </li>
+
+            <p className="card-title">HTML, CSS, JS(OOP)</p>
+
+
+          </div>
 
           <div  data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فروشگاه</h4>
