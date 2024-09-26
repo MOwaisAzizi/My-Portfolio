@@ -142,7 +142,7 @@ const Instances = ({theme}) => {
 <Container className=" contain"> 
    <div className="pb-md-3 pb-1 slider ">
 
-        <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">My Instance Projecs</h2>
+        <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">My  Projects Instances</h2>
 
         <div className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 450 : width <700 && width>500 ? currentIndex * 520 :  currentIndex * 365}px)` }}>
          

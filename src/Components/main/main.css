@@ -77,11 +77,11 @@ margin: 0;
 .logo{
   font-family: 'Rfont';
   cursor: pointer;
-  font-size: 28px;
+  font-size: 30px;
   margin-top: 0px;
   position: fixed;
   right: 3rem;
-  top: 0.2rem;
+  top: 0.10rem;
   color: inherit;
   z-index: 2000
 
@@ -89,10 +89,10 @@ margin: 0;
 .logoFa{
   font-family: 'myFont';
   cursor: pointer;
-  font-size: 30px;
+  font-size: 32px;
   position: fixed;
   left: 4rem;
-  top: 0.2rem;
+  top: 0.10rem;
   color: inherit;
   z-index: 2000
 
@@ -140,7 +140,7 @@ margin: 0;
 
   }
   .Navfarsi li:hover{
-    font-size: 24px;
+    font-size: 23.5px;
     transition: 0.35s all;
   }
   .btn-change{
@@ -211,8 +211,6 @@ margin: 0;
 .en{
   padding: 6px 4px;
 
-}.btn-change{
-  top: 110px;
 }
 .navbar{
   width: 100vw;
@@ -246,7 +244,7 @@ margin: 0;
 
 @media only screen and (max-width: 750px){
 .btn-change{
-  top: 107px;
+  top: 104px;
 }
 
 @keyframes example {

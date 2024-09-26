@@ -22,7 +22,7 @@ const About = (props) => {
                 <br />
                 <div className="cvdiv mt-3" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
                   <button style={{background: props.theme == 'dark' ? '#02f5fd': '#98eecc', boxShadow:props.theme == 'dark' ? '6px 6px 15px #22abaf':'5px 5px 25px #49bc8e'}} 
-                  className="mb-2 mt-2 btn-primary-cv px-3 py-1 px-md-3 py-md-1 btn-down"  ><a style={{color: props.theme == 'dark' ?'white': 'black',}} className="a-btn" href={CV} download='CV'>Download CV <FaDownload /></a></button>
+                  className="mb-2 mt-2 btn-primary-cv px-3 py-1  btn-down"  ><a style={{color: props.theme == 'dark' ?'white': 'black',}} className="a-btn" href={CV} download='CV'>Download CV <FaDownload /></a></button>
                 </div>
               </p>
 
