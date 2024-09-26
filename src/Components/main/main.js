@@ -23,7 +23,7 @@ import { FaArrowDown } from 'react-icons/fa';
 import 'font-awesome/css/font-awesome.min.css'
 
 
-function Main(props) {
+function Main({theme}) {
   const [isenglish, setisenglish] = useState(true)
   const [isopen, setisopen] = useState(false)
 
@@ -35,8 +35,8 @@ function Main(props) {
   }
 
   const style2 = {
-    background: props.theme == 'dark' ? '#52d3d8' : '#98eecc',
-    color: props.theme == 'dark' ? 'white' : 'black',
+    background: theme == 'dark' ? '#52d3d8' : '#98eecc',
+    color: theme == 'dark' ? 'white' : 'black',
   }
 
   const home = useRef(null);
@@ -60,9 +60,9 @@ function Main(props) {
         isenglish ?
           <nav className='navbar'
             style={{
-              background: props.theme == 'dark' ? '#52d3d8' : '#98eecc',
-              color: props.theme == 'dark' ? 'white' : 'black',
-              boxShadow: props.theme == 'dark' ? '3px 3px 10px #22abaf' : '0px 1px 15px #49bc8e',
+              background: theme == 'dark' ? '#52d3d8' : '#98eecc',
+              color: theme == 'dark' ? 'white' : 'black',
+              boxShadow: theme == 'dark' ? '3px 3px 10px #22abaf' : '0px 1px 15px #49bc8e',
               height: isopen ? 'auto' : '57px'
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links'}>
@@ -88,9 +88,9 @@ function Main(props) {
 
           <nav className=' faNavbar faMain '
             style={{
-              background: props.theme == 'dark' ? '#52d3d8' : '#98eecc',
-              color: props.theme == 'dark' ? 'white' : 'black',
-              boxShadow: props.theme == 'dark' ? '3px 3px 10px #22abaf' : '0px 1px 15px #49bc8e',
+              background: theme == 'dark' ? '#52d3d8' : '#98eecc',
+              color: theme == 'dark' ? 'white' : 'black',
+              boxShadow: theme == 'dark' ? '3px 3px 10px #22abaf' : '0px 1px 15px #49bc8e',
 
               height: isopen ? 'auto' : '57px'
             }}>
@@ -141,7 +141,7 @@ function Main(props) {
                       Should you require assistance? please feel free to contact me through any of the provided ways: <br />
                       <div className='phone mb-1 mb-md-0' data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2"
-                          style={{ background: props.theme == 'dark' ? '#02f5fd' : '#98eecc', color: props.theme == 'dark' ? 'white' : 'black', boxShadow: props.theme == 'dark' ? '6px 6px 15px #22abaf' : '5px 5px 25px #49bc8e' }} >Contact Me <FaArrowDown /></button></span>
+                          style={{ background: theme == 'dark' ? '#02f5fd' : '#98eecc', color: theme == 'dark' ? 'white' : 'black', boxShadow: theme == 'dark' ? '6px 6px 15px #22abaf' : '5px 5px 25px #49bc8e' }} >Contact Me <FaArrowDown /></button></span>
                       </div>
                     </p>
                   </div> :
@@ -151,7 +151,7 @@ function Main(props) {
                     <p className='p-1 ms-3 ms-sm-0 ' >در شهر هرات زندگی میکند و در حال آموختن رشته کمپیوتر ساینس در دانشگاه هرات است.آیا به کمک ضرورت دارید ؟ اگر بلی میتوانید از راه های زیر با من تماس بگیرید <br />
                       <div className='phone mb-4 mb-md-0' data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2"
-                          data-aos-delay="800" style={{ background: props.theme == 'dark' ? '#02f5fd' : '#98eecc', color: props.theme == 'dark' ? 'white' : 'black', boxShadow: props.theme == 'dark' ? '6px 6px 15px #22abaf' : '5px 5px 25px #49bc8e' }} > <FaArrowDown /> ارتباط با من  </button></span>
+                          data-aos-delay="800" style={{ background: theme == 'dark' ? '#02f5fd' : '#98eecc', color: theme == 'dark' ? 'white' : 'black', boxShadow: theme == 'dark' ? '6px 6px 15px #22abaf' : '5px 5px 25px #49bc8e' }} > <FaArrowDown /> ارتباط با من  </button></span>
 
                       </div>
                     </p>
@@ -175,11 +175,11 @@ function Main(props) {
 
       <div onClick={() => setisopen(false)}>
         <div ref={instace}> {isenglish ?
-          <Instances theme={props.theme} /> : <FaInstances theme={props.theme} />}</div>
-        <div ref={about}> {isenglish ? <About theme={props.theme} /> : <Faabout theme={props.theme} />}</div>
+          <Instances theme={theme} /> : <FaInstances theme={theme} />}</div>
+        <div ref={about}> {isenglish ? <About theme={theme} /> : <Faabout theme={theme} />}</div>
         <div ref={exprence}> {isenglish ? <Exprence /> : <FaExprence />}</div>
-        <div ref={ablity}> {isenglish ? <Ablity theme={props.theme} /> : <FaAblity theme={props.theme} />}</div>
-        <div ref={contact}> {isenglish ? <Contact theme={props.theme} click={() => scrollToSection(home)} refResult={home} /> : <FaContact theme={props.theme} click={() => scrollToSection(home)} refResult={home} />}</div>
+        <div ref={ablity}> {isenglish ? <Ablity theme={theme} /> : <FaAblity theme={theme} />}</div>
+        <div ref={contact}> {isenglish ? <Contact theme={theme} click={() => scrollToSection(home)} refResult={home} /> : <FaContact theme={theme} click={() => scrollToSection(home)} refResult={home} />}</div>
       </div>
 
 
