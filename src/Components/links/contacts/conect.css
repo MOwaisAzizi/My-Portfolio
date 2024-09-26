@@ -47,37 +47,46 @@ label {
   display: flex;
   margin: auto;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 15px;
   width: 16rem;
   font-size: 22px;
-  /* border: solid 1px black; */
 }
 .dlinks i {
   color: white;
   border-radius: 50%;
-  padding: 8px;
+  padding: 0px;
+  margin: 0;
 }
 .dlinks .face{
  background-color: rgb(51, 51, 249);
  color: white;
+ padding: 5px 7px;
+
 }
 .dlinks  .telegram{
 color: rgb(70, 124, 225);
 background-color: white;
+margin-top: 2px;
+font-size: 29px;
  }
  .dlinks .whatsapp{
   background-color: rgb(13, 238, 13);
   color: white;
+ padding: 6px;
+
  }
  .dlinks .github{
   color: black;
   background-color: white;
-  /* padding: 0;
-  margin: 0; */
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
  }
  .dlinks .linkedin{
   background-color: rgb(8, 8, 209);
   color: white;
+ padding: 6px;
+
  }
  .goTop{
   background-color: rgb(58, 58, 243);
@@ -107,7 +116,5 @@ background-color: white;
     font-size: 20px;
   width: 13rem;
 
-}  .dlinks i {
-padding: 5px;
-}
+} 
 }
