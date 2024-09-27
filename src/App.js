@@ -1,4 +1,4 @@
-import React, { useEffect, useState,useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'font-awesome/css/font-awesome.min.css'
 import './App.css'
@@ -13,30 +13,26 @@ const App = () => {
     const [theme, toggleTheme] = UseDarkMode()
 
     let content = (
-            <div className='app'
+        <div className='app'
             style={{
                 background: theme == 'dark' ? '#121212' : '#fff8e8',
                 color: theme == 'dark' ? 'white' : 'black'
             }}>
             {
-            
                 theme == 'dark' ?
                     <i onClick={toggleTheme}><a className="fa fa-sun icon2" ></a></i>
 
                     :
                     <i onClick={toggleTheme}><a className="fa fa-moon icon1" ></a></i>
-                   
             }
 
-
-
-       <Router>
+            <Router>
                 <Routes>
                     <Route path="/" element={<Main theme={theme} />}></Route>
-                    <Route path="/project" element={<Project theme = {theme}/>}   ></Route>
+                    <Route path="/project" element={<Project theme={theme} />}   ></Route>
                 </Routes>
             </Router>
-   
+
 
 
         </div>

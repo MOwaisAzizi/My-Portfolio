@@ -5,17 +5,17 @@ import emailjs from '@emailjs/browser'
 import Linkicon from "../../linkicons/linkicon";
 import { FaPaperPlane } from 'react-icons/fa'
 
-const FaContact = ({theme,refResult,click}) => {
+const FaContact = ({ theme, refResult, click }) => {
 
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_wbk8n58', 'template_cd72onu', e.target, 'D6YlJfjXbdiipAnl2')
   }
 
-  const style={
-    background: theme == 'dark' ?'#52d3d8': '#98eecc',
+  const style = {
+    background: theme == 'dark' ? '#52d3d8' : '#98eecc',
     color: theme == 'dark' ? 'white' : 'black',
-    boxShadow:theme == 'dark' ? '7px 7px 15px #22abaf':'5px 5px 15px #49bc8e'
+    boxShadow: theme == 'dark' ? '7px 7px 15px #22abaf' : '5px 5px 15px #49bc8e'
 
   }
 
@@ -36,12 +36,12 @@ const FaContact = ({theme,refResult,click}) => {
         </div>
 
         <div className="dlinks" style={{ direction: 'ltr' }}>
-        <a iconlink='https://github.com/MOwaisAzizi'>  <i className="fa fa-github github" > </i> </a>
+          <a iconlink='https://github.com/MOwaisAzizi'>  <i className="fa fa-github github" > </i> </a>
           <a href='http://www.facebook.com/mowais.azizi'>  <i className="fa fa-facebook face" > </i> </a>
           <a href='https://t.me/EngOwais'>  <i className="fa fa-telegram telegram" > </i> </a>
           <a href='https://www.linkedin.com/in/m-owais-azizi-7440532b4'>  <i className="fa fa-linkedin linkedin" > </i> </a>
           <a href='https://wa.me/93798267860'>  <i className="fa fa-whatsapp whatsapp" > </i> </a>
-         
+
           <br />
         </div>
       </Container>

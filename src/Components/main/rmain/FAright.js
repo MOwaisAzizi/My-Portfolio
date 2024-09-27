@@ -12,13 +12,13 @@ class Faright extends React.Component {
 
   render() {
     return (
-      <div className='rightmain faRight mt-2 mt-md-3 mt-lg-0 ms-2 ms-lg-0 mb-5 mb-lg-0' style={{direction:'rtl'}}>
+      <div className='rightmain faRight mt-2 mt-md-3 mt-lg-0 ms-2 ms-lg-0 mb-5 mb-lg-0' style={{ direction: 'rtl' }}>
         <Row>
           <Col >
             <b> <h2 id='right' className=''> </h2></b>
             <p className=''>
-            یک توسعه دهنده فرانت اند که بالای نوشتن کود های عمیق، پاک، ظریف و تاثیر گذار متمرکز <br/> است.
-                 <br /> </p>
+              یک توسعه دهنده فرانت اند که بالای نوشتن کود های عمیق، پاک، ظریف و تاثیر گذار متمرکز <br /> است.
+              <br /> </p>
           </Col>
         </Row>
       </div>

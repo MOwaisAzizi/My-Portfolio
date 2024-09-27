@@ -2,14 +2,14 @@ import React, { useEffect, useRef } from "react";
 import './ablity.css'
 import { Container } from "react-bootstrap";
 
-const Ablity = ({theme}) => {
+const Ablity = ({ theme }) => {
 
-  const style={
-    background: theme == 'dark' ?'#52d3d8': '#98eecc',
+  const style = {
+    background: theme == 'dark' ? '#52d3d8' : '#98eecc',
     color: theme == 'dark' ? 'white' : 'black',
-    boxShadow:theme == 'dark' ? '7px 7px 15px #22abaf':'5px 5px 15px #49bc8e'
+    boxShadow: theme == 'dark' ? '7px 7px 15px #22abaf' : '5px 5px 15px #49bc8e'
   }
-  
+
   const animatedRef1 = useRef(null)
   const animatedRef2 = useRef(null)
   const animatedRef3 = useRef(null)
@@ -89,7 +89,7 @@ const Ablity = ({theme}) => {
 
   return (
     <Container className="pb-5 mt-5">
-      <div  >
+      <div className="pt-sm-4 pt-1" >
         <div class="skills">
           <h1>My Skills</h1>
 
@@ -103,65 +103,63 @@ const Ablity = ({theme}) => {
           </li>
 
           <li className="p">
-             <span>J</span><span>a</span><span>v</span><span>a</span><span>s</span><span>c</span><span>r</span><span>p</span><span>t</span>
+            <span>J</span><span>a</span><span>v</span><span>a</span><span>s</span><span>c</span><span>r</span><span>p</span><span>t</span>
 
             <div class="bar"><div class="animation " ref={animatedRef3}></div></div>
           </li>
 
           <li className="p">
-          <span>b</span><span>o</span><span>o</span><span>t</span><span>s</span><span>t</span><span>r</span><span>a</span><span>p</span>
+            <span>b</span><span>o</span><span>o</span><span>t</span><span>s</span><span>t</span><span>r</span><span>a</span><span>p</span>
 
             <div class="bar"><div class="animation" ref={animatedRef4}></div></div>
           </li>
 
           <li className="p">
-          <span>R</span><span>e</span><span>a</span><span>c</span><span>t</span>
+            <span>R</span><span>e</span><span>a</span><span>c</span><span>t</span>
 
             <div class="bar"><div class="animation" ref={animatedRef5}></div></div>
           </li>
 
           <li className="p">
-          <span>A</span><span>P</span><span>I</span>
+            <span>A</span><span>P</span><span>I</span>
 
             <div class="bar"><div class="animation" ref={animatedRef6}></div></div>
           </li>
 
           <li className="p">
-          <span>M</span><span>y</span><span>S</span><span>q</span><span>l</span>
+            <span>M</span><span>y</span><span>S</span><span>q</span><span>l</span>
 
             <div class="bar"><div class="animation" ref={animatedRef7}></div></div>
           </li>
 
           <li className="p">
-          <span>J</span><span>a</span><span>v</span><span>a</span>
+            <span>J</span><span>a</span><span>v</span><span>a</span>
 
             <div class="bar"><div class="animation" ref={animatedRef9}></div></div>
           </li>
 
           <li className="p">
-          <span>I</span><span>C</span><span>D</span><span>L</span>
+            <span>I</span><span>C</span><span>D</span><span>L</span>
             <div class="bar"><div class="animation" ref={animatedRef8}></div></div>
           </li>
         </div>
 
-
-
         <h2 className="h2Lang"><b>Languages</b></h2>
         <div className="skills mb-5 mb-md-5">
-          <li className="p">
-          <span>F</span><span>a</span><span>r</span><span>s</span><span>i</span>
+          <li className="p" style={{ marginTop: '0px' }}>
+            <span>F</span><span>a</span><span>r</span><span>s</span><span>i</span>
 
             <div class="bar"><div class="animation" ref={animatedRef10}></div></div>
           </li>
 
           <li className="p">
-          <span>E</span><span>n</span><span>g</span><span>l</span><span>i</span><span>s</span><span>h</span>
+            <span>E</span><span>n</span><span>g</span><span>l</span><span>i</span><span>s</span><span>h</span>
 
             <div class="bar"><div class="animation" ref={animatedRef11}></div></div>
           </li>
 
           <li className="p">
-          <span>P</span><span>a</span><span>s</span><span>h</span><span>t</span><span>o</span>
+            <span>P</span><span>a</span><span>s</span><span>h</span><span>t</span><span>o</span>
 
             <div class="bar"><div class="animation" ref={animatedRef12}></div></div>
           </li>

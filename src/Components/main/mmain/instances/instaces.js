@@ -144,7 +144,7 @@ const Instances = ({theme}) => {
          
 
           <div data-aos="fade-up" className="mb-3 slide" data-aos-duration="1000">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Weather-App</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Weather-App</h5>
             <li className="li" onClick={showlinks7Handler} >
               <Card className="card" >
                 <img className="Card-img " src={weather}></img>
@@ -170,7 +170,7 @@ const Instances = ({theme}) => {
 
           
           <div data-aos="fade-up" className="mb-3 slide" data-aos-duration="1000">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mapty-ToDO-list</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mapty-ToDO-list</h5>
             <li className="li" onClick={showlinks2Handler} >
               <Card className="card" >
                 <img className="Card-img " src={mapty}></img>
@@ -195,7 +195,7 @@ const Instances = ({theme}) => {
           </div >
 
           <div data-aos="fade-up" className="mb-3 slide" data-aos-duration="1000">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Shopping App</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Shopping App</h5>
             <li className="li" onClick={showlinks1Handler}>
               <Card className="card" >
                 <img className="Card-img" src={sell}></img>
@@ -216,7 +216,7 @@ const Instances = ({theme}) => {
           </div >
 
           <div data-aos="fade-up" className="mb-3 slide">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Dice Game</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Dice Game</h5>
             <li className='li' onClick={showlinks3Handler} >
 
               <Card className="card"  >
@@ -238,7 +238,7 @@ const Instances = ({theme}) => {
           </div >
 
           <div data-aos="fade-up" className="mb-3 slide">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Bank Application</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Bank Application</h5>
             <li className='li' onClick={showlinks4Handler}>
               <Card className="card " >
                 <img className="card-img" src={note}></img>
@@ -260,7 +260,7 @@ const Instances = ({theme}) => {
           </div >
 
           <div data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3 slide">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Movie-App</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Movie-App</h5>
             <li className='li' onClick={showlinks8Handler}>
               <Card className="card" >
                 <img className="card-img" src={Movie}></img>
@@ -281,7 +281,7 @@ const Instances = ({theme}) => {
 
 
           <div data-aos="fade-up" className="mb-3 slide">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Library</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Library</h5>
             <li className='li' onClick={showlinks6Handler}>
               <Card className="card" >
                 <img className="card-img" src={library}></img>
@@ -302,7 +302,7 @@ const Instances = ({theme}) => {
 
         </div>
 
-        <div className="mt-md-4 mt-3 activeContainer">
+        <div className="mt-md-3 mt-3 activeContainer">
  {Array.from({length:images.length},(_,i)=>i).map((acitve,index)=>{
           return (
             <span  className={currentIndex == index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:theme=='dark' ?'#52d3d8' :'#98eecc' }}>.</span></span>
@@ -311,7 +311,7 @@ const Instances = ({theme}) => {
 
  </div>
         <Container className="">
-            <div className="mb-3 mb-md-0  mt-4 me-3 me-sm-0">
+            <div className="mb-3 mb-md-0  mt-3 me-3 me-sm-0">
               <Link to='/project'>  <button style={style} className="h ms-lg-1 ms-2 py-md-1 py-1 More" >See More <span className="arrow">&rarr;</span></button></Link>
             </div>
         </Container>

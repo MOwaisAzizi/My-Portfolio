@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'myFont';
-  src: url('../../../public/FarsiFont/Vazir.ttf');
+  font-family: "myFont";
+  src: url("../../../public/FarsiFont/Vazir.ttf");
 }
 @font-face {
-  font-family: 'Rfont';
-  src: url('../../../public/fonts/XanhMono-Regular.ttf');
+  font-family: "Rfont";
+  src: url("../../../public/fonts/XanhMono-Regular.ttf");
 }
 .faMain {
-  font-family: 'myFont';
+  font-family: "myFont";
 }
 
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -20,43 +20,42 @@
   width: 100%;
   padding-right: 0;
 }
-#section1{
-padding: 0;
-margin: 0;
+#section1 {
+  padding: 0;
+  margin: 0;
 }
 
-.navbar{
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 20000;
   width: 100%;
-  box-shadow: 5px 5px 25px rgba(0, 0,0, 0.07);
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.07);
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   height: 60px;
   background-color: rgb(107, 107, 107);
   padding: 0;
-  
 }
-.faNavbar{
+.faNavbar {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 20000;
   width: 100%;
-  box-shadow: 5px 5px 25px rgba(0, 0,0, 0.07);
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.07);
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   height: 60px;
   direction: rtl;
   padding: 0;
   width: 100%;
 }
 
-.navbar-links{
+.navbar-links {
   margin-top: 6px;
   font-size: 20px;
   display: flex;
@@ -64,45 +63,43 @@ margin: 0;
   align-items: center;
   justify-content: start;
   list-style: none;
-  padding: 0 0 0 0; 
+  padding: 0 0 0 0;
   margin-left: 5rem;
   gap: 2.5rem;
   padding-top: 8px;
   z-index: 500;
-
-}.Navfarsi{
- margin-right: 6rem;
- font-size: 22px;
- margin-top: 11px;
+}
+.Navfarsi {
+  margin-right: 6rem;
+  font-size: 22px;
+  margin-top: 11px;
 }
 
-.logo{
-  font-family: 'Rfont';
+.logo {
+  font-family: "Rfont";
   cursor: pointer;
   font-size: 30px;
   margin-top: 0px;
   position: fixed;
   right: 3rem;
-  top: 0.10rem;
+  top: 0.1rem;
   color: inherit;
-  z-index: 2000
-
+  z-index: 2000;
 }
-.logoFa{
-  font-family: 'myFont';
+.logoFa {
+  font-family: "myFont";
   cursor: pointer;
   font-size: 32px;
   position: fixed;
   left: 4rem;
-  top: 0.10rem;
+  top: 0.1rem;
   color: inherit;
-  z-index: 2000
-
+  z-index: 2000;
 }
-.navbar-links li{
+.navbar-links li {
   cursor: pointer;
 }
-.navbartoggle{
+.navbartoggle {
   display: none;
   cursor: pointer;
   font-size: 1.5rem;
@@ -110,16 +107,15 @@ margin: 0;
   position: fixed;
   left: 5px;
   top: 7px;
-
-}.time{
+}
+.time {
   font-size: 1.5rem;
   position: fixed;
   left: 5px;
   top: 3px;
 }
 
-
-.navbartogglef{
+.navbartogglef {
   display: none;
   cursor: pointer;
   font-size: 1.5rem;
@@ -127,134 +123,139 @@ margin: 0;
   position: fixed;
   left: 5px;
   top: 7px;
-
-}.timef{
+}
+.timef {
   font-size: 1.8rem;
   position: fixed;
   left: 5px;
   top: 5px;
 }
 
-.navbar-links li:hover{
+.navbar-links li:hover {
   color: blue;
   transition: 0.35s all;
   font-size: 21.5px;
+}
+.Navfarsi li:hover {
+  font-size: 23.5px;
+  transition: 0.35s all;
+}
+.btn-change {
+  border-radius: 10px;
+  position: fixed;
+  top: 101px;
+  right: 10px;
+  border: none;
+  transition: 0.5s;
+  z-index: 19000;
+  font-family: "Rfont";
+}
+.fa {
+  padding: 7.75px 7px;
+}
+.en {
+  padding: 3px;
+}
 
-  }
-  .Navfarsi li:hover{
-    font-size: 23.5px;
-    transition: 0.35s all;
-  }
-  .btn-change{
-    border-radius: 10px;
-    position: fixed;
-    top: 101px;
-    right: 10px;
-    border: none;
-    transition: 0.5s;
-    z-index: 19000;
-    font-family: 'Rfont';
+.contactbtn {
+  border-radius: 20px;
+  border: none;
+  animation: example 1.5s infinite;
+  transition: 0.5s;
+  box-shadow: 10px 10px 15px #42ca94;
+}
 
-  } .fa{
-    padding: 7.75px 7px;
+@keyframes example {
+  0% {
+    transform: scale(1);
   }
-  .en{
-    padding: 3px;
+  90% {
+    transform: scale(1.25);
   }
-
-  .contactbtn{
-    border-radius: 20px;
-    border: none;
-    animation:example 1.5s infinite;
-    transition: 0.5s;
-    box-shadow: 10px 10px 15px #42ca94 ;    
+  100% {
+    transform: scale(1);
   }
-  
-  @keyframes example {
-    0%   {transform: scale(1);}
-    90%  {transform: scale(1.25);}
-    100%  {transform: scale(1);}
-  }
+}
 
 @media only screen and (max-width: 800px) {
-  .navbar-links{
+  .navbar-links {
     font-size: 17px;
     display: none;
     flex-direction: column;
     width: 100%;
     text-align: center;
-    padding: 0.7rem 0 0 0; 
+    padding: 0.7rem 0 0 0;
 
     background-color: inherit;
     gap: 0.5rem;
     margin-top: 0;
-
-  }.navbar,.faNavbar{
+  }
+  .navbar,
+  .faNavbar {
     height: auto;
   }
 
-  .navbar-links.active{
+  .navbar-links.active {
     display: flex;
     background-color: inherit;
+  }
+  .navbartoggle {
+    display: block;
+  }
+  .navbartogglef {
+    display: block;
+    left: 5px;
+  }
+  .fa {
+    padding: 10px 7px;
+  }
+  .en {
+    padding: 6px 4px;
+  }
+  .navbar {
+    width: 100vw;
+    height: 55px;
+  }
+  .faNavbar {
+    width: 100%;
+  }
 
- }.navbartoggle{
-   display: block;
-
- }
- .navbartogglef{
-  display: block;
-  left: 5px;
-
+  .logoFa {
+    /* display: none; */
+    right: 0.9rem;
+    top: 0.6rem;
+    font-size: 25px;
+  }
+  .logo {
+    right: 0;
+    top: 0.45rem;
+    font-size: 24px;
+  }
+  .timef {
+    left: 5px;
+  }
 }
- .fa{
-  padding: 10px 7px;
-
-}
-.en{
-  padding: 6px 4px;
-
-}
-.navbar{
-  width: 100vw;
-  height: 55px;
-}.faNavbar{
-  width: 100%;
-}
-
-.logoFa{
-  /* display: none; */
-  right: 0.9rem;
-  top: 0.6rem;
-  font-size: 25px;
-
-}
-.logo{
-  right: 0;
-  top: 0.45rem;
-  font-size: 24px;
-
-}.timef{
-  left: 5px;
-}
-}
- @media only screen and (max-width: 850px) {
-.navbar-links{
+@media only screen and (max-width: 850px) {
+  .navbar-links {
     margin-left: 1.5rem;
   }
 }
 
+@media only screen and (max-width: 750px) {
+  .btn-change {
+    top: 103px;
+    right: 9px;
+  }
 
-@media only screen and (max-width: 750px){
-.btn-change{
-  top: 103px;
-  right: 9px;
-
-}
-
-@keyframes example {
-  0%   {transform: scale(1);}
-  90%  {transform: scale(1.30);}
-  100%  {transform: scale(1);}
-}
-
+  @keyframes example {
+    0% {
+      transform: scale(1);
+    }
+    90% {
+      transform: scale(1.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 }

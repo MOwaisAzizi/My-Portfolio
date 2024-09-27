@@ -42,7 +42,11 @@ padding-right: 5px;
   width: 50%;
 }
 
-
+h3{
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
 h3 span{
   display: inline-block;
   animation: bounce 0.8s ease infinite;
@@ -91,7 +95,7 @@ h3 span{
       transform: translateY(-12px);
     }
   }
-  
+
 @media screen and (max-width: 1000px) {
   .dtext {
     width: 100%;
@@ -100,6 +104,12 @@ h3 span{
   .dftext {
     width: 100vw;
     margin: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+
+  h3{
+    font-size: 25px;
   }
 }
 li {

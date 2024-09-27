@@ -136,7 +136,7 @@ const FaInstances = (props) => {
       
 
           <div data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">آب و هوا</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">آب و هوا</h5>
             <li className="li" onClick={showlinks7Handler} >
               <Card className="card" >
                 <img className="Card-img " src={weather}></img>
@@ -161,7 +161,7 @@ const FaInstances = (props) => {
           </div >
 
           <div  data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">لیست یاداشت ها با نقشه</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">لیست یاداشت ها با نقشه</h5>
             <li className="li" onClick={ showlinks2Handler} >
               <Card className="card" >
                 <img className="Card-img " src={mapty}></img>
@@ -186,7 +186,7 @@ const FaInstances = (props) => {
           </div>
 
           <div  data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فروشگاه</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فروشگاه</h5>
             <li className="li" onClick={ showlinks1Handler}>
               <Card className="card " >
                 <img className="Card-img" src={sell}></img>
@@ -209,7 +209,7 @@ const FaInstances = (props) => {
 
 
           <div  data-aos="fade-up" className="mb-3 slide">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">گیم تاس</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">گیم تاس</h5>
             <li className='li' onClick={ showlinks3Handler} >
 
               <Card className="card"  >
@@ -232,7 +232,7 @@ const FaInstances = (props) => {
           </div>
 
           <div  data-aos="fade-up" className="mb-3 slide">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">اپلیکیشن بانک</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">اپلیکیشن بانک</h5>
             <li className='li' onClick={showlinks4Handler}>
               <Card className="card " >
                 <img className="card-img" src={note}></img>
@@ -254,7 +254,7 @@ const FaInstances = (props) => {
           </div>
 
           <div data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3 slide">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فلم-لیست</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فلم-لیست</h5>
             <li className='li' onClick={showlinks8Handler}>
               <Card className="card" >
                 <img className="card-img" src={Movie}></img>
@@ -274,7 +274,7 @@ const FaInstances = (props) => {
           </div >
 
           <div  data-aos="fade-up" className="mb-3 slide">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">کتابخانه</h4>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">کتابخانه</h5>
             <li className='li' onClick={ showlinks6Handler}>
               <Card className="card" >
                 <img className="card-img" src={library}></img>
@@ -296,7 +296,7 @@ const FaInstances = (props) => {
         {/* </Row> */}
 
         
-        <div className="mt-md-4 mt-3 activeContainer">
+        <div className="mt-md-3 mt-3 activeContainer">
  {Array.from({length:images.length},(_,i)=>i).map((acitve,index)=>{
           return (
             <span  className={currentIndex == index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:props.theme=='dark' ?'#52d3d8' :'#98eecc' }}>.</span></span>
@@ -306,8 +306,8 @@ const FaInstances = (props) => {
  </div>
 
         <Container className="mb-3 mb-md-0 mt-3">
-            <div  className="mb-4 mb-md-0  mt-4 me-3 me-sm-0">
-              <Link to='/project'><button style={style} className="h ms-lg-1 ms-2 pt-md-1 py-1 More " onClick={props.click}> <span className="faarrow" >&larr;</span> دیدن بیشتر</button></Link>
+            <div  className="mb-4 mb-md-0  mt-3 me-3 me-sm-0">
+              <Link to='/project'><button style={style} className="h ms-lg-1 ms-2 py-1 More " onClick={props.click}> <span className="faarrow" >&larr;</span> دیدن بیشتر</button></Link>
             </div>
         </Container>
       </div>

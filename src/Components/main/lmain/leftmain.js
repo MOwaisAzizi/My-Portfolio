@@ -10,7 +10,7 @@ class LeftMain extends React.Component {
     const myElement = document.querySelector('#left')
     init(myElement, { showCursor: false, strings: ['Software Engineer'] })
   }
-  // ps-3 ps-lg-0
+
   render() {
     return (
       <div className='leftmain mt-5 ms-2 ms-lg-0 p-0 mt-lg-0  mb-3 mb-lg-0' >

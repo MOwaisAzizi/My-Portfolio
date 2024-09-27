@@ -23,7 +23,7 @@ import { FaArrowDown } from 'react-icons/fa';
 import 'font-awesome/css/font-awesome.min.css'
 
 
-function Main({theme}) {
+function Main({ theme }) {
   const [isenglish, setisenglish] = useState(true)
   const [isopen, setisopen] = useState(false)
 
@@ -31,22 +31,22 @@ function Main({theme}) {
     if (isenglish === true) {
       window.localStorage.setItem('isenglish', 'true')
       setisenglish(false)
-  } else if (isenglish === false) {
-    window.localStorage.setItem('isenglish', 'false')
-    setisenglish(true)
-  }
+    } else if (isenglish === false) {
+      window.localStorage.setItem('isenglish', 'false')
+      setisenglish(true)
+    }
 
   }
 
   useEffect(() => {
     const localtheme = window.localStorage.getItem('isenglish')
-    if (localtheme==='true') {
+    if (localtheme === 'true') {
       setisenglish(false)
     }
-    if (localtheme=='false') {
+    if (localtheme == 'false') {
       setisenglish(true)
     }
-    }, [])
+  }, [])
 
 
   const toggleNav = () => {
@@ -201,13 +201,8 @@ function Main({theme}) {
         <div ref={contact}> {isenglish ? <Contact theme={theme} click={() => scrollToSection(home)} refResult={home} /> : <FaContact theme={theme} click={() => scrollToSection(home)} refResult={home} />}</div>
       </div>
 
-
     </div>
-
-
-
   );
 }
-
 
 export default Main

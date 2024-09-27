@@ -4,17 +4,17 @@ import { Container, Row, Col } from "react-bootstrap";
 import emailjs from '@emailjs/browser'
 import { FaPaperPlane } from 'react-icons/fa'
 
-const Contact = ({theme,click,refResult}) => {
+const Contact = ({ theme, click, refResult }) => {
 
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_wbk8n58', 'template_cd72onu', e.target, 'D6YlJfjXbdiipAnl2')
   }
 
- const style={
-  background: theme == 'dark' ?'#52d3d8': '#98eecc',
-  color: theme == 'dark' ? 'white' : 'black',
-  boxShadow:theme == 'dark' ? '5px 5px 15px #22abaf':'5px 5px 15px #49bc8e'
+  const style = {
+    background: theme == 'dark' ? '#52d3d8' : '#98eecc',
+    color: theme == 'dark' ? 'white' : 'black',
+    boxShadow: theme == 'dark' ? '5px 5px 15px #22abaf' : '5px 5px 15px #49bc8e'
 
 
   }
@@ -24,7 +24,7 @@ const Contact = ({theme,click,refResult}) => {
       <Container className="contain">
         <div className="form py-4" style={style}>
           <form id="contact-form" onSubmit={sendEmail} method="POST">
-            <h1 style={{ textAlign: 'center'}}>Contact Me</h1>
+            <h1 style={{ textAlign: 'center' }}>Contact Me</h1>
             <label >Your Email Address:</label> <br />
             <input type="text" name='email-from' id="emailfrom" placeholder="your Email Address" className="input"></input> <br />
             <label >Content:</label> <br />
