@@ -10,13 +10,14 @@ class LeftMain extends React.Component {
     const myElement = document.querySelector('#left')
     init(myElement, { showCursor: false, strings: ['Software Engineer'] })
   }
+  // ps-3 ps-lg-0
   render() {
     return (
-      <div className='leftmain mt-5 mt-lg-0 ps-3 ps-lg-0 mb-3 mb-lg-0' >
+      <div className='leftmain mt-5 ms-2 ms-lg-0 p-0 mt-lg-0  mb-3 mb-lg-0' >
         <Row>
 
           <Col className='mt-4 mt-lg-0' >
-            <b><h2 id='left' className='' style={{ textAlign: 'center' }}><b></b></h2></b>
+            <h2 id='left' className='' style={{ textAlign: 'center' }}></h2>
             <p className='' style={{ textAlign: 'center' }}>An Afghan software engineer enrolled in the Software Engineering at Herat University.
             </p>
           </Col>

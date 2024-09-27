@@ -8,6 +8,7 @@
 }.middlemain{
     text-align: center;
     margin: auto;
+    padding: 0;
 }
 @media screen and (max-width: 1000px) {
     .middlemain img{

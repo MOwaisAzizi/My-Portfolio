@@ -65,7 +65,7 @@
 
 }
 .More{
-  transition:  1s all;
+  transition:  0.5s all;
 }
 .More:hover{
   transform: scale(1.01,1.2);

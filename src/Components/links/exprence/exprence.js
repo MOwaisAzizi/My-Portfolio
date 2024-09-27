@@ -15,7 +15,9 @@ const Exprence = (props) => {
                </div>
 
                   <div className="dtext">
-                     <h3 data-aos="fade-up" className="ms-4"><b>What did i do ?</b></h3>
+                     <h3 data-aos="fade-up" className="ms-4"><b>
+                     <span>W</span><span>h</span><span>a</span><span>t</span> <span>D</span><span>i</span><span>d</span> <span>I</span> <span>D</span><span>i</span><span>d</span> <span>?</span>
+                        </b></h3>
                      <ul className="exp-ul ms-2 ms-sm-0" data-aos="fade-up" >
                         <li data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">I have one and half year exprence in web developement.</li>
                         <li data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Working as a apprentice in WASSA organization for 6 mounth.</li>

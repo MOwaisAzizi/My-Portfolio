@@ -13,8 +13,8 @@ const Middlemain = (props) => {
 
 
   return (
-    <div className='middlemain mt-0 mt-lg-5 mb-lg-5 '>
-     <div className='pic ms-3 ms-sm-0' style={{boxSizing:'border-box'}}>
+    <div className='middlemain mt-0 ms-2 ms-sm-0 mt-lg-5 mb-lg-5 '>
+     <div className='pic ' style={{boxSizing:'border-box'}}>
      <img src={owais}/>
      </div>
       {props.children}

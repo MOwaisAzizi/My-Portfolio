@@ -7,11 +7,12 @@
   }
 
 .leftmain{
-    text-align: center;
+  text-align: center;
    display: flex;
    align-items: center;
    justify-content: center;
+   margin: auto;
    height: 73%;
    padding: 0;
-   margin: 0;
+
 }
