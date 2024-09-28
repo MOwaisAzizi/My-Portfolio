@@ -116,8 +116,10 @@ font-size: 29px;
 
 @media screen and (max-width: 1000px) {
   .form {
-    width: 95%;
+    width: 92%;
     margin: auto;
+  border-radius: 8px;
+
   }
 }
 @media screen and (max-width: 800px) {
