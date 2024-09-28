@@ -63,10 +63,6 @@ h1 span:nth-child(7) {
   }
 }
 
-.centerbtn {
-  display: flex;
-  justify-content: center;
-}
 .row {
   width: 100%;
 }

@@ -160,7 +160,7 @@ function Main({ theme }) {
                       Should you require assistance? please feel free to contact me through any of the provided ways: <br />
                       <div className='phone mb-1 mb-md-0' data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2"
-                          style={{ background: theme == 'dark' ? '#02f5fd' : '#98eecc', color: theme == 'dark' ? 'white' : 'black', boxShadow: theme == 'dark' ? '6px 6px 15px #22abaf' : '5px 5px 25px #49bc8e' }} >Contact Me <FaArrowDown /></button></span>
+                          style={{ background: theme == 'dark' ? '#02f5fd' : '#98eecc', color: theme == 'dark' ? 'white' : 'black', boxShadow: theme == 'dark' ? '6px 6px 15px #22abaf' : '4px 8px 20px rgba(0,0,0,0.3)' }} >Contact Me <FaArrowDown /></button></span>
                       </div>
                     </p>
                   </div> :
@@ -170,7 +170,7 @@ function Main({ theme }) {
                     <p className='pt-1' >در شهر هرات زندگی میکند و در حال آموختن رشته کمپیوتر ساینس در دانشگاه هرات است.آیا به کمک ضرورت دارید ؟ اگر بلی میتوانید از راه های زیر با من تماس بگیرید <br />
                       <div className='phone mb-4 mb-md-0' data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-3 contactbtn px-3 py-2"
-                          data-aos-delay="800" style={{ background: theme == 'dark' ? '#02f5fd' : '#98eecc', color: theme == 'dark' ? 'white' : 'black', boxShadow: theme == 'dark' ? '6px 6px 15px #22abaf' : '5px 5px 25px #49bc8e' }} > <FaArrowDown /> ارتباط با من  </button></span>
+                          data-aos-delay="800" style={{ background: theme == 'dark' ? '#02f5fd' : '#98eecc', color: theme == 'dark' ? 'white' : 'black', boxShadow: theme == 'dark' ? '6px 6px 15px #22abaf' : '4px 8px 20px rgba(0,0,0,0.3)' }} > <FaArrowDown /> ارتباط با من  </button></span>
 
                       </div>
                     </p>

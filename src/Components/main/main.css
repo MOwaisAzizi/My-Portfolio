@@ -162,7 +162,6 @@
   border: none;
   animation: example 1.5s infinite;
   transition: 0.5s;
-  box-shadow: 10px 10px 15px #42ca94;
 }
 
 @keyframes example {
