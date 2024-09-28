@@ -26,11 +26,11 @@ const Contact = ({ theme, click, refResult }) => {
           <form id="contact-form" onSubmit={sendEmail} method="POST">
             <h1 style={{ textAlign: 'center' }}>Contact Me</h1>
             <label >Your Email Address:</label> <br />
-            <input type="text" name='email-from' id="emailfrom" placeholder="your Email Address" className="input"></input> <br />
+            <input data-aos="zoom-in" data-aos-duration="1500"  type="text" name='email-from' id="emailfrom" placeholder="your Email Address" className="input"></input> <br />
             <label >Content:</label> <br />
-            <input type="text" name='email-from' id="emailfrom" placeholder="your Content"></input> <br />
+            <input data-aos="zoom-in" data-aos-duration="1500" type="text" name='email-from' id="emailfrom" placeholder="your Content"></input> <br />
             <label >Message:</label> <br />
-            <textarea name='message' id="message" placeholder="your Message" rows={5}></textarea> <br />
+            <textarea data-aos="zoom-in" data-aos-duration="1500" name='message' id="message" placeholder="your Message" rows={5}></textarea> <br />
             <button type="submit" className="btn btn-primary button px-2 py-1  px-md-3 py-md-2 text-white">Send <FaPaperPlane color="white" className="me-2 me-sm-0" /></button>
           </form>
         </div>
