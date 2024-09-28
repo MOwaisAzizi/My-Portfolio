@@ -114,7 +114,7 @@ function Main({ theme }) {
               height: isopen ? 'auto' : '57px'
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links Navfarsi'}  >
-              <li onClick={() => scrollToSection(home)}>خانه</li>
+              <li onClick={() => scrollToSection(home)} >خانه</li>
               <li onClick={() => scrollToSection(instace)}>پروژه ها</li>
               <li onClick={() => scrollToSection(about)}>درباره</li>
               <li onClick={() => scrollToSection(exprence)}>تجارب</li>
