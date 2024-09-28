@@ -34,7 +34,7 @@ const Faabout = (props) => {
                             من قبلا توسعه فرانت اند را در موسسه واسا تمام کرده و تصدیق نامه آنرا نیز دارم.
                             <br />
                             <div className="cvdiv mt-3" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
-                                <button style={{background: props.theme == 'dark' ?'#02f5fd': '#8ef7cd',boxShadow:props.theme == 'dark' ? '9px 9px 15px #22abaf':'4px 8px 20px rgba(0,0,0,0.3)'}} className="mb-2 mt-2 btn-primary-cv py-1 px-3" ><a style={{color: props.theme == 'dark' ?'white': 'black',}} href={CV} download='CV' className="a-btn">دانلود سی وی <FaDownload /></a></button>
+                                <button style={{background: props.theme == 'dark' ?'#02f5fd': '#8ef7cd',boxShadow:props.theme == 'dark' ? '9px 9px 15px #22abaf':'4px 8px 20px rgba(0,0,0,0.25)'}} className="mb-2 mt-2 btn-primary-cv py-1 px-3" ><a style={{color: props.theme == 'dark' ?'white': 'black',}} href={CV} download='CV' className="a-btn">دانلود سی وی <FaDownload /></a></button>
                             </div>
                         </p>
             </Container>
