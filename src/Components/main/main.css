@@ -109,10 +109,10 @@
   top: 7px;
 }
 .time {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   position: fixed;
   left: 5px;
-  top: 3px;
+  top: 4px;
 }
 
 .navbartogglef {
@@ -125,10 +125,10 @@
   top: 7px;
 }
 .timef {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   position: fixed;
   left: 5px;
-  top: 5px;
+  top: 4px;
 }
 
 .navbar-links li:hover {
@@ -229,9 +229,6 @@
     right: 0;
     top: 0.45rem;
     font-size: 24px;
-  }
-  .timef {
-    left: 5px;
   }
 }
 @media only screen and (max-width: 850px) {
