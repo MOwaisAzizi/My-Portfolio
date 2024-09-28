@@ -20,7 +20,7 @@ const FaExprence = () => {
                      <span>چیکار</span> <span>انجام</span> <span>دادم</span> <span>؟</span> 
                         </b></h3>
                      <ul className=" exp-ul-fa me-2 me-sm-0  ps-md-0" data-aos="fade-up">
-                        <li data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">داشتن تجربه یک و نیم ساله در زمینه توسعه وب.</li>
+                        <li data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">داشتن تجربه دو ساله در زمینه توسعه وب.</li>
                         <li data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">کارآموزی در موسسه واسا برای شش ماه.</li>
                         <li data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">توسعه پروژه های متقاوت در موسسه واسا.</li>
                         <li data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">ساخت چندین گیم جالب توسط جاوااسکرپت و ری اکت.</li>

@@ -20,7 +20,7 @@ const Exprence = (props) => {
                </b></h3>
                
                <ul className="exp-ul ms-2 ms-sm-0" data-aos="fade-up" >
-                  <li data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">I have one and half year exprence in web developement.</li>
+                  <li data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">I have two years exprence in web developement.</li>
                   <li data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Working as a apprentice in WASSA organization for 6 mounth.</li>
                   <li data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">Building numerous of projects in WASSA organization.</li>
                   <li data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Building some funny games by using HTML,CSS, JS and react.</li>
