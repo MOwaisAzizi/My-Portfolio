@@ -23,7 +23,7 @@ const Contact = ({ theme, click, refResult }) => {
         <div className="form py-4" style={style}>
           <form id="contact-form" onSubmit={sendEmail} method="POST">
             <h1 style={{ textAlign: 'center' }}>Contact Me</h1>
-          <div className="f">
+          <div className="f mt-2">
           <label >Your Email Address</label> <br />
             <input data-aos="zoom-in" data-aos-duration="1500"  type="text" name='email-from' id="emailfrom1" placeholder="Email Address" className="input"></input> <br />
             <label >Content</label> <br />
