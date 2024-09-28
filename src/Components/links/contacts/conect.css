@@ -72,7 +72,7 @@ font-size: 29px;
  .dlinks .whatsapp{
   background-color: rgb(13, 238, 13);
   color: white;
- padding: 6px;
+ padding: 5px;
 
  }
  .dlinks .github{
@@ -81,11 +81,12 @@ font-size: 29px;
   font-size: 30px;
   padding: 0;
   margin: 0;
+  margin-top: 2px;
  }
  .dlinks .linkedin{
   background-color: rgb(8, 8, 209);
   color: white;
- padding: 6px;
+ padding: 5px;
 
  }
  .goTop{
