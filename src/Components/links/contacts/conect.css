@@ -17,31 +17,39 @@
   padding: 10px;
   box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
 }
-.contact-form input,
-textarea,
-button {
+.f{
   margin: auto;
+  width: 90%;
+}
+.contact-form 
+ {
+   margin: auto;
+   border: solid;
 }
 #message {
-  width: 90%;
-  margin-left: 4%;
+  width: 100%;
   border-radius: 5px;
   padding: 5px;
-}
-#emailfrom {
-  width: 90%;
   margin: auto;
+}
+#emailfrom1 {
+  width: 100%;
   padding: 5px;
   border-radius: 5px;
-  margin-left: 4%;
+  margin: auto;
+
 }
-.button {
-  margin-left: 4.4%;
+#emailfrom2 {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  margin: auto;
+
 }
+
 label {
-  padding-left: 4%;
+  padding-left: 1px;
   padding-top: 10px;
-  padding-right: 1vh;
 }
 .dlinks {
   display: flex;
@@ -108,14 +116,21 @@ font-size: 29px;
 
 @media screen and (max-width: 1000px) {
   .form {
-    width: 100%;
+    width: 95%;
     margin: auto;
   }
 }
 @media screen and (max-width: 800px) {
   .dlinks {
     font-size: 20px;
-  width: 13rem;
-
+    width: 13rem;
 } 
 }
+
+@media screen and (max-width: 500px) {
+  .f{
+    margin: auto;
+    width: 100%;
+  }
+}
+

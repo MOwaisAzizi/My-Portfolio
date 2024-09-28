@@ -15,8 +15,6 @@ const Contact = ({ theme, click, refResult }) => {
     background: theme == 'dark' ? '#52d3d8' : '#98eecc',
     color: theme == 'dark' ? 'white' : 'black',
     boxShadow: theme == 'dark' ? '5px 5px 15px #22abaf' : '5px 5px 15px #49bc8e'
-
-
   }
 
   return (
@@ -25,13 +23,16 @@ const Contact = ({ theme, click, refResult }) => {
         <div className="form py-4" style={style}>
           <form id="contact-form" onSubmit={sendEmail} method="POST">
             <h1 style={{ textAlign: 'center' }}>Contact Me</h1>
-            <label >Your Email Address:</label> <br />
-            <input data-aos="zoom-in" data-aos-duration="1500"  type="text" name='email-from' id="emailfrom" placeholder="your Email Address" className="input"></input> <br />
-            <label >Content:</label> <br />
-            <input data-aos="zoom-in" data-aos-duration="1500" type="text" name='email-from' id="emailfrom" placeholder="your Content"></input> <br />
-            <label >Message:</label> <br />
-            <textarea data-aos="zoom-in" data-aos-duration="1500" name='message' id="message" placeholder="your Message" rows={5}></textarea> <br />
+          <div className="f">
+          <label >Your Email Address</label> <br />
+            <input data-aos="zoom-in" data-aos-duration="1500"  type="text" name='email-from' id="emailfrom1" placeholder="Email Address" className="input"></input> <br />
+            <label >Content</label> <br />
+            <input data-aos="zoom-in" data-aos-duration="1500" type="text" name='email-from' id="emailfrom2" placeholder="Your Content"></input> <br />
+            <label >Message</label> <br />
+            <textarea data-aos="zoom-in" data-aos-duration="1500" name='message' id="message" placeholder="Your Message" rows={5}></textarea> <br />
             <button type="submit" className="btn btn-primary button px-2 py-1  px-md-3 py-md-2 text-white">Send <FaPaperPlane color="white" className="me-2 me-sm-0" /></button>
+         
+          </div>
           </form>
         </div>
 

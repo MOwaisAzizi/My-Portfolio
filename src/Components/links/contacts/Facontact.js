@@ -25,15 +25,27 @@ const FaContact = ({ theme, refResult, click }) => {
         <div className="form py-4" style={style}>
           <form id="contact-form" onSubmit={sendEmail} method="POST">
             <h1 style={{ textAlign: 'center', color: 'black' }}>ارتباط با من</h1>
-            <label className="me-lg-5 me-sm-3 me-2" >ایمیل آدرس شما</label> <br />
-            <input data-aos="zoom-in" data-aos-duration="1500" className="me-lg-5 me-sm-3 me-2" style={{ direction: 'rtl' }} type="text" name='email-from' id="emailfrom" placeholder="ایمیل ادرس شما"></input> <br />
-            <label className="me-lg-5 me-sm-3 me-2" >عنوان</label> <br />
-            <input data-aos="zoom-in" data-aos-duration="1500" className="me-lg-5 me-sm-3 me-2" style={{ direction: 'rtl' }} type="text" name='email-from' id="emailfrom" placeholder="عنوان شما"></input> <br />
-            <label className="me-lg-5 me-sm-3 me-2" >پیام شما</label> <br />
-            <textarea data-aos="zoom-in" data-aos-duration="1500" className="me-lg-5 me-sm-3 me-2" style={{ direction: 'rtl' }} name='message' id="message" placeholder="پیام شما" rows={5}></textarea> <br />
-            <button type="submit" className="btn btn-primary button me-lg-5 me-sm-3 me-2 px-2 py-1  px-md-3 py-md-2 text-white">ارسال <FaPaperPlane color="white" /></button>
+           <div className="f">
+           <label className="pe-1" >ایمیل آدرس</label> <br />
+            <input data-aos="zoom-in" data-aos-duration="1500"  style={{ direction: 'rtl' }} type="text" name='email-from' id="emailfrom1" placeholder="ایمیل ادرس شما"></input> <br />
+            <label className="pe-1" >عنوان</label> <br />
+            <input data-aos="zoom-in" data-aos-duration="1500"  style={{ direction: 'rtl' }} type="text" name='email-from' id="emailfrom2" placeholder="عنوان شما"></input> <br />
+            <label className="pe-1" >پیام</label> <br />
+            <textarea data-aos="zoom-in" data-aos-duration="1500"  style={{ direction: 'rtl' }} name='message' id="message" placeholder="پیام شما" rows={5}></textarea> <br />
+            <button type="submit" className="btn btn-primary button  px-2 py-1  px-md-3 py-md-2 text-white">ارسال <FaPaperPlane color="white" /></button>
+           </div>
           </form>
         </div>
+
+        {/* className="me-lg-5 me-sm-3 me-2"
+className="me-lg-5 me-sm-3 me-2"
+className="me-lg-5 me-sm-3 me-2" */}
+
+{/* me-lg-5 me-sm-3 me-1
+me-lg-5 me-sm-3 me-1
+me-lg-5 me-sm-3 me-1 */}
+
+{/* me-sm-3 me-2 */}
 
         <div className="dlinks" style={{ direction: 'ltr' }}>
           <a iconlink='https://github.com/MOwaisAzizi'>  <i className="fa fa-github github" > </i> </a>
