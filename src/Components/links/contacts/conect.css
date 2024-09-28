@@ -31,12 +31,15 @@
   border-radius: 7px;
   padding: 7px;
   margin: auto;
+  border: none;
+
 }
 #emailfrom1 {
   width: 100%;
   padding: 7px;
   border-radius: 7px;
   margin: auto;
+  border: none;
 
 }
 #emailfrom2 {
@@ -44,6 +47,8 @@
   padding: 7px;
   border-radius: 7px;
   margin: auto;
+  border: none;
+
 
 }
 
