@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'font-awesome/css/font-awesome.min.css'
 import './App.css'
@@ -15,11 +15,11 @@ const App = () => {
     let content = (
         <div className='app'
             style={{
-                background: theme == 'dark' ? '#121212' : '#fff8e8',
-                color: theme == 'dark' ? 'white' : 'black'
+                background: theme === 'dark' ? '#121212' : '#fff8e8',
+                color: theme === 'dark' ? 'white' : 'black'
             }}>
             {
-                theme == 'dark' ?
+                theme === 'dark' ?
                     <i onClick={toggleTheme}><a className="fa fa-sun icon2" ></a></i>
 
                     :

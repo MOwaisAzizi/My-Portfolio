@@ -16,17 +16,17 @@ const images = [note, sell, weather,Movie, library, mapty, RandomGame]
 const Instances = ({theme}) => {
 
   const style = {
-    background: theme=='dark' ? '#52d3d8' : '#98eecc',
-    color: theme == 'dark' ? 'white' : 'black',
-    boxShadow:theme == 'dark' ? '0px 5px 15px #22abaf':'0px 2px 15px #47cc97'
+    background: theme==='dark' ? '#52d3d8' : '#98eecc',
+    color: theme === 'dark' ? 'white' : 'black',
+    boxShadow:theme === 'dark' ? '0px 5px 15px #22abaf':'0px 2px 15px #47cc97'
   }
   const style1 = {
-    background: theme=='dark' ? '#52d3d8' : '#98eecc',
-    color: theme == 'dark' ? 'white' : 'black',
+    background: theme==='dark' ? '#52d3d8' : '#98eecc',
+    color: theme === 'dark' ? 'white' : 'black',
   }
 
   const style2 = {
-    color: theme == 'dark' ? '#52d3d8' : '#58f1b4',
+    color: theme === 'dark' ? '#52d3d8' : '#58f1b4',
   }
 
   const [showlinks1, setshowlinks1] = useState(false)
@@ -120,7 +120,7 @@ const Instances = ({theme}) => {
 
 
   function nextSlide() {
-    setCurrentIndex(preIndex => preIndex==images.length ? preIndex = 0 : (preIndex + 1) % images.length)
+    setCurrentIndex(preIndex => preIndex===images.length ? preIndex = 0 : (preIndex + 1) % images.length)
   }
   
   function prevSlide() {
@@ -305,7 +305,7 @@ const Instances = ({theme}) => {
         <div className="mt-md-3 mt-3 activeContainer">
  {Array.from({length:images.length},(_,i)=>i).map((acitve,index)=>{
           return (
-            <span  className={currentIndex == index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:theme=='dark' ?'#52d3d8' :'#98eecc' }}>.</span></span>
+            <span  className={currentIndex === index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:theme==='dark' ?'#52d3d8' :'#98eecc' }} key={index}>.</span></span>
           )
         })}
 

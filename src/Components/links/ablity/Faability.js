@@ -5,9 +5,9 @@ import { Container } from "react-bootstrap";
 const FaAblity = ({ theme }) => {
 
   const style = {
-    background: theme == 'dark' ? '#52d3d8' : '#98eecc',
-    color: theme == 'dark' ? 'white' : 'black',
-    boxShadow: theme == 'dark' ? '5px 5px 10px #22abaf' : '5px 5px 15px #49bc8e',
+    background: theme === 'dark' ? '#52d3d8' : '#98eecc',
+    color: theme === 'dark' ? 'white' : 'black',
+    boxShadow: theme === 'dark' ? '5px 5px 10px #22abaf' : '5px 5px 15px #49bc8e',
     direction: 'rtl'
   }
 

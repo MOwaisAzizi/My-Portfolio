@@ -5,9 +5,9 @@ import { Container } from "react-bootstrap";
 const Ablity = ({ theme }) => {
 
   const style = {
-    background: theme == 'dark' ? '#52d3d8' : '#98eecc',
-    color: theme == 'dark' ? 'white' : 'black',
-    boxShadow: theme == 'dark' ? '7px 7px 15px #22abaf' : '5px 5px 15px #49bc8e'
+    background: theme === 'dark' ? '#52d3d8' : '#98eecc',
+    color: theme === 'dark' ? 'white' : 'black',
+    boxShadow: theme === 'dark' ? '7px 7px 15px #22abaf' : '5px 5px 15px #49bc8e'
   }
 
   const animatedRef1 = useRef(null)

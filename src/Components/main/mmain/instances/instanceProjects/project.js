@@ -20,10 +20,10 @@ import { Row, Col, Button, Card } from "react-bootstrap";
 const Project = (props) => {
 
   const style2 = {
-    color: props.theme == 'dark' ? '#52d3d8' : '#58f1b4',
+    color: props.theme === 'dark' ? '#52d3d8' : '#58f1b4',
   }
   const style = {
-    color: props.theme == 'dark' ? 'white' : 'black',
+    color: props.theme === 'dark' ? 'white' : 'black',
   }
 
   const [showlinks1, setshowlinks1] = useState(false)
