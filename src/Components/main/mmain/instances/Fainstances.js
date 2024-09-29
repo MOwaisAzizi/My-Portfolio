@@ -19,7 +19,7 @@ const FaInstances = (props) => {
   const style = {
     background: props.theme === 'dark' ? '#52d3d8' : '#98eecc',
     color: props.theme === 'dark' ? 'white' : 'black',
-    boxShadow: props.theme === 'dark' ? '0px 5px 15px #22abaf':'0px 2px 15px #47cc97 '
+    boxShadow: props.theme === 'dark' ? '0px 5px 15px #22abaf':'0px 1px 15px #47cc97 '
   }
   const style1 = {
     background: props.theme==='dark' ? '#52d3d8' : '#98eecc',
@@ -306,8 +306,8 @@ const FaInstances = (props) => {
  </div>
 
         <Container className="mb-3 mb-md-0 mt-3">
-            <div  className="mb-4 mb-md-0  mt-3 me-3 me-sm-0">
-              <Link to='/project'><button style={style} className="h ms-lg-1 ms-2 py-1 More " onClick={props.click}> <span className="faarrow" >&larr;</span> دیدن بیشتر</button></Link>
+            <div  className="btn-more mb-4 mb-md-0  mt-3">
+              <Link to='/project'><button style={style} className="h py-1 More " onClick={props.click}> <span className="faarrow" >&larr;</span> دیدن بیشتر</button></Link>
             </div>
         </Container>
       </div>

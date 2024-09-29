@@ -18,7 +18,7 @@ const Instances = ({theme}) => {
   const style = {
     background: theme==='dark' ? '#52d3d8' : '#98eecc',
     color: theme === 'dark' ? 'white' : 'black',
-    boxShadow:theme === 'dark' ? '0px 5px 15px #22abaf':'0px 2px 15px #47cc97'
+    boxShadow:theme === 'dark' ? '0px 5px 15px #22abaf':'0px 1px 15px #47cc97'
   }
   const style1 = {
     background: theme==='dark' ? '#52d3d8' : '#98eecc',
@@ -311,8 +311,8 @@ const Instances = ({theme}) => {
 
  </div>
         <Container className="">
-            <div className="mb-3 mb-md-0  mt-3 me-3 me-sm-0">
-              <Link to='/project'>  <button style={style} className="h ms-lg-1 ms-2 py-md-1 py-1 More" >See More <span className="arrow">&rarr;</span></button></Link>
+            <div className=" btn-more mb-3 mb-md-0  mt-3 ">
+              <Link to='/project'>  <button style={style} className="h ms-lg-1  py-1 More" >See More <span className="arrow">&rarr;</span></button></Link>
             </div>
         </Container>
       </div>
