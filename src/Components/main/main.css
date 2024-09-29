@@ -178,7 +178,7 @@
 
 @media only screen and (max-width: 800px) {
   .navbar-links {
-    font-size: 17px;
+    font-size: 19px;
     display: none;
     flex-direction: column;
     width: 100%;
@@ -253,5 +253,10 @@
     100% {
       transform: scale(1);
     }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .navbar-links {
+    font-size: 17px;
   }
 }
