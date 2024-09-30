@@ -7,7 +7,7 @@ const Ablity = ({ theme }) => {
   const style = {
     background: theme === 'dark' ? '#52d3d8' : '#98eecc',
     color: theme === 'dark' ? 'white' : 'black',
-    boxShadow: theme === 'dark' ? '3px 3px 8px #22abaf' : '2px 4px 10px rgba(0, 0, 0,0.15)'
+    boxShadow: theme === 'dark' ? '1.5px 3px 8px #22abaf' : '2px 4px 10px rgba(0, 0, 0,0.15)'
   }
 
   const animatedRef1 = useRef(null)
