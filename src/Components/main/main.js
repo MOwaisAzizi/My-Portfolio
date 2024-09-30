@@ -81,7 +81,7 @@ function Main({ theme }) {
             style={{
               background: theme === 'dark' ? '#52d3d8' : '#98eecc',
               color: theme === 'dark' ? 'white' : 'black',
-              boxShadow: theme === 'dark' ? '3px 4px 8px #22abaf' : '0px 4px 8px rgba(0,0,0,0.2)',
+              boxShadow: theme === 'dark' ? '3px 3px 8px #22abaf' : '0px 4px 8px rgba(0,0,0,0.2)',
               height: isopen ? 'auto' : '57px'
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links'}>
@@ -109,7 +109,7 @@ function Main({ theme }) {
             style={{
               background: theme === 'dark' ? '#52d3d8' : '#98eecc',
               color: theme === 'dark' ? 'white' : 'black',
-              boxShadow: theme === 'dark' ? '3px 4px 8px #22abaf' : '0px 4px 8px rgba(0,0,0,0.2)',
+              boxShadow: theme === 'dark' ? '3px 3px 8px #22abaf' : '0px 4px 8px rgba(0,0,0,0.2)',
 
               height: isopen ? 'auto' : '57px'
             }}>
