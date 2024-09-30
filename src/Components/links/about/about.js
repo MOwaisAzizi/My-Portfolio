@@ -20,12 +20,11 @@ const About = (props) => {
           I possess the capability to construct front-end websites and web applications proficiently and I am enthusiastic about
           collaborating on joint projects.Additionally, I have obtained certicfication in frontend web development from WASSA Organization.
 
-          <br />
+            </p>
           <div className="cvdiv mt-3" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
-            <button style={{ background: props.theme === 'dark' ? '#02f5fd' : '#98eecc', boxShadow: props.theme === 'dark' ? '6px 6px 15px #22abaf' : '4px 8px 15px rgba(0,0,0,0.2)' }}
-              className="mb-2 mt-2 btn-primary-cv px-3 py-1  btn-down"  ><a style={{ color: props.theme === 'dark' ? 'white' : 'black', }} className="a-btn" href={CV} download='CV'>Download CV <FaDownload /></a></button>
+            <button style={{ background: props.theme === 'dark' ? '#02f5fd' : '#98eecc', boxShadow: props.theme === 'dark' ? '2px 5px 12px #22abaf' : '4px 8px 15px rgba(0,0,0,0.2)' }}
+              className="mb-2 mt-2 btn-primary-cv px-3 py-2  btn-down"  ><a style={{ color: props.theme === 'dark' ? 'white' : 'black', }} className="a-btn" href={CV} download='CV'>Download CV <FaDownload /></a></button>
           </div>
-        </p>
 
         {props.child}
 

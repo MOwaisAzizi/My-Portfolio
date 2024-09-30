@@ -19,7 +19,7 @@ const FaInstances = (props) => {
   const style = {
     background: props.theme === 'dark' ? '#52d3d8' : '#98eecc',
     color: props.theme === 'dark' ? 'white' : 'black',
-    boxShadow: props.theme === 'dark' ? '0px 5px 15px #22abaf':'0px 1px 15px #47cc97 '
+    boxShadow: props.theme === 'dark' ? '2px 4px 10px #22abaf':'2px 4px 10px rgba(0, 0, 0,0.15) '
   }
   const style1 = {
     background: props.theme==='dark' ? '#52d3d8' : '#98eecc',
@@ -295,7 +295,7 @@ const FaInstances = (props) => {
         <div className="mt-md-3 mt-3 activeContainer">
  {Array.from({length:images.length},(_,i)=>i).map((acitve,index)=>{
           return (
-            <span  className={currentIndex === index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:props.theme==='dark' ?'#52d3d8' :'#98eecc' }}>.</span></span>
+            <span key={index}  className={currentIndex === index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:props.theme==='dark' ?'#52d3d8' :'#98eecc' }}>.</span></span>
           )
         })}
 

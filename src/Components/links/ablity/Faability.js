@@ -7,7 +7,7 @@ const FaAblity = ({ theme }) => {
   const style = {
     background: theme === 'dark' ? '#52d3d8' : '#98eecc',
     color: theme === 'dark' ? 'white' : 'black',
-    boxShadow: theme === 'dark' ? '5px 5px 10px #22abaf' : '5px 5px 15px #49bc8e',
+    boxShadow: theme === 'dark' ? '3px 3px 8px #22abaf' : '2px 4px 10px rgba(0, 0, 0,0.15)',
     direction: 'rtl'
   }
 
@@ -91,57 +91,57 @@ const FaAblity = ({ theme }) => {
   return (
     <Container className="pb-5 mt-5 faAblity">
       <div className="pt-sm-4 pt-1">
-        <div class="skills">
+        <div className="skills">
           <h1 data-aos="fade-left">مهارت های من</h1>
 
           <li className="p"> <span>H</span><span>T</span><span>M</span><span>L</span>
 
-            <div class="bar"><div class="animation" ref={animatedRef1}></div></div>
+            <div className="bar"><div className="animation" ref={animatedRef1}></div></div>
           </li>
 
           <li className="p"> <span>C</span><span>S</span><span>S</span>
-            <div class="bar"><div class="animation" ref={animatedRef2}></div></div>
+            <div className="bar"><div className="animation" ref={animatedRef2}></div></div>
           </li>
 
           <li className="p">
             <span>J</span><span>a</span><span>v</span><span>a</span><span>s</span><span>c</span><span>r</span><span>p</span><span>t</span>
 
-            <div class="bar"><div class="animation " ref={animatedRef3}></div></div>
+            <div className="bar"><div className="animation " ref={animatedRef3}></div></div>
           </li>
 
           <li className="p">
             <span>b</span><span>o</span><span>o</span><span>t</span><span>s</span><span>t</span><span>r</span><span>a</span><span>p</span>
 
-            <div class="bar"><div class="animation" ref={animatedRef4}></div></div>
+            <div className="bar"><div className="animation" ref={animatedRef4}></div></div>
           </li>
 
           <li className="p">
             <span>R</span><span>e</span><span>a</span><span>c</span><span>t</span>
 
-            <div class="bar"><div class="animation" ref={animatedRef5}></div></div>
+            <div className="bar"><div className="animation" ref={animatedRef5}></div></div>
           </li>
 
           <li className="p">
             <span>A</span><span>P</span><span>I</span>
 
-            <div class="bar"><div class="animation" ref={animatedRef6}></div></div>
+            <div className="bar"><div className="animation" ref={animatedRef6}></div></div>
           </li>
 
           <li className="p">
             <span>M</span><span>y</span><span>S</span><span>q</span><span>l</span>
 
-            <div class="bar"><div class="animation" ref={animatedRef7}></div></div>
+            <div className="bar"><div className="animation" ref={animatedRef7}></div></div>
           </li>
 
           <li className="p">
             <span>J</span><span>a</span><span>v</span><span>a</span>
 
-            <div class="bar"><div class="animation" ref={animatedRef9}></div></div>
+            <div className="bar"><div className="animation" ref={animatedRef9}></div></div>
           </li>
 
           <li className="p">
             <span>I</span><span>C</span><span>D</span><span>L</span>
-            <div class="bar"><div class="animation" ref={animatedRef8}></div></div>
+            <div className="bar"><div className="animation" ref={animatedRef8}></div></div>
           </li>
         </div>
 
@@ -150,15 +150,15 @@ const FaAblity = ({ theme }) => {
         <h2 className="h2Lang" data-aos="fade-left"><b>زبان ها</b></h2>
         <div className="skills mb-5 mb-md-5">
           <li><p className="p" style={{ marginTop: '0px' }}>فارسی</p>
-            <div class="bar"><div class="animation" ref={animatedRef10}></div></div>
+            <div className="bar"><div className="animation" ref={animatedRef10}></div></div>
           </li>
 
           <li><p className="p">انگلیسی</p>
-            <div class="bar"><div class="animation" ref={animatedRef11}></div></div>
+            <div className="bar"><div className="animation" ref={animatedRef11}></div></div>
           </li>
 
           <li><p className="p">پشتو</p>
-            <div class="bar"><div class="animation" ref={animatedRef12}></div></div>
+            <div className="bar"><div className="animation" ref={animatedRef12}></div></div>
           </li>
         </div>
 

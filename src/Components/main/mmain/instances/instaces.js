@@ -16,9 +16,10 @@ const images = [note, sell, weather,Movie, library, mapty, RandomGame]
 const Instances = ({theme}) => {
 
   const style = {
+  
     background: theme==='dark' ? '#52d3d8' : '#98eecc',
     color: theme === 'dark' ? 'white' : 'black',
-    boxShadow:theme === 'dark' ? '0px 5px 15px #22abaf':'0px 1px 15px #47cc97'
+    boxShadow:theme === 'dark' ? '2px 5px 10px #22abaf':'2px 4px 10px rgba(0, 0, 0,0.15) '
   }
   const style1 = {
     background: theme==='dark' ? '#52d3d8' : '#98eecc',
@@ -305,7 +306,7 @@ const Instances = ({theme}) => {
         <div className="mt-md-3 mt-3 activeContainer">
  {Array.from({length:images.length},(_,i)=>i).map((acitve,index)=>{
           return (
-            <span  className={currentIndex === index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:theme==='dark' ?'#52d3d8' :'#98eecc' }} key={index}>.</span></span>
+            <span key={index}  className={currentIndex === index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:theme==='dark' ?'#52d3d8' :'#98eecc' }}>.</span></span>
           )
         })}
 

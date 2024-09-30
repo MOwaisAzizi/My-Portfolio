@@ -14,7 +14,11 @@ const Contact = ({ theme, click, refResult }) => {
   const style = {
     background: theme == 'dark' ? '#52d3d8' : '#98eecc',
     color: theme == 'dark' ? 'white' : 'black',
-    boxShadow: theme == 'dark' ? '5px 5px 15px #22abaf' : '5px 5px 15px #49bc8e'
+    boxShadow: theme == 'dark' ? '5px 5px 15px #22abaf' : '5px 6px 15px rgba(0, 0, 0,0.2)'
+  }
+  const style1 = {
+    background: theme == 'dark' ? '#52d3d8' : '#98eecc',
+    color: theme == 'dark' ? 'white' : 'black',
   }
 
   return (
@@ -46,7 +50,7 @@ const Contact = ({ theme, click, refResult }) => {
         </div>
 
       </Container>
-      <button className='goTop' style={style} onClick={click} ref={refResult}>&#11014;</button>
+      <button className='goTop' style={style1} onClick={click} ref={refResult}>&#11014;</button>
 
     </div>
   );

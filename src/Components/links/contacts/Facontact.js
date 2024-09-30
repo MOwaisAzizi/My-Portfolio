@@ -15,7 +15,12 @@ const FaContact = ({ theme, refResult, click }) => {
   const style = {
     background: theme == 'dark' ? '#52d3d8' : '#98eecc',
     color: theme == 'dark' ? 'white' : 'black',
-    boxShadow: theme == 'dark' ? '7px 7px 15px #22abaf' : '5px 5px 15px #49bc8e'
+    boxShadow: theme == 'dark' ? '5px 5px 10px #22abaf' : '5px 6px 15px rgba(0, 0, 0,0.2)'
+
+  }
+  const style1 = {
+    background: theme == 'dark' ? '#52d3d8' : '#98eecc',
+    color: theme == 'dark' ? 'white' : 'black',
 
   }
 
@@ -37,16 +42,6 @@ const FaContact = ({ theme, refResult, click }) => {
           </form>
         </div>
 
-        {/* className="me-lg-5 me-sm-3 me-2"
-className="me-lg-5 me-sm-3 me-2"
-className="me-lg-5 me-sm-3 me-2" */}
-
-{/* me-lg-5 me-sm-3 me-1
-me-lg-5 me-sm-3 me-1
-me-lg-5 me-sm-3 me-1 */}
-
-{/* me-sm-3 me-2 */}
-
         <div className="dlinks" style={{ direction: 'ltr' }}>
           <a iconlink='https://github.com/MOwaisAzizi'>  <i className="fa fa-github github" > </i> </a>
           <a href='http://www.facebook.com/mowais.azizi'>  <i className="fa fa-facebook face" > </i> </a>
@@ -57,7 +52,7 @@ me-lg-5 me-sm-3 me-1 */}
           <br />
         </div>
       </Container>
-      <button className='goTop' style={style} onClick={click} ref={refResult}>&#11014;</button>
+      <button className='goTop' style={style1} onClick={click} ref={refResult}>&#11014;</button>
 
     </div>
   );
