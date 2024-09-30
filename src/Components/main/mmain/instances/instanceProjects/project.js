@@ -261,7 +261,7 @@ const Project = (props) => {
         
         <Row className="pt-3 pb-5 pt-md-5">
 
-        <Col lg={4} md={6} data-aos="fade-up" data-aos-duration="1000" className="mb-md-0 mb-lg-3 mb-3 ">
+        <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 ">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Travel List</h4>
             <li className="li" onClick={showlinks1Handler } >
               <Card className="card" >
@@ -281,7 +281,7 @@ const Project = (props) => {
             <p className="card-title">React, CSS</p>
           </Col>
 
-          <Col lg={4} md={6} data-aos="fade-up" data-aos-duration="1000" className="mb-md-0 mb-lg-3 mb-3 ">
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 ">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Eat-Split-App</h4>
             <li className="li" onClick={showlinks2Handler}>
               <Card className="card" >
@@ -301,7 +301,7 @@ const Project = (props) => {
             <p className="card-title">React, CSS</p>
           </Col>
 
-          <Col lg={4} md={6} data-aos="fade-up" data-aos-duration="1000" className="mb-md-0 mb-lg-3 mb-3">
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Info Website</h4>
             <li className='li' onClick={showlinks7Handler} >
               <Card className="card" >
@@ -322,7 +322,7 @@ const Project = (props) => {
             <p className="card-title">HTML, CSS, bootstrap,SCSS</p>
           </Col>
 
-          <Col lg={4} md={6} data-aos="fade-up" data-aos-duration="1000" className="mb-md-0 mb-lg-3 mb-3 ">
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 ">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Countries-Data-App</h4>
             <li className="li" onClick={showlinks3Handler}>
               <Card className="card" >
@@ -342,7 +342,7 @@ const Project = (props) => {
             <p className="card-title">HTML, CSS, JS</p>
           </Col>
 
-          <Col lg={4} md={6} data-aos="fade-up" data-aos-duration="1000" className="mb-3">
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-3">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Calculator</h4>
             <li className="li" onClick={showlinks5Handler} >
               <Card className="card" >
@@ -366,7 +366,7 @@ const Project = (props) => {
 
           </Col>
        
-          <Col lg={4} md={6} data-aos="fade-up" data-aos-duration="1000" className="mb-md-0 mb-lg-3 mb-3">
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Pig Game</h4>
             <li className='li' onClick={showlinks13Handler} >
               <Card className="card" >
@@ -387,7 +387,7 @@ const Project = (props) => {
           </Col>
 
     
-          <Col lg={4} md={6} data-aos="fade-up" data-aos-duration="1000" className="mb-3">
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-3">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Bank Website</h4>
             <li className="li" onClick={showlinks6Handler} >
               <Card className="card" >
@@ -412,7 +412,7 @@ const Project = (props) => {
           </Col>
 
 
-          <Col lg={4} md={6} data-aos="fade-up" data-aos-duration="1000" className="mb-3">
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-3">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Alarm-Clock</h4>
             <li className="li" onClick={showlinks4Handler} >
               <Card className="card" >
@@ -437,7 +437,7 @@ const Project = (props) => {
           </Col>
 
 
-          <Col lg={4} md={6} data-aos="fade-up" data-aos-duration="1000" className="mb-md-0 mb-lg-3 mb-3 ">
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 ">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Calculator</h4>
             <li className="li" onClick={showlinks8Handler}>
               <Card className="card" >
@@ -458,7 +458,7 @@ const Project = (props) => {
           </Col>
 
 
-          <Col lg={4} md={6} data-aos="fade-up" data-aos-duration="1000" className="mb-md-0 mb-lg-3 mb-3">
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Company Website</h4>
             <li className='li' onClick={showlinks9Handler}>
               <Card className="card" >
@@ -480,7 +480,7 @@ const Project = (props) => {
           </Col>
 
 
-          <Col lg={4} md={6} data-aos="fade-up" data-aos-duration="1000" className="mb-md-0 mb-lg-3 mb-3">
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">To Do List</h4>
             <li className='li' onClick={showlinks10Handler}>
               <Card className="card" >
@@ -505,7 +505,7 @@ const Project = (props) => {
 
 
 
-          <Col lg={4} md={6} data-aos="fade-up" data-aos-duration="1000" className="mb-md-0 mb-lg-3 mb-3">
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Guess My Number</h4>
             <li className='li' onClick={showlinks11Handler}>
               <Card className="card" >
@@ -528,7 +528,7 @@ const Project = (props) => {
 
 
 
-          <Col lg={4} md={6} data-aos="fade-up" data-aos-duration="1000" className="mb-md-0 mb-lg-3 mb-3">
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Store</h4>
             <li className='li' onClick={showlinks12Handler} >
               <Card className="card" >

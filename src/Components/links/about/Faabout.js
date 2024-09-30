@@ -25,7 +25,7 @@ const Faabout = (props) => {
                          <b>
                         <h1 data-aos="fade-up" className="mx-auto  t-center pt-2 pt-gl-5 pt-md-5 pt-0">
                         <span style={{ fontSize: '40px' }}>؟</span> <span>هستم</span> <span>کی</span> <span>من</span>  </h1>  </b>
-                        <p data-aos="fade-up" style={{ direction: 'rtl' }} className="px-lg-5 mx-lg-5 center px-1  mx-0" >
+                        <p data-aos="fade-up" data-aos-duration="800" style={{ direction: 'rtl' }} className="px-lg-5 mx-lg-5 center px-1  mx-0" >
                           من یک توسعه دهنده فرات اند با یک سال تجربه هستم که در افغانستان، هرات زندگی میکنم و محصل برحال 
                              رشته کمپیوتر ساینس در دانشگاه هرات هستم.
                             من قبلا زیان انگلیسی را آموخته و بعد از آن وارد دانشگاه و موسسه واسا جهت یادگیری فرانت اند شدم و به درستی تمام اش کردم.

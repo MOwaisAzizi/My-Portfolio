@@ -4,7 +4,7 @@ import './exprence.css'
 import pic4 from './pic4.png'
 
 
-const Exprence = (props) => {
+const Exprence = () => {
    return (
       <div data-aos="fade-in" data-aos-delay="200"  >
          <Container className="exprence mt-lg-2 mt-0 ">
@@ -24,7 +24,7 @@ const Exprence = (props) => {
                   <li data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Working as a apprentice in WASSA organization for 6 mounth.</li>
                   <li data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">Building numerous of projects in WASSA organization.</li>
                   <li data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Building some funny games by using HTML,CSS, JS and react.</li>
-                  <li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Beeing an active memeber of IT community in Herat university for about 4 mounth.</li>
+                  <li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Beeing an active memeber of IT community and CS Of CS in Herat university for about 4 mounth.</li>
                   <li data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">building more than 30 mini project by html, css,js, bootstrap, react in past one and half year.</li>
                </ul>
             </div>

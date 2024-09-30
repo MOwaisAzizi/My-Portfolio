@@ -24,7 +24,7 @@ const FaExprence = () => {
                         <li data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">کارآموزی در موسسه واسا برای شش ماه.</li>
                         <li data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">توسعه پروژه های متقاوت در موسسه واسا.</li>
                         <li data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">ساخت چندین گیم جالب توسط جاوااسکرپت و ری اکت.</li>
-                        <li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">عضو فعال کمیته آی تی در دانشگاه هرات برای 4 ماه.</li>
+                        <li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">عضو فعال کمیته آی تی و سی اس آف سی اس در دانشگاه هرات برای 4 ماه.</li>
                         <li data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">ساخت بیش از 30 پروژه کوچک در یک نیم سال گذشته.</li>
                      </ul>
                   </div>

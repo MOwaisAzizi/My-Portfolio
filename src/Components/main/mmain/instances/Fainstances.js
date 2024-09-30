@@ -132,10 +132,7 @@ const FaInstances = (props) => {
 
    <div  className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 436 : width <700 && width>500 ? currentIndex * 520 : width <500 && width>400 ? currentIndex * 480 :currentIndex * 380}px)` }}>
 
-
-      
-
-          <div data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
+          <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide"  data-aos-duration="1000">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">آب و هوا</h5>
             <li className="li" onClick={showlinks7Handler} >
               <Card className="card" >
@@ -160,7 +157,7 @@ const FaInstances = (props) => {
 
           </div >
 
-          <div  data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
+          <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide"  data-aos-duration="1000">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">لیست یاداشت ها با نقشه</h5>
             <li className="li" onClick={ showlinks2Handler} >
               <Card className="card" >
@@ -185,7 +182,7 @@ const FaInstances = (props) => {
 
           </div>
 
-          <div  data-aos="fade-up" className="mb-3 slide"  data-aos-duration="1000">
+          <div  data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide"  data-aos-duration="1000">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فروشگاه</h5>
             <li className="li" onClick={ showlinks1Handler}>
               <Card className="card " >
@@ -208,7 +205,7 @@ const FaInstances = (props) => {
        
 
 
-          <div  data-aos="fade-up" className="mb-3 slide">
+          <div  data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">گیم تاس</h5>
             <li className='li' onClick={ showlinks3Handler} >
 
@@ -231,7 +228,7 @@ const FaInstances = (props) => {
             <p className="card-title">React, CSS</p>
           </div>
 
-          <div  data-aos="fade-up" className="mb-3 slide">
+          <div  data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">اپلیکیشن بانک</h5>
             <li className='li' onClick={showlinks4Handler}>
               <Card className="card " >
@@ -253,7 +250,7 @@ const FaInstances = (props) => {
             <p className="card-title">HTML, CSS, JS</p>
           </div>
 
-          <div data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3 slide">
+          <div data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فلم-لیست</h5>
             <li className='li' onClick={showlinks8Handler}>
               <Card className="card" >
@@ -273,7 +270,7 @@ const FaInstances = (props) => {
             <p className="card-title">React,CSS,API</p>
           </div >
 
-          <div  data-aos="fade-up" className="mb-3 slide">
+          <div  data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">کتابخانه</h5>
             <li className='li' onClick={ showlinks6Handler}>
               <Card className="card" >
@@ -293,7 +290,6 @@ const FaInstances = (props) => {
             <p className="card-title">React, API, CSS</p>
           </div>
    </div>
-        {/* </Row> */}
 
         
         <div className="mt-md-3 mt-3 activeContainer">
@@ -306,8 +302,8 @@ const FaInstances = (props) => {
  </div>
 
         <Container className="mb-3 mb-md-0 mt-3">
-            <div  className="btn-more mb-4 mb-md-0  mt-3">
-              <Link to='/project'><button style={style} className="h py-1 More " onClick={props.click}> <span className="faarrow" >&larr;</span> دیدن بیشتر</button></Link>
+            <div  className="btn-more mb-4 mb-md-0  mt-3" >
+              <Link  to='/project'><button  style={style} className="h py-1 More " onClick={props.click}> <span className="faarrow" >&larr;</span> دیدن بیشتر</button></Link>
             </div>
         </Container>
       </div>

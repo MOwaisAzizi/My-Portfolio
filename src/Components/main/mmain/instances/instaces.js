@@ -138,12 +138,12 @@ const Instances = ({theme}) => {
 <Container className=" contain"> 
    <div className="pb-md-3 pb-1 slider ">
 
-        <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="fade-up">My  Projects Instances</h2>
+        <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="zoom-in" data-aos-duration="1000">My  Projects Instances</h2>
 
         <div className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 436 : width <700 && width>500 ? currentIndex * 520 : width <500 && width>400 ? currentIndex * 480 :currentIndex * 380}px)` }}>
          
 
-          <div data-aos="fade-up" className="mb-3 slide" data-aos-duration="1000">
+          <div className="mb-3 slide" data-aos="zoom-in" data-aos-duration="1500">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Weather-App</h5>
             <li className="li" onClick={showlinks7Handler} >
               <Card className="card" >
@@ -169,7 +169,7 @@ const Instances = ({theme}) => {
           </div >
 
           
-          <div data-aos="fade-up" className="mb-3 slide" data-aos-duration="1000">
+          <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide" >
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mapty-ToDO-list</h5>
             <li className="li" onClick={showlinks2Handler} >
               <Card className="card" >
@@ -194,7 +194,7 @@ const Instances = ({theme}) => {
 
           </div >
 
-          <div data-aos="fade-up" className="mb-3 slide" data-aos-duration="1000">
+          <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide" >
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Shopping App</h5>
             <li className="li" onClick={showlinks1Handler}>
               <Card className="card" >
@@ -215,7 +215,7 @@ const Instances = ({theme}) => {
             <p className="card-title">React, API, CSS</p>
           </div >
 
-          <div data-aos="fade-up" className="mb-3 slide">
+          <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Dice Game</h5>
             <li className='li' onClick={showlinks3Handler} >
 
@@ -237,7 +237,7 @@ const Instances = ({theme}) => {
             <p className="card-title">React, CSS</p>
           </div >
 
-          <div data-aos="fade-up" className="mb-3 slide">
+          <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Bank Application</h5>
             <li className='li' onClick={showlinks4Handler}>
               <Card className="card " >
@@ -259,7 +259,7 @@ const Instances = ({theme}) => {
             <p className="card-title">HTML, CSS, JS</p>
           </div >
 
-          <div data-aos="fade-up" className="mb-md-0 mb-lg-3 mb-3 slide">
+          <div data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Movie-App</h5>
             <li className='li' onClick={showlinks8Handler}>
               <Card className="card" >
@@ -280,7 +280,7 @@ const Instances = ({theme}) => {
           </div >
 
 
-          <div data-aos="fade-up" className="mb-3 slide">
+          <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Library</h5>
             <li className='li' onClick={showlinks6Handler}>
               <Card className="card" >
