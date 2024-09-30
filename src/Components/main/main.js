@@ -161,7 +161,7 @@ function Main({ theme }) {
                     </p>
                       <div className='phone mb-1 mb-md-0' data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-1 contactbtn px-3 py-2"
-                          style={{ background: theme === 'dark' ? '#02f5fd' : '#98eecc', color: theme === 'dark' ? 'white' : 'black', boxShadow: theme === 'dark' ? '2px 5px 12px #22abaf' : '4px 8px 15px rgba(0,0,0,0.2)' }} >Contact Me <FaArrowDown /></button></span>
+                          style={{ background: theme === 'dark' ? '#02f5fd' : '#98eecc', color: theme === 'dark' ? 'white' : 'black', boxShadow: theme === 'dark' ? '2px 4px 12px #22abaf' : '4px 8px 15px rgba(0,0,0,0.2)' }} >Contact Me <FaArrowDown /></button></span>
                       </div>
                   </div> :
 
@@ -171,7 +171,7 @@ function Main({ theme }) {
                     </p>
                       <div className='phone mb-4 mb-md-0' data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
                         <span onClick={() => scrollToSection(contact)}> <button className="mb-2 mt-1 contactbtn px-3 py-2"
-                          data-aos-delay="800" style={{ background: theme === 'dark' ? '#02f5fd' : '#98eecc', color: theme === 'dark' ? 'white' : 'black', boxShadow: theme === 'dark' ? '2px 5px 12px #22abaf' : '4px 8px 15px rgba(0,0,0,0.2)' }} > <FaArrowDown /> ارتباط با من  </button></span>
+                          data-aos-delay="800" style={{ background: theme === 'dark' ? '#02f5fd' : '#98eecc', color: theme === 'dark' ? 'white' : 'black', boxShadow: theme === 'dark' ? '2px 4px 12px #22abaf' : '4px 8px 15px rgba(0,0,0,0.2)' }} > <FaArrowDown /> ارتباط با من  </button></span>
 
                       </div>
                   </div>
