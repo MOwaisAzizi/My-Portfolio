@@ -13,9 +13,9 @@ const About = (props) => {
       <div className="text pt-0" lg={12} > <b><h1 data-aos="fade-up" className="mx-auto pt-0 pt-gl-5 pt-md-5 t-center ">
         <span>W</span><span>h</span><span>o</span> <span>A</span><span>m</span> <span>I</span> <span style={{ fontSize: '40px' }}>?</span></h1> </b>
 
-        <p data-aos="fade-up" data-aos-duration="800" className="center px-0 mx-0 ps-1 ps-sm-0"> I am a professional front-end developer with one year exprence residing in city Herat, Afghanistan.
+        <p data-aos="fade-up" data-aos-duration="800" className="center px-0 mx-0 ps-1 ps-sm-0"> I am a professional front-end developer with two years experience residing in city Herat, Afghanistan.
           Currently, I am pursuing a degree in computer science at Herat university. I have acquired proficiency in the English language
-          and have successfully completed courses in wev development offered by both the university and WASSA Organization. I am
+          and have successfully completed courses in web development offered by both the university and WASSA Organization. I am
           keen on further expanding my knowledge in web development,particularly in the areas of backend developer and AI technology.
           I possess the capability to construct front-end websites and web applications proficiently and I am enthusiastic about
           collaborating on joint projects.Additionally, I have obtained certicfication in frontend web development from WASSA Organization.
