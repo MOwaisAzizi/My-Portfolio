@@ -29,7 +29,7 @@ const FaContact = ({ theme, refResult, click }) => {
       <Container className="contain">
         <div className="form py-4" style={style}>
           <form id="contact-form" onSubmit={sendEmail} method="POST">
-            <h1 style={{ textAlign: 'center', color: 'black' }}>ارتباط با من</h1>
+            <h1 style={{ textAlign: 'center'}}>ارتباط با من</h1>
            <div className="f">
            <label className="pe-1" >ایمیل آدرس</label> <br />
             <input data-aos="zoom-in" data-aos-duration="1500"  style={{ direction: 'rtl' }} type="text" name='email-from' id="emailfrom1" placeholder="ایمیل ادرس شما"></input> <br />
