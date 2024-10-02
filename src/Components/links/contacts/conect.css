@@ -13,7 +13,7 @@
 .form {
   width: 70%;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 10px;
 }
 .f{
@@ -27,7 +27,7 @@
 }
 #message {
   width: 100%;
-  border-radius: 7px;
+  border-radius: 15px;
   padding: 8px;
   margin: auto;
   border: none;
@@ -36,7 +36,7 @@
 #emailfrom1 {
   width: 100%;
   padding: 8px;
-  border-radius: 7px;
+  border-radius: 15px;
   margin: auto;
   border: none;
 
@@ -44,7 +44,7 @@
 #emailfrom2 {
   width: 100%;
   padding: 8px;
-  border-radius: 7px;
+  border-radius: 15px;
   margin: auto;
   border: none;
 
@@ -52,7 +52,7 @@
 }
 
 label {
-  padding-left: 1px;
+  padding-left: 5px;
   padding-top: 10px;
 }
 .dlinks {
@@ -126,7 +126,6 @@ padding: 0;
   .form {
     width: 92%;
     margin: auto;
-  border-radius: 8px;
 
   }
 }
