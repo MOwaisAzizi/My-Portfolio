@@ -72,6 +72,11 @@ function Main({ theme }) {
     })
   }
 
+function handleScroll(component){
+scrollToSection(component)
+setisopen(false)
+}
+
   return (
 
     <div className='fullpage' >
@@ -85,12 +90,12 @@ function Main({ theme }) {
               height: isopen ? 'auto' : '57px',
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links'}>
-              <li onClick={() => scrollToSection(home)}>Home</li>
-              <li onClick={() => scrollToSection(instace)}>Projects</li>
-              <li onClick={() => scrollToSection(about)}>about</li>
-              <li onClick={() => scrollToSection(exprence)}>Exprence</li>
-              <li onClick={() => scrollToSection(ablity)}>Skills</li>
-              <li onClick={() => scrollToSection(contact)}>Contact</li>
+              <li onClick={()=>handleScroll(home)}>Home</li>
+              <li onClick={()=>handleScroll(instace)}>Projects</li>
+              <li onClick={()=>handleScroll(about)}>about</li>
+              <li onClick={()=>handleScroll(exprence)}>Exprence</li>
+              <li onClick={()=>handleScroll(ablity)}>Skills</li>
+              <li onClick={()=>handleScroll(contact)}>Contact</li>
             </ul>
 
             <div className='containterlogo'>
@@ -114,12 +119,12 @@ function Main({ theme }) {
               height: isopen ? 'auto' : '57px'
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links Navfarsi'}  >
-              <li onClick={() => scrollToSection(home)} >خانه</li>
-              <li onClick={() => scrollToSection(instace)}>پروژه ها</li>
-              <li onClick={() => scrollToSection(about)}>درباره</li>
-              <li onClick={() => scrollToSection(exprence)}>تجارب</li>
-              <li onClick={() => scrollToSection(ablity)}>مهارت ها</li>
-              <li onClick={() => scrollToSection(contact)}>ارتباط</li>
+              <li onClick={() => handleScroll(home)} >خانه</li>
+              <li onClick={() => handleScroll(instace)}>پروژه ها</li>
+              <li onClick={() => handleScroll(about)}>درباره</li>
+              <li onClick={() => handleScroll(exprence)}>تجارب</li>
+              <li onClick={() => handleScroll(ablity)}>مهارت ها</li>
+              <li onClick={() => handleScroll(contact)}>ارتباط</li>
             </ul>
 
             <Navbar.Brand ref={home} onClick={() => scrollToSection(home)} className=" fw-bold logoFa">
