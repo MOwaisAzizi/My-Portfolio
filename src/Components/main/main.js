@@ -100,7 +100,7 @@ setisopen(false)
 
             <div className='containterlogo'>
               <Navbar.Brand ref={home} onClick={() => handleScroll(home)} className=" fw-bold logo">
-                Azizi
+               <b> Azizi</b>
               </Navbar.Brand>
             </div>
 
@@ -128,7 +128,7 @@ setisopen(false)
             </ul>
 
             <Navbar.Brand ref={home} onClick={() => handleScroll(home)} className=" fw-bold logoFa">
-              عزیزی
+              <b>عزیزی</b>
             </Navbar.Brand>
 
             <i onClick={toggleNav} className={isopen ? 'fa fa-times timef navbartogglef' : 'fa fa-bars navbartogglef'}></i>
