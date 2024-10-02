@@ -69,7 +69,7 @@
   margin-left: 5rem;
   gap: 2.5rem;
   padding-top: 8px;
-  z-index: 500;
+  /* z-index: 19500; */
 }
 .Navfarsi {
   margin-right: 6rem;

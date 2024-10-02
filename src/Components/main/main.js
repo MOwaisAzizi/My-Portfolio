@@ -99,7 +99,7 @@ setisopen(false)
             </ul>
 
             <div className='containterlogo'>
-              <Navbar.Brand ref={home} onClick={() => scrollToSection(home)} className=" fw-bold logo">
+              <Navbar.Brand ref={home} onClick={() => handleScroll(home)} className=" fw-bold logo">
                 Azizi
               </Navbar.Brand>
             </div>
@@ -119,7 +119,7 @@ setisopen(false)
               height: isopen ? 'auto' : '57px'
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links Navfarsi'}  >
-              <li onClick={() => handleScroll(home)} style={{zIndex:'30000'}}>خانه</li>
+              <li onClick={() => handleScroll(home)} style={{zIndex:'21000'}}>خانه</li>
               <li onClick={() => handleScroll(instace)}>پروژه ها</li>
               <li onClick={() => handleScroll(about)}>درباره</li>
               <li onClick={() => handleScroll(exprence)}>تجارب</li>
@@ -127,7 +127,7 @@ setisopen(false)
               <li onClick={() => handleScroll(contact)}>ارتباط</li>
             </ul>
 
-            <Navbar.Brand ref={home} onClick={() => scrollToSection(home)} className=" fw-bold logoFa">
+            <Navbar.Brand ref={home} onClick={() => handleScroll(home)} className=" fw-bold logoFa">
               عزیزی
             </Navbar.Brand>
 
