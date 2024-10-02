@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import './conect.css'
 import { Container, Row, Col } from "react-bootstrap";
 import emailjs from '@emailjs/browser'
@@ -6,10 +6,22 @@ import { FaPaperPlane } from 'react-icons/fa'
 
 const Contact = ({ theme, click, refResult }) => {
 
+  const [email, setEmail] = useState('')
+  const [num, setNum] = useState('')
+  const [Message, setMessage] = useState('')
+
   const sendEmail = (e) => {
     e.preventDefault();
+    if(email.trim() === '' && num.trim()==='') return alert('Please fill the email or number input')
+    if (Message.trim() === '') return alert('Please fill the message input')
+
     emailjs.sendForm('service_wbk8n58', 'template_cd72onu', e.target, 'D6YlJfjXbdiipAnl2')
+    setEmail('')
+    setNum('')
+    setMessage('')
+    alert('Message Sended!')
   }
+
 
   const style = {
     background: theme == 'dark' ? '#52d3d8' : '#98eecc',
@@ -27,16 +39,16 @@ const Contact = ({ theme, click, refResult }) => {
         <div className="form py-4" style={style}>
           <form id="contact-form" onSubmit={sendEmail} method="POST">
             <h1 style={{ textAlign: 'center' }}>Contact Me</h1>
-          <div className="f mt-2">
-          <label >Email Address</label> <br />
-            <input data-aos="zoom-in" data-aos-duration="1500"  type="text" name='email-from' id="emailfrom1" placeholder="Your Email Address" className="input"></input> <br />
-            <label >Phone Number</label> <br />
-            <input data-aos="zoom-in" data-aos-duration="1500" type="text" name='email-from' id="emailfrom2" placeholder="Your Phone Number"></input> <br />
-            <label >Message</label> <br />
-            <textarea data-aos="zoom-in" data-aos-duration="1500" name='message' id="message" placeholder="Your Message" rows={6}></textarea> <br />
-            <button type="submit" className="btn btn-primary button px-2 py-1  px-md-3 py-md-2 text-white">Send <FaPaperPlane color="white" className="me-2 me-sm-0" /></button>
-         
-          </div>
+            <div className="f mt-2">
+              <label >Email Address</label> <br />
+              <input data-aos="zoom-in" data-aos-duration="1500" value={email} onChange={(e) => setEmail(e.target.value)} type="email" name='email-from' id="emailfrom1" placeholder="Your Email Address" className="input"></input> <br />
+              <label >Phone Number</label> <br />
+              <input data-aos="zoom-in" data-aos-duration="1500" value={num} onChange={(e) => setNum(e.target.value)} type="number" name='email-from' id="emailfrom2" placeholder="Your Phone Number"></input> <br />
+              <label >Message</label> <br />
+              <textarea data-aos="zoom-in" data-aos-duration="1500" value={Message} onChange={(e) => setMessage(e.target.value)} name='message' id="message" placeholder="Your Message" rows={6}></textarea> <br />
+              <button type="submit" className="btn btn-primary  ms-1 button px-2 py-1  px-md-3 py-md-2 text-white">Send <FaPaperPlane color="white" className="me-2 me-sm-0" /></button>
+
+            </div>
           </form>
         </div>
 
