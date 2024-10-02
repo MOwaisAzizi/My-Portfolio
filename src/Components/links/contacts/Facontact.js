@@ -47,7 +47,7 @@ const FaContact = ({ theme, refResult, click }) => {
             <input data-aos="zoom-in" data-aos-duration="1500" value={num} onChange={(e) => setNum(e.target.value)} style={{ direction: 'rtl' }} type="number" name='email-from' id="emailfrom2" placeholder=" شماره تماس شما "></input> <br />
             <label className="pe-1" >پیام</label> <br />
             <textarea data-aos="zoom-in" data-aos-duration="1500" value={Message} onChange={(e) => setMessage(e.target.value)}  style={{ direction: 'rtl' }} name='message' id="message" placeholder="پیام شما" rows={6}></textarea> <br />
-            <button type="submit" className="btn btn-primary button  px-2 py-1  px-md-3 py-md-2 text-white">ارسال <FaPaperPlane color="white" /></button>
+            <button type="submit" className="btn btn-primary button  px-2 py-1  px-md-3 py-md-2 me-1 text-white">ارسال <FaPaperPlane color="white" /></button>
            </div>
           </form>
         </div>
