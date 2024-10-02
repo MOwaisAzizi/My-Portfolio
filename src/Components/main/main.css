@@ -116,7 +116,7 @@
   font-size: 1.7rem;
   position: fixed;
   left: 5px;
-  top: 5px;
+  top: 6px;
 }
 
 .navbartogglef {
@@ -132,7 +132,7 @@
   font-size: 1.7rem;
   position: fixed;
   left: 5px;
-  top: 5px;
+  top: 6px;
 }
 
 .navbar-links li:hover {
@@ -235,6 +235,7 @@
     margin-bottom: 8px;
   }
 
+
   .navbar,
   .faNavbar {
     height: auto;
@@ -252,7 +253,6 @@
   }
   .navbartogglef {
     display: block;
-    left: 5px;
   }
   .fa {
     padding: 10px 7px;
