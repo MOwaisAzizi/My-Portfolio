@@ -15,9 +15,9 @@ const Exprence = () => {
             </div>
 
             <div className="dtext">
-               <h3 data-aos="fade-up" ><b>
+               <h2 data-aos="fade-up" ><b>
                   <span>W</span><span>h</span><span>a</span><span>t</span> <span>D</span><span>i</span><span>d</span> <span>I</span> <span>D</span><span>i</span><span>d</span> <span>?</span>
-               </b></h3>
+               </b></h2>
                
                <ul className="exp-ul ms-2 ms-sm-0" data-aos="fade-up" >
                   <li data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">I have two years exprence in web developement.</li>

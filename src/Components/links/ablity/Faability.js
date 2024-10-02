@@ -90,7 +90,7 @@ const FaAblity = ({ theme }) => {
 
   return (
     <Container className="pb-5 mt-5 faAblity">
-      <div className="pt-sm-4 pt-1">
+      <div className="pt-sm-3 pt-md-5 pt-1">
         <div className="skills">
           <h1 data-aos="fade-left">مهارت های من</h1>
 
@@ -147,8 +147,8 @@ const FaAblity = ({ theme }) => {
 
 
 
-        <h2 className="h2Lang" data-aos="fade-left"><b>زبان ها</b></h2>
         <div className="skills mb-5 mb-md-5">
+        <h2 className="h2Lang" data-aos="fade-left"><b>زبان ها</b></h2>
           <li><p className="p" style={{ marginTop: '0px' }}>فارسی</p>
             <div className="bar"><div className="animation" ref={animatedRef10}></div></div>
           </li>

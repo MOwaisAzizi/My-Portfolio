@@ -89,7 +89,7 @@ const Ablity = ({ theme }) => {
 
   return (
     <Container className="pb-5 mt-5" >
-      <div className="pt-sm-4 pt-1">
+      <div className="pt-sm-3 pt-md-5 pt-1">
         <div className="skills">
           <h1 data-aos="fade-right" >My Skills</h1>
 
@@ -144,8 +144,8 @@ const Ablity = ({ theme }) => {
           </li>
         </div>
 
-        <h2 className="h2Lang" data-aos="fade-right"><b>Languages</b></h2>
         <div className="skills mb-5 mb-md-5">
+        <h2 className="h2Lang" data-aos="fade-right"><b>Languages</b></h2>
           <li className="p" style={{ marginTop: '0px' }}>
             <span>F</span><span>a</span><span>r</span><span>s</span><span>i</span>
 

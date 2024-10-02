@@ -38,7 +38,7 @@ const Contact = ({ theme, click, refResult }) => {
       <Container className="contain">
         <div className="form py-4" style={style}>
           <form id="contact-form" onSubmit={sendEmail} method="POST">
-            <h1 style={{ textAlign: 'center' }}>Contact Me</h1>
+            <h2 style={{ textAlign: 'center' }}>Contact Me</h2>
             <div className="f mt-2">
               <label >Email Address</label> <br />
               <input data-aos="zoom-in" data-aos-duration="1500" value={email} onChange={(e) => setEmail(e.target.value)} type="email" name='email-from' id="emailfrom1" placeholder="Your Email Address" className="input"></input> <br />

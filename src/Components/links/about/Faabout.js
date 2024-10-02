@@ -22,9 +22,9 @@ const Faabout = (props) => {
         <div className="about mb-lg-3 mb-3 faAbout" >
             <Container>
     
-                         <b>
+                         
                         <h1 data-aos="fade-up" className="mx-auto  t-center pt-2 pt-gl-5 pt-md-5 pt-0">
-                        <span style={{ fontSize: '40px' }}>؟</span> <span>هستم</span> <span>کی</span> <span>من</span>  </h1>  </b>
+                        <span style={{ fontSize: '40px' }}>؟</span> <span>هستم</span> <span>کی</span> <span>من</span>  </h1> 
                         <p data-aos="fade-up" data-aos-duration="800" style={{ direction: 'rtl' }} className="px-lg-5 mx-lg-5 center px-1  mx-0" >
                           من یک توسعه دهنده فرات اند با دو سال تجربه هستم که در افغانستان، هرات زندگی میکنم و محصل برحال 
                              رشته کمپیوتر ساینس در دانشگاه هرات هستم.

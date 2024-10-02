@@ -16,9 +16,9 @@ const FaExprence = () => {
 
                {/* <div  className="text"> */}
                   <div className="dtext dftext faexprence">
-                     <h3 data-aos="fade-up"><b>
+                     <h2 data-aos="fade-up"><b>
                      <span>چیکار</span> <span>انجام</span> <span>دادم</span> <span>؟</span> 
-                        </b></h3>
+                        </b></h2>
                      <ul className=" exp-ul-fa me-2 me-sm-0  ps-md-0" data-aos="fade-up">
                         <li data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">داشتن تجربه دو ساله در زمینه توسعه وب.</li>
                         <li data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">کارآموزی در موسسه واسا برای شش ماه.</li>
