@@ -83,7 +83,7 @@
   font-family: "Rfont";
   cursor: pointer;
   font-size: 30px;
-  margin-top: 0px;
+  margin-top: 0.5px;
   position: fixed;
   right: 3rem;
   top: 0.1rem;
@@ -190,12 +190,12 @@
   }
   .logoFa {
     left: 2rem;
-    top: 0.32rem;
-    font-size: 29px;
+    top: 0.23rem;
+    font-size: 30px;
   }
   .logo {
     right: 0.7rem;
-    top: 0.30rem;
+    top: 0.32rem;
     font-size: 28px;
   }
 }
@@ -211,8 +211,8 @@
   }
   .logoFa {
     left: 2rem;
-    top: 0.35rem;
-    font-size: 28px;
+    top: 0.27rem;
+    font-size: 29px;
   }
   .logo {
     right: 0.4rem;
