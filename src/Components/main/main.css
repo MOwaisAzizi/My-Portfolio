@@ -180,7 +180,28 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 880px) {
+  .navbar-links {
+    margin-left: 2rem;
+    gap: 2rem;
+  }
+
+  .Navfarsi {
+    margin-right: 2.5rem;  
+  }
+  .logoFa {
+    left: 1.2rem;
+    top: 0.55rem;
+    font-size: 25px;
+  }
+  .logo {
+    right: 1rem;
+    top: 0.45rem;
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 765px) {
   .navbar-links {
     font-size: 19px;
     display: none;
@@ -240,11 +261,7 @@
     font-size: 24px;
   }
 }
-@media only screen and (max-width: 850px) {
-  .navbar-links {
-    margin-left: 1.5rem;
-  }
-}
+
 
 @media only screen and (max-width: 750px) {
   .btn-change {

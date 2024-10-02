@@ -119,7 +119,7 @@ setisopen(false)
               height: isopen ? 'auto' : '57px'
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links Navfarsi'}  >
-              <li onClick={() => handleScroll(home)} >خانه</li>
+              <li onClick={() => handleScroll(home)} style={{zIndex:'30000'}}>خانه</li>
               <li onClick={() => handleScroll(instace)}>پروژه ها</li>
               <li onClick={() => handleScroll(about)}>درباره</li>
               <li onClick={() => handleScroll(exprence)}>تجارب</li>
