@@ -15,7 +15,7 @@
 
 h1 span {
   display: inline-block;
-  animation: bounce 0.45s ease infinite;
+  animation: bounce 0.50s ease infinite;
 }
 h1 span:nth-child(2) {
   animation-delay: 0.1s;

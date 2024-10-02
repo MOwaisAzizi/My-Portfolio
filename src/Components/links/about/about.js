@@ -18,7 +18,7 @@ const About = (props) => {
           and have successfully completed courses in web development offered by both the university and WASSA Organization. I am
           keen on further expanding my knowledge in web development,particularly in the areas of backend developer and AI technology.
           I possess the capability to construct front-end websites and web applications proficiently and I am enthusiastic about
-          collaborating on joint projects.Additionally, I have obtained certicfication in frontend web development from WASSA Organization.
+          collaborating on joint projects.Additionally, I have more than ten certicfications from different organizations including a certicfication in frontend web development I have obtained from WASSA Organization.
 
             </p>
           <div className="cvdiv mt-3" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
