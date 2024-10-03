@@ -98,11 +98,9 @@ setisopen(false)
               <li onClick={()=>handleScroll(contact)}>Contact</li>
             </ul>
 
-            <div className='containterlogo'>
               <Navbar.Brand ref={home} onClick={() => handleScroll(home)} className=" fw-bold logo">
                <b> Azizi</b>
               </Navbar.Brand>
-            </div>
 
             <i onClick={toggleNav} className={isopen ? 'fa fa-times time navbartoggle' : 'fa fa-bars navbartoggle'}></i>
 
