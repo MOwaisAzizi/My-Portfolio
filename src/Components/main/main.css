@@ -81,7 +81,7 @@
 .logo {
   font-family: "Rfont";
   cursor: pointer;
-  font-size: 30px;
+  font-size: 31px;
   position: fixed;
   right: 3rem;
   color: inherit;
@@ -91,10 +91,10 @@
 .logoFa {
   font-family: "myFont";
   cursor: pointer;
-  font-size: 31px;
+  font-size: 32px;
   position: fixed;
   left: 4rem;
-  top: 1.5px;
+  top: 1.4px;
   color: inherit;
   z-index: 2000;
   display: flex;
