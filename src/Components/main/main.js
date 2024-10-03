@@ -87,7 +87,7 @@ setisopen(false)
               background: theme === 'dark' ? '#52d3d8' : '#98eecc',
               color: theme === 'dark' ? 'white' : 'black',
               boxShadow: theme === 'dark' ? '0px 2px 5px #22abaf' : '0px 4px 8px rgba(0,0,0,0.2)',
-              height: isopen ? 'auto' : '60px',
+              height: isopen ? 'auto' : '58.5px',
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links'}>
               <li onClick={()=>handleScroll(home)}>Home</li>
@@ -114,7 +114,7 @@ setisopen(false)
               color: theme === 'dark' ? 'white' : 'black',
               boxShadow: theme === 'dark' ? '0px 2px 5px #22abaf' : '0px 4px 8px rgba(0,0,0,0.2)',
 
-              height: isopen ? 'auto' : '60px'
+              height: isopen ? 'auto' : '58.5px'
             }}>
             <ul className={isopen ? 'navbar-links active ' : 'navbar-links Navfarsi'}  >
               <li onClick={() => handleScroll(home)} style={{zIndex:'3000'}}>خانه</li>

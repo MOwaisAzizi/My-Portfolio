@@ -141,10 +141,10 @@
 .navbar-links li:hover {
   color: blue;
   transition: 0.35s all;
-  font-size: 21.5px;
+  font-size: 22px;
 }
 .Navfarsi li:hover {
-  font-size: 23.5px;
+  font-size: 24px;
   transition: 0.35s all;
 }
 .btn-change {
