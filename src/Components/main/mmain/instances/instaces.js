@@ -140,9 +140,8 @@ const Instances = ({theme}) => {
    <div className="pb-md-3 pb-1 slider ">
 
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="zoom-in" data-aos-duration="1000">My  Projects Instances</h2>
-        {/* <div className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 436 : width <700 && width>500 ? currentIndex * 520 : width <500 && width>400 ? currentIndex * 480 :currentIndex * 380}px)` }}> */}
 
-        <div className="slides" style={{ transform: `translateX(-${  currentIndex * 14.37 }%)` }}>
+        <div className="slides" style={{ transform: `translateX(-${  currentIndex * 14.38 }%)` }}>
          
 
           <div className="mb-3 slide" data-aos="zoom-in" data-aos-duration="1500">
@@ -311,6 +310,10 @@ const Instances = ({theme}) => {
           )
         })}
 
+       <button style={style1} onClick={prevSlide} className="arrows arrow-left">&larr; </button>
+       <button style={style1} onClick={nextSlide} className="arrows arrow-right">&rarr;</button>
+    
+
  </div>
         <Container className="">
             <div className=" btn-more mb-3 mb-md-0  mt-3 ">
@@ -321,9 +324,7 @@ const Instances = ({theme}) => {
 
    </Container>
 
-      <button style={style1} onClick={prevSlide} className="arrows arrow-left">&larr; </button>
-       <button style={style1} onClick={nextSlide} className="arrows arrow-right">&rarr;</button>
-    
+
     </div>
   )
 }

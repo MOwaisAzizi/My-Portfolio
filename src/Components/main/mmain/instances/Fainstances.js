@@ -130,7 +130,7 @@ const FaInstances = (props) => {
    <div className="pb-3 slider">
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="zoom-in" data-aos-duration="1000">نمونه های پروژه های من</h2>
 
-   <div  className="slides"  style={{ transform: `translateX(-${ currentIndex * 14.37 }%)` }}>
+   <div  className="slides"  style={{ transform: `translateX(-${ currentIndex * 14.38 }%)` }}>
 
           <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide" >
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">آب و هوا</h5>
@@ -289,6 +289,7 @@ const FaInstances = (props) => {
             </li>
             <p className="card-title">React, API, CSS</p>
           </div>
+  
    </div>
 
         
@@ -299,6 +300,9 @@ const FaInstances = (props) => {
           )
         })}
 
+<button onClick={prevSlide} className="arrows arrow-left" style={style1}>&larr; </button>
+       <button onClick={nextSlide} className="arrows arrow-right" style={style1}>&rarr;</button>
+   
  </div>
 
         <Container className="mb-3 mb-md-0 mt-3">
@@ -308,8 +312,8 @@ const FaInstances = (props) => {
         </Container>
       </div>
    </Container>
-   <button onClick={prevSlide} className="arrows arrow-left" style={style1}>&larr; </button>
-       <button onClick={nextSlide} className="arrows arrow-right" style={style1}>&rarr;</button>
+
+     
     </div>
   )
 }
