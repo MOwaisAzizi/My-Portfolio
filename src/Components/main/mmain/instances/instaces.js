@@ -319,8 +319,8 @@ const Instances = ({theme}) => {
         </Container>
       </div>
 
-
    </Container>
+
       <button style={style1} onClick={prevSlide} className="arrows arrow-left">&larr; </button>
        <button style={style1} onClick={nextSlide} className="arrows arrow-right">&rarr;</button>
     
