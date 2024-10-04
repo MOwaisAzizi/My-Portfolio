@@ -130,7 +130,7 @@ const FaInstances = (props) => {
    <div className="pb-3 slider">
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="zoom-in" data-aos-duration="1000">نمونه های پروژه های من</h2>
 
-   <div  className="slides" style={{ transform: `translateX(-${ width >= 700 ? currentIndex * 436 : width <700 && width>500 ? currentIndex * 520 : width <500 && width>400 ? currentIndex * 480 :currentIndex * 380}px)` }}>
+   <div  className="slides"  style={{ transform: `translateX(-${ currentIndex * 14.37 }%)` }}>
 
           <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide" >
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">آب و هوا</h5>
@@ -295,7 +295,7 @@ const FaInstances = (props) => {
         <div className="mt-md-3 mt-3 activeContainer">
  {Array.from({length:images.length},(_,i)=>i).map((acitve,index)=>{
           return (
-            <span key={index}  className={currentIndex === index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:props.theme==='dark' ?'#52d3d8' :'#98eecc' }}>.</span></span>
+            <span key={index}  className={currentIndex === index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:props.theme==='dark' ? 'white' :'#807a7a'  }}>.</span></span>
           )
         })}
 
