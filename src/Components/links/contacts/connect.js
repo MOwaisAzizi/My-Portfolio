@@ -46,7 +46,7 @@ const Contact = ({ theme, click, refResult }) => {
             <input data-aos="zoom-in" data-aos-duration="1500" value={name} onChange={(e) => setName(e.target.value)} type="text" name='email-from' id="emailfrom0" placeholder="Your Name" className="input"></input> <br />
               <label >Email Address</label> <br />
               <input data-aos="zoom-in" data-aos-duration="1500" value={email} onChange={(e) => setEmail(e.target.value)} type="email" name='email-from' id="emailfrom1" placeholder="Your Email Address" className="input"></input> <br />
-              <label >Phone Number</label> <br />
+              <label >Phone No</label> <br />
               <input data-aos="zoom-in" data-aos-duration="1500" value={num} onChange={(e) => setNum(e.target.value)} type="number" name='email-from' id="emailfrom2" placeholder="Your Phone Number" className="input"></input> <br />
               <label >Message</label> <br />
               <textarea data-aos="zoom-in" data-aos-duration="1500" value={Message} onChange={(e) => setMessage(e.target.value)} name='message' id="message" placeholder="Your Message" rows={5}></textarea> <br />

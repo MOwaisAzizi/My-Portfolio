@@ -42,13 +42,13 @@ const FaContact = ({ theme, refResult, click }) => {
           <form id="contact-form" onSubmit={sendEmail} method="POST">
             <h2 style={{ textAlign: 'center' }}>ارتباط با من</h2>
             <div className="f">
-              <label className="pe-1">نام</label> <br />
+              <label className="pe-2">نام</label> <br />
               <input data-aos="zoom-in" data-aos-duration="1500" value={name} onChange={(e) => setName(e.target.value)} type="text" name='email-from' id="emailfrom0" placeholder="نام شما" className="input"></input> <br />
-              <label className="pe-1" >ایمیل آدرس</label> <br />
+              <label className="pe-2" >ایمیل آدرس</label> <br />
               <input data-aos="zoom-in" data-aos-duration="1500" value={email} onChange={(e) => setEmail(e.target.value)} style={{ direction: 'rtl' }} type="email" name='email-from' id="emailfrom1" placeholder="ایمیل ادرس شما" className="input"></input> <br />
-              <label className="pe-1" >شماره تماس</label> <br />
+              <label className="pe-2" >شماره تماس</label> <br />
               <input data-aos="zoom-in" data-aos-duration="1500" value={num} onChange={(e) => setNum(e.target.value)} style={{ direction: 'rtl' }} type="number" name='email-from' id="emailfrom2" placeholder=" شماره تماس شما " className="input"></input> <br />
-              <label className="pe-1" >پیام</label> <br />
+              <label className="pe-2" >پیام</label> <br />
               <textarea data-aos="zoom-in" data-aos-duration="1500" value={Message} onChange={(e) => setMessage(e.target.value)} style={{ direction: 'rtl' }} name='message' id="message" placeholder="پیام شما" rows={5}></textarea> <br />
               <button type="submit" className="btn btn-primary button  px-2 py-1  px-md-3 py-md-2 me-1 text-white">ارسال <FaPaperPlane color="white" /></button>
             </div>
