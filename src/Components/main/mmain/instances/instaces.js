@@ -136,7 +136,7 @@ const Instances = ({theme}) => {
   return (
     <div className="instance" >
 
-<Container className=" contain"> 
+<Container className="contain"> 
    <div className="pb-md-3 pb-1 slider ">
 
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="zoom-in" data-aos-duration="1000">My  Projects Instances</h2>
