@@ -42,9 +42,12 @@
   border-radius: 50%;
   cursor: pointer;
  }.arrow-left{
+  border: solid black 1px;
   left: 45px;
  }.arrow-right{
   right: 0px;
+  border: solid black 1px;
+
  }
 .activeContainer{
   display: flex;
@@ -53,7 +56,7 @@
 
 }.dot{
   border: none;
-  opacity: 0.40;
+  opacity: 0.35;
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.5s;
@@ -249,7 +252,7 @@ border-radius: 5px;
    }
 
   .arrow-left{
-    left: 28px;
+    left: 29px;
    }.arrow-right{
     right: 0px;
    }
