@@ -33,21 +33,12 @@
   border: none;
 
 }
-#emailfrom1 {
+.input {
   width: 100%;
-  padding: 8px;
+  padding: 8px 10px;
   border-radius: 15px;
   margin: auto;
   border: none;
-
-}
-#emailfrom2 {
-  width: 100%;
-  padding: 8px;
-  border-radius: 15px;
-  margin: auto;
-  border: none;
-
 
 }
 

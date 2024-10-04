@@ -6,6 +6,7 @@ import { FaPaperPlane } from 'react-icons/fa'
 
 const Contact = ({ theme, click, refResult }) => {
 
+  const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [num, setNum] = useState('')
   const [Message, setMessage] = useState('')
@@ -16,6 +17,7 @@ const Contact = ({ theme, click, refResult }) => {
     if (Message.trim() === '') return alert('Please fill the message input')
 
     emailjs.sendForm('service_wbk8n58', 'template_cd72onu', e.target, 'D6YlJfjXbdiipAnl2')
+    setName('')
     setEmail('')
     setNum('')
     setMessage('')
@@ -40,12 +42,14 @@ const Contact = ({ theme, click, refResult }) => {
           <form id="contact-form" onSubmit={sendEmail} method="POST">
             <h2 style={{ textAlign: 'center' }}>Contact Me</h2>
             <div className="f mt-2">
+            <label >Name</label> <br />
+            <input data-aos="zoom-in" data-aos-duration="1500" value={name} onChange={(e) => setName(e.target.value)} type="text" name='email-from' id="emailfrom0" placeholder="Your Name" className="input"></input> <br />
               <label >Email Address</label> <br />
               <input data-aos="zoom-in" data-aos-duration="1500" value={email} onChange={(e) => setEmail(e.target.value)} type="email" name='email-from' id="emailfrom1" placeholder="Your Email Address" className="input"></input> <br />
               <label >Phone Number</label> <br />
-              <input data-aos="zoom-in" data-aos-duration="1500" value={num} onChange={(e) => setNum(e.target.value)} type="number" name='email-from' id="emailfrom2" placeholder="Your Phone Number"></input> <br />
+              <input data-aos="zoom-in" data-aos-duration="1500" value={num} onChange={(e) => setNum(e.target.value)} type="number" name='email-from' id="emailfrom2" placeholder="Your Phone Number" className="input"></input> <br />
               <label >Message</label> <br />
-              <textarea data-aos="zoom-in" data-aos-duration="1500" value={Message} onChange={(e) => setMessage(e.target.value)} name='message' id="message" placeholder="Your Message" rows={6}></textarea> <br />
+              <textarea data-aos="zoom-in" data-aos-duration="1500" value={Message} onChange={(e) => setMessage(e.target.value)} name='message' id="message" placeholder="Your Message" rows={5}></textarea> <br />
               <button type="submit" className="btn btn-primary  ms-1 button px-2 py-1  px-md-3 py-md-2 text-white">Send <FaPaperPlane color="white" className="me-2 me-sm-0" /></button>
 
             </div>

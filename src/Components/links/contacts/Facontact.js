@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import './conect.css'
 import { Container, } from "react-bootstrap";
 import emailjs from '@emailjs/browser'
@@ -6,18 +6,19 @@ import { FaPaperPlane } from 'react-icons/fa'
 
 const FaContact = ({ theme, refResult, click }) => {
 
-  const[email,setEmail] = useState('')
-  const[num,setNum] = useState('')
-  const[Message,setMessage] = useState('')
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [num, setNum] = useState('')
+  const [Message, setMessage] = useState('')
 
   const sendEmail = (e) => {
     e.preventDefault();
-      if(email.trim() === '' && num.trim()=== '') return alert('لطفا ورودی تماس یا ایمیل را پر کنید')
-      if (Message.trim() === '') return alert('لطفا ورودی پیام را پر کنید')
-    
-        emailjs.sendForm('service_wbk8n58', 'template_cd72onu', e.target, 'D6YlJfjXbdiipAnl2')
-    
-        setEmail('')
+    if (email.trim() === '' && num.trim() === '') return alert('لطفا ورودی تماس یا ایمیل را پر کنید')
+    if (Message.trim() === '') return alert('لطفا ورودی پیام را پر کنید')
+
+    emailjs.sendForm('service_wbk8n58', 'template_cd72onu', e.target, 'D6YlJfjXbdiipAnl2')
+    setName('')
+    setEmail('')
     setNum('')
     setMessage('')
     alert('پیام ارسال شد')
@@ -39,16 +40,18 @@ const FaContact = ({ theme, refResult, click }) => {
       <Container className="contain">
         <div className="form py-4" style={style}>
           <form id="contact-form" onSubmit={sendEmail} method="POST">
-            <h2 style={{ textAlign: 'center'}}>ارتباط با من</h2>
-           <div className="f">
-           <label className="pe-1" >ایمیل آدرس</label> <br />
-            <input data-aos="zoom-in" data-aos-duration="1500" value={email} onChange={(e) => setEmail(e.target.value)}  style={{ direction: 'rtl' }} type="email" name='email-from' id="emailfrom1" placeholder="ایمیل ادرس شما"></input> <br />
-            <label className="pe-1" >شماره تماس</label> <br />
-            <input data-aos="zoom-in" data-aos-duration="1500" value={num} onChange={(e) => setNum(e.target.value)} style={{ direction: 'rtl' }} type="number" name='email-from' id="emailfrom2" placeholder=" شماره تماس شما "></input> <br />
-            <label className="pe-1" >پیام</label> <br />
-            <textarea data-aos="zoom-in" data-aos-duration="1500" value={Message} onChange={(e) => setMessage(e.target.value)}  style={{ direction: 'rtl' }} name='message' id="message" placeholder="پیام شما" rows={6}></textarea> <br />
-            <button type="submit" className="btn btn-primary button  px-2 py-1  px-md-3 py-md-2 me-1 text-white">ارسال <FaPaperPlane color="white" /></button>
-           </div>
+            <h2 style={{ textAlign: 'center' }}>ارتباط با من</h2>
+            <div className="f">
+              <label >نام</label> <br />
+              <input data-aos="zoom-in" data-aos-duration="1500" value={name} onChange={(e) => setName(e.target.value)} type="text" name='email-from' id="emailfrom0" placeholder="نام شما" className="input"></input> <br />
+              <label className="pe-1" >ایمیل آدرس</label> <br />
+              <input data-aos="zoom-in" data-aos-duration="1500" value={email} onChange={(e) => setEmail(e.target.value)} style={{ direction: 'rtl' }} type="email" name='email-from' id="emailfrom1" placeholder="ایمیل ادرس شما" className="input"></input> <br />
+              <label className="pe-1" >شماره تماس</label> <br />
+              <input data-aos="zoom-in" data-aos-duration="1500" value={num} onChange={(e) => setNum(e.target.value)} style={{ direction: 'rtl' }} type="number" name='email-from' id="emailfrom2" placeholder=" شماره تماس شما " className="input"></input> <br />
+              <label className="pe-1" >پیام</label> <br />
+              <textarea data-aos="zoom-in" data-aos-duration="1500" value={Message} onChange={(e) => setMessage(e.target.value)} style={{ direction: 'rtl' }} name='message' id="message" placeholder="پیام شما" rows={5}></textarea> <br />
+              <button type="submit" className="btn btn-primary button  px-2 py-1  px-md-3 py-md-2 me-1 text-white">ارسال <FaPaperPlane color="white" /></button>
+            </div>
           </form>
         </div>
 
