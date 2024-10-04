@@ -313,7 +313,7 @@ const Instances = ({theme}) => {
 
  </div>
         <Container className="">
-            <div className=" btn-more mb-3 mb-md-0  mt-3 mt-lg-4 ">
+            <div className=" btn-more mb-3 mb-md-0  mt-3 ">
               <Link to='/project'>  <button style={style} className="h ms-lg-1  py-1 More" >See More <span className="arrow">&rarr;</span></button></Link>
             </div>
         </Container>
