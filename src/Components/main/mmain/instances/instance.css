@@ -42,11 +42,9 @@
   border-radius: 50%;
   cursor: pointer;
  }.arrow-left{
-  border: solid black 1px;
   left: 45px;
  }.arrow-right{
   right: 0px;
-  border: solid black 1px;
 
  }
 .activeContainer{
