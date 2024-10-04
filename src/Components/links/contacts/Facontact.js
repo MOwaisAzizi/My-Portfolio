@@ -42,7 +42,7 @@ const FaContact = ({ theme, refResult, click }) => {
           <form id="contact-form" onSubmit={sendEmail} method="POST">
             <h2 style={{ textAlign: 'center' }}>ارتباط با من</h2>
             <div className="f">
-              <label >نام</label> <br />
+              <label className="pe-1">نام</label> <br />
               <input data-aos="zoom-in" data-aos-duration="1500" value={name} onChange={(e) => setName(e.target.value)} type="text" name='email-from' id="emailfrom0" placeholder="نام شما" className="input"></input> <br />
               <label className="pe-1" >ایمیل آدرس</label> <br />
               <input data-aos="zoom-in" data-aos-duration="1500" value={email} onChange={(e) => setEmail(e.target.value)} style={{ direction: 'rtl' }} type="email" name='email-from' id="emailfrom1" placeholder="ایمیل ادرس شما" className="input"></input> <br />
