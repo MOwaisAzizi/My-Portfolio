@@ -203,7 +203,25 @@ const FaInstances = (props) => {
             <p className="card-title">React, API, CSS</p>
           </div>
        
-
+          <div data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 slide">
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فهرست فلم</h5>
+            <li className='li' onClick={showlinks8Handler}>
+              <Card className="card" >
+                <img className="card-img" src={Movie}></img>
+              </Card>
+              {showlinks8 ?
+                <div className="backdrop">
+                  <Row>
+                    <div className='links'  >
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/MoveList-app'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://movielist-phi.vercel.app/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                    </div>
+                  </Row>
+                </div>
+                : null}
+            </li>
+            <p className="card-title">React,CSS,API</p>
+          </div >
 
           <div  data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">گیم تاس</h5>
@@ -228,6 +246,8 @@ const FaInstances = (props) => {
             <p className="card-title">React, CSS</p>
           </div>
 
+       
+
           <div  data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">اپلیکیشن بانک</h5>
             <li className='li' onClick={showlinks4Handler}>
@@ -250,25 +270,7 @@ const FaInstances = (props) => {
             <p className="card-title">HTML, CSS, JS</p>
           </div>
 
-          <div data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 slide">
-            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فهرست فلم</h5>
-            <li className='li' onClick={showlinks8Handler}>
-              <Card className="card" >
-                <img className="card-img" src={Movie}></img>
-              </Card>
-              {showlinks8 ?
-                <div className="backdrop">
-                  <Row>
-                    <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/MoveList-app'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://movielist-phi.vercel.app/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
-                    </div>
-                  </Row>
-                </div>
-                : null}
-            </li>
-            <p className="card-title">React,CSS,API</p>
-          </div >
+   
 
           <div  data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">کتابخانه</h5>
