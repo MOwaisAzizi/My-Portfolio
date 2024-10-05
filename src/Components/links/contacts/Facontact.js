@@ -25,7 +25,7 @@ const FaContact = ({ theme, refResult, click }) => {
   }
 
   const style = {
-    background: theme === 'dark' ? 'linear-gradient(to right,#52d3d8,#3ac2c7)' : 'linear-gradient(to right,#98eecc,#82e5bd)',
+    background: theme === 'dark' ? 'linear-gradient(to right,#52d3d8,#30b5b9)' : 'linear-gradient(to right,#98eecc,#82e5bd)',
     color: theme === 'dark' ? 'white' : 'black',
     boxShadow: theme === 'dark' ? '2px 3px 10px #22abaf' : '5px 6px 15px rgba(0, 0, 0,0.2)'
 
