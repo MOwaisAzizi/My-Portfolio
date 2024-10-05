@@ -251,7 +251,7 @@ const FaInstances = (props) => {
           </div>
 
           <div data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 slide">
-            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فلم-لیست</h5>
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فهرست فلم</h5>
             <li className='li' onClick={showlinks8Handler}>
               <Card className="card" >
                 <img className="card-img" src={Movie}></img>
