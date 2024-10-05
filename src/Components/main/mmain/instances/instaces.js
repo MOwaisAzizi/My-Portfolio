@@ -154,28 +154,7 @@ const Instances = ({theme}) => {
           </div >
 
           
-          <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide" >
-            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mapty-ToDO-list</h5>
-            <li className="li" onClick={showlinks2Handler} >
-              <Card className="card" >
-                <img className="Card-img " src={mapty}></img>
-              </Card>
-
-              { showlinks2 ?
-                <div className="backdrop">
-                  <Row>
-                    <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Mapty-ToDoList'>Github <i style={style2}  className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://mapty-gules.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
-                    </div>
-                  </Row>
-                </div>
-                : null}
-            </li>
-            <br/>
-
-            <p className="card-title">HTML, CSS, JS(OOP)</p>
-          </div >
+         
 
           <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide" >
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Shopping App</h5>
@@ -197,7 +176,28 @@ const Instances = ({theme}) => {
             <p className="card-title">React, API, CSS</p>
           </div >
 
+ <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide" >
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Mapty-ToDO-list</h5>
+            <li className="li" onClick={showlinks2Handler} >
+              <Card className="card" >
+                <img className="Card-img " src={mapty}></img>
+              </Card>
 
+              { showlinks2 ?
+                <div className="backdrop">
+                  <Row>
+                    <div className='links'  >
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Mapty-ToDoList'>Github <i style={style2}  className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://mapty-gules.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                    </div>
+                  </Row>
+                </div>
+                : null}
+            </li>
+            <br/>
+
+            <p className="card-title">HTML, CSS, JS(OOP)</p>
+          </div >
 
           <div data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Movie-App</h5>
@@ -267,7 +267,7 @@ const Instances = ({theme}) => {
 
         </div>
 
-        <div className="mt-md-4 mt-3 activeContainer">
+        <div className="mt-sm-5 mt-3 activeContainer">
  {Array.from({length:images.length},(_,i)=>i).map((acitve,index)=>{
           return (
             <span key={index}  className={currentIndex === index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:theme==='dark' ? 'white' :'#807a7a' }}>.</span></span>//52d3d8 98eecc
@@ -280,7 +280,7 @@ const Instances = ({theme}) => {
 
  </div>
         <Container className="">
-            <div className=" btn-more mb-3 mb-md-0  mt-3 ">
+            <div className=" btn-more mb-3 mb-md-0 mt-3 ">
               <Link to='/project'>  <button style={style} className="h ms-lg-1  py-1 More" >See More <span className="arrow">&rarr;</span></button></Link>
             </div>
         </Container>

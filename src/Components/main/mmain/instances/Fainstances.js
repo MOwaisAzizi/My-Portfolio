@@ -157,6 +157,29 @@ const FaInstances = (props) => {
 
           </div >
 
+        
+
+          <div  data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide" >
+            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فروشگاه</h5>
+            <li className="li" onClick={ showlinks1Handler}>
+              <Card className="card " >
+                <img className="Card-img" src={sell}></img>
+              </Card>
+              {showlinks1 ?
+                <div className="backdrop" >
+                  <div>
+                    <div className='links'>
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Online-Market' ><i style={style2} className="fa fa-github icons"></i> گیت هاب</a></Button>
+                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-duration="500"><a href='http://online-market-phi.vercel.app'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
+                    </div>
+                  </div>
+                </div>
+                : null}
+            </li>
+
+            <p className="card-title">React, API, CSS</p>
+          </div>
+       
           <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide" >
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">لیست یاداشت ها با نقشه</h5>
             <li className="li" onClick={ showlinks2Handler} >
@@ -182,27 +205,6 @@ const FaInstances = (props) => {
 
           </div>
 
-          <div  data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide" >
-            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فروشگاه</h5>
-            <li className="li" onClick={ showlinks1Handler}>
-              <Card className="card " >
-                <img className="Card-img" src={sell}></img>
-              </Card>
-              {showlinks1 ?
-                <div className="backdrop" >
-                  <div>
-                    <div className='links'>
-                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Online-Market' ><i style={style2} className="fa fa-github icons"></i> گیت هاب</a></Button>
-                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-duration="500"><a href='http://online-market-phi.vercel.app'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
-                    </div>
-                  </div>
-                </div>
-                : null}
-            </li>
-
-            <p className="card-title">React, API, CSS</p>
-          </div>
-       
           <div data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">فهرست فلم</h5>
             <li className='li' onClick={showlinks8Handler}>
@@ -272,7 +274,7 @@ const FaInstances = (props) => {
    </div>
 
         
-        <div className=" mt-3 mt-md-4 activeContainer">
+        <div className=" mt-sm-5 mt-3 activeContainer">
  {Array.from({length:images.length},(_,i)=>i).map((acitve,index)=>{
           return (
             <span key={index}  className={currentIndex === index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:props.theme==='dark' ? 'white' :'#807a7a'  }}>.</span></span>
