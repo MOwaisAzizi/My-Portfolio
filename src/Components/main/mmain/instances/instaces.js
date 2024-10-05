@@ -11,7 +11,7 @@ import { Card, Row, Container, Button } from "react-bootstrap";
 import { Link } from 'react-router-dom'
 
 
-const images = [note, sell, weather,Movie, library, mapty, RandomGame]
+const images = [note, sell, weather,Movie, library, mapty]
 
 const Instances = ({theme}) => {
 
@@ -32,7 +32,6 @@ const Instances = ({theme}) => {
 
   const [showlinks1, setshowlinks1] = useState(false)
   const [showlinks2, setshowlinks2] = useState(false)
-  const [showlinks3, setshowlinks3] = useState(false)
   const [showlinks4, setshowlinks4] = useState(false)
   const [showlinks6, setshowlinks6] = useState(false)
   const [showlinks7, setshowlinks7] = useState(false)
@@ -41,7 +40,6 @@ const Instances = ({theme}) => {
   function showlinks1Handler() {
     setshowlinks1(showlink => !showlink)
     setshowlinks2(false)
-    setshowlinks3(false)
     setshowlinks4(false)
     setshowlinks6(false)
     setshowlinks8(false)
@@ -51,16 +49,6 @@ const Instances = ({theme}) => {
   function showlinks2Handler() {
     setshowlinks2(showlink => !showlink)
     setshowlinks1(false)
-    setshowlinks3(false)
-    setshowlinks4(false)
-    setshowlinks6(false)
-    setshowlinks8(false)
-    setshowlinks7(false)
-  }
-  function showlinks3Handler() {
-    setshowlinks3(showlink => !showlink)
-    setshowlinks1(false)
-    setshowlinks2(false)
     setshowlinks4(false)
     setshowlinks6(false)
     setshowlinks8(false)
@@ -70,7 +58,6 @@ const Instances = ({theme}) => {
     setshowlinks4(showlink => !showlink)
     setshowlinks1(false)
     setshowlinks2(false)
-    setshowlinks3(false)
     setshowlinks6(false)
     setshowlinks8(false)
     setshowlinks7(false)
@@ -79,7 +66,6 @@ const Instances = ({theme}) => {
   function showlinks6Handler() {
     setshowlinks6(showlink => !showlink)
     setshowlinks2(false)
-    setshowlinks3(false)
     setshowlinks4(false)
     setshowlinks1(false)
     setshowlinks8(false)
@@ -89,7 +75,6 @@ const Instances = ({theme}) => {
     setshowlinks7(showlink => !showlink)
     setshowlinks6(false)
     setshowlinks2(false)
-    setshowlinks3(false)
     setshowlinks4(false)
     setshowlinks1(false)
     setshowlinks8(false)
@@ -100,7 +85,6 @@ const Instances = ({theme}) => {
     setshowlinks7(false)
     setshowlinks6(false)
     setshowlinks2(false)
-    setshowlinks3(false)
     setshowlinks4(false)
     setshowlinks1(false)
   }
@@ -141,7 +125,7 @@ const Instances = ({theme}) => {
 
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="zoom-in" data-aos-duration="1000">My  Projects Instances</h2>
 
-        <div className="slides" style={{ transform: `translateX(-${  currentIndex * 14.38 }%)` }}>
+        <div className="slides" style={{ transform: `translateX(-${  currentIndex * 16.8}%)` }}>
          
 
           <div className="mb-3 slide" data-aos="zoom-in" data-aos-duration="1500">
@@ -236,27 +220,6 @@ const Instances = ({theme}) => {
           </div >
 
 
-          <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
-            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Dice Game</h5>
-            <li className='li' onClick={showlinks3Handler} >
-
-              <Card className="card"  >
-                <img className="card-img" src={RandomGame}></img>
-              </Card>
-
-              { showlinks3 ?
-                <div className="backdrop">
-                  <Row>
-                    <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Random-Match-Game'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://game-iota-five.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
-                    </div>
-                  </Row>
-                </div>
-                : null}
-            </li>
-            <p className="card-title">React, CSS</p>
-          </div >
 
           <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Bank Application</h5>
@@ -299,7 +262,7 @@ const Instances = ({theme}) => {
                 </div>
                 : null}
             </li>
-            <p className="card-title">React, API, CSS</p>
+            <p className="card-title">React, CSS, API, Firebase</p>
           </div >
 
         </div>

@@ -1,6 +1,5 @@
 import React, { useState,useEffect } from "react";
 import mapty from './Mapty.png'
-import RandomGame from './RandomGame.png'
 import note from './note.png'
 import sell from './sell.png'
 import library from './library.png'
@@ -14,7 +13,7 @@ import { Link } from "react-router-dom";
 
 
 const FaInstances = (props) => {
-  const images = [note, sell, library, mapty, RandomGame,weather,Movie]
+  const images = [note, sell, library, mapty,weather,Movie]
 
   const style = {
     background: props.theme === 'dark' ? '#52d3d8' : '#98eecc',
@@ -44,6 +43,8 @@ const FaInstances = (props) => {
     setshowlinks3(false)
     setshowlinks4(false)
     setshowlinks6(false)
+    setshowlinks7(false)
+    setshowlinks8(false)
     
   }
   function showlinks2Handler(){
@@ -52,13 +53,8 @@ const FaInstances = (props) => {
     setshowlinks3(false)
     setshowlinks4(false)
     setshowlinks6(false)
-  }
-  function showlinks3Handler(){
-    setshowlinks3(showlink=>!showlink)
-    setshowlinks1(false)
-    setshowlinks2(false)
-    setshowlinks4(false)
-    setshowlinks6(false)
+    setshowlinks7(false)
+    setshowlinks8(false)
   }
   function showlinks4Handler(){
     setshowlinks4(showlink=>!showlink)
@@ -66,6 +62,8 @@ const FaInstances = (props) => {
     setshowlinks2(false)
     setshowlinks3(false)
     setshowlinks6(false)
+    setshowlinks7(false)
+    setshowlinks8(false)
   }
 
   function showlinks6Handler(){
@@ -74,6 +72,8 @@ const FaInstances = (props) => {
     setshowlinks3(false)
     setshowlinks4(false)
     setshowlinks1(false)
+    setshowlinks7(false)
+    setshowlinks8(false)
   }
   function showlinks7Handler(){
     setshowlinks7(showlink=>!showlink)
@@ -130,7 +130,7 @@ const FaInstances = (props) => {
    <div className="pb-3 slider">
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="zoom-in" data-aos-duration="1000">نمونه های پروژه های من</h2>
 
-   <div  className="slides"  style={{ transform: `translateX(-${ currentIndex * 14.38 }%)` }}>
+   <div  className="slides"  style={{ transform: `translateX(-${ currentIndex * 16.8 }%)` }}>
 
           <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide" >
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">آب و هوا</h5>
@@ -223,29 +223,6 @@ const FaInstances = (props) => {
             <p className="card-title">React,CSS,API</p>
           </div >
 
-          <div  data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
-            <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">گیم تاس</h5>
-            <li className='li' onClick={ showlinks3Handler} >
-
-              <Card className="card"  >
-                <img className="card-img" src={RandomGame}></img>
-              </Card>
-
-              {showlinks3 ?
-                <div className="backdrop">
-                  <div>
-                    <div className='links'  >
-                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Random-Match-Game'><i style={style2} className="fa fa-github icons"></i> گیت هاب</a></Button>
-                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-duration="500"><a href='https://game-iota-five.vercel.app'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
-                    </div>
-                  </div>
-                </div>
-                : null}
-            </li>
-
-            <p className="card-title">React, CSS</p>
-          </div>
-
        
 
           <div  data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
@@ -289,7 +266,7 @@ const FaInstances = (props) => {
                 </div>
                 : null}
             </li>
-            <p className="card-title">React, API, CSS</p>
+            <p className="card-title">React, CSS, API, Firebase</p>
           </div>
   
    </div>

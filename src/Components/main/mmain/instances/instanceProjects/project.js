@@ -13,6 +13,8 @@ import country from '../country.png'
 import market from '../market.png'
 import calculator from '../culculator2.png'
 import lib from '../lib.png'
+import RandomGame from '../RandomGame.png'
+
 
 import { Link } from "react-router-dom";
 import { Row, Col, Button, Card } from "react-bootstrap";
@@ -39,6 +41,7 @@ const Project = (props) => {
   const [showlinks11, setshowlinks11] = useState(false)
   const [showlinks12, setshowlinks12] = useState(false)
   const [showlinks13, setshowlinks13] = useState(false)
+  const [showlinks14, setshowlinks14] = useState(false)
 
   
   function showlinks1Handler(){
@@ -248,6 +251,22 @@ const Project = (props) => {
     setshowlinks6(false)
     setshowlinks12(false)
   }
+  function showlinks14Handler(){
+    setshowlinks14(showlink=>!showlink)
+    setshowlinks2(false)
+    setshowlinks3(false)
+    setshowlinks4(false)
+    setshowlinks5(false)
+    setshowlinks1(false)
+    setshowlinks7(false)
+    setshowlinks8(false)
+    setshowlinks9(false)
+    setshowlinks10(false)
+    setshowlinks11(false)
+    setshowlinks6(false)
+    setshowlinks12(false)
+    setshowlinks13(false)
+  }
 
 
 
@@ -281,25 +300,29 @@ const Project = (props) => {
             <p className="card-title">React, CSS</p>
           </Col>
 
-          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 ">
-            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Eat-Split-App</h4>
-            <li className="li" onClick={showlinks2Handler}>
-              <Card className="card" >
-                <img className="card-img" src={split}></img>
+
+
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3">
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Dice Game</h4>
+            <li className='li' onClick={showlinks14Handler} >
+
+              <Card className="card"  >
+                <img className="card-img" src={RandomGame}></img>
               </Card>
-              {showlinks2 ?
-                <div className="backdrop" >
+
+              { showlinks14 ?
+                <div className="backdrop">
                   <Row>
-                    <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Eat-split-app'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-duration="500"><a href='https://split-eat.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                    <div className='links'  >
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Random-Match-Game'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://game-iota-five.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
                 : null}
             </li>
             <p className="card-title">React, CSS</p>
-          </Col>
+          </Col >
 
           <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Info Website</h4>
@@ -321,6 +344,29 @@ const Project = (props) => {
             </li>
             <p className="card-title">HTML, CSS, bootstrap,SCSS</p>
           </Col>
+          
+
+          <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 ">
+            <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Eat-Split-App</h4>
+            <li className="li" onClick={showlinks2Handler}>
+              <Card className="card" >
+                <img className="card-img" src={split}></img>
+              </Card>
+              {showlinks2 ?
+                <div className="backdrop" >
+                  <Row>
+                    <div className='links'>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Eat-split-app'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
+                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-duration="500"><a href='https://split-eat.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                    </div>
+                  </Row>
+                </div>
+                : null}
+            </li>
+            <p className="card-title">React, CSS</p>
+          </Col>
+
+      
 
           <Col lg={4} md={6} data-aos="zoom-in" data-aos-duration="1500" className="mb-md-0 mb-lg-3 mb-3 ">
             <h4 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Countries-Data-App</h4>
