@@ -293,7 +293,7 @@ const FaInstances = (props) => {
    </div>
 
         
-        <div className="mt-md-3 mt-3 activeContainer">
+        <div className=" mt-3 mt-md-4 activeContainer">
  {Array.from({length:images.length},(_,i)=>i).map((acitve,index)=>{
           return (
             <span key={index}  className={currentIndex === index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:props.theme==='dark' ? 'white' :'#807a7a'  }}>.</span></span>
