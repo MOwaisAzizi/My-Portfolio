@@ -28,7 +28,7 @@
   padding: 0;
  }
  .slide{
-  width: 418px;
+  width: 417.5px;
   
   height: 30rem; 
   border: none;
@@ -190,7 +190,7 @@ border-radius: 5px;
     gap: 1rem;
    }
    .slide{
-    width: 325px;
+    width: 330px;
    }
   .arrow-right{
     right: 10px;

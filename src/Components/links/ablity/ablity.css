@@ -284,3 +284,8 @@ li span{
     width: 40%;
   }
 }
+@media screen and (max-width: 500px) {
+  .dspan span {
+    margin: 3px;
+  }
+}

@@ -26,7 +26,7 @@ const Contact = ({ theme, click, refResult }) => {
 
 
   const style = {
-    background: theme === 'dark' ? '#52d3d8' : '#98eecc',
+    background: theme === 'dark' ? 'linear-gradient(to left,#52d3d8,#3ac2c7)' : 'linear-gradient(to left,#98eecc,#82e5bd)',
     color: theme === 'dark' ? 'white' : 'black',
     boxShadow: theme === 'dark' ? '2px 3px 10px #22abaf' : '5px 6px 15px rgba(0, 0, 0,0.2)'
   }
