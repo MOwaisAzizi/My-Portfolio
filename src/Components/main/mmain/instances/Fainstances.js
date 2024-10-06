@@ -115,7 +115,7 @@ const FaInstances = (props) => {
   }
   
   function prevSlide() {
-    setCurrentIndex(preIndex => preIndex === 0 ?  width >= 850 ? images.length - 2 : images.length - 1 : preIndex - 1)
+    setCurrentIndex(preIndex => preIndex === 0 ? width <=1100 && width >= 770 ? images.length - 2 : width > 1100 ? images.length-3 : images.length-1 : preIndex - 1)
   }
 
   function acitveHandler(active){    

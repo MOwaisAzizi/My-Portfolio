@@ -96,8 +96,8 @@ const Instances = ({theme}) => {
   function handlResize(){
     setWidth(window.innerWidth)
   }
-  useEffect(function(){
 
+  useEffect(function(){
   window.addEventListener('resize',handlResize)
   return ()=> window.removeEventListener('resize',handlResize)
 
@@ -109,7 +109,7 @@ const Instances = ({theme}) => {
   }
   
   function prevSlide() {
-    setCurrentIndex(preIndex => preIndex === 0 ? width >= 750 ? images.length - 3 : images.length - 1 : preIndex - 1)
+    setCurrentIndex(preIndex => preIndex === 0 ? width <=1100 && width >= 770 ? images.length - 2 : width > 1100 ? images.length-3 : images.length-1 : preIndex - 1)
   }
 
   function acitveHandler(active){    
@@ -118,7 +118,7 @@ const Instances = ({theme}) => {
   }
 
   return (
-    <div className="instance" >
+    <div className="instance">
 
 <Container className="contain"> 
    <div className="pb-md-3 pb-1 slider ">
