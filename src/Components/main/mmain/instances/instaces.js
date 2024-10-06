@@ -103,13 +103,15 @@ const Instances = ({theme}) => {
 
   },[])
 
+  // setCurrentIndex(preIndex => width >770 && preIndex === images.length-2  ? preIndex = 0 : (preIndex + 1) % images.length)
+  // setCurrentIndex(preIndex => preIndex === 0 ? width <=1100 && width >= 770 ? images.length - 2 : width > 1100 ? images.length-3 : images.length-1 : preIndex - 1)
 
   function nextSlide() {
-    setCurrentIndex(preIndex => preIndex===images.length ? preIndex = 0 : (preIndex + 1) % images.length)
-  }
+  setCurrentIndex(preIndex => width > 1250 && preIndex === images.length-3 ? preIndex = 0 :  width > 1100 && width < 1250 && preIndex === images.length-2  ? preIndex = 0 : width  > 770 && width < 1100 && preIndex === images.length-2 ? preIndex = 0 : (preIndex + 1) % images.length)
+}
   
   function prevSlide() {
-    setCurrentIndex(preIndex => preIndex === 0 ? width <=1100 && width >= 770 ? images.length - 2 : width > 1100 ? images.length-3 : images.length-1 : preIndex - 1)
+    setCurrentIndex(preIndex => preIndex === 0 ? width <=1100 && width >= 770 ? images.length - 2 : width <1250 && width > 1100  ? images.length-2 :  width > 1100 ? images.length-3 : images.length-1 : preIndex - 1)
   }
 
   function acitveHandler(active){    
@@ -125,7 +127,7 @@ const Instances = ({theme}) => {
 
         <h2 className="pt-md-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="zoom-in" data-aos-duration="1000">My  Projects Instances</h2>
 
-        <div className="slides" style={{ transform: `translateX(-${  currentIndex * 16.8}%)` }}>
+        <div className="slides" style={{ transform: `translateX(-${ currentIndex * 16.8}%)` }}>
          
 
           <div className="mb-3 slide" data-aos="zoom-in" data-aos-duration="1500">
@@ -268,7 +270,7 @@ const Instances = ({theme}) => {
         </div>
 
         <div className="mt-sm-5 mt-3 activeContainer">
- {Array.from({length:images.length},(_,i)=>i).map((acitve,index)=>{
+ {Array.from({length: width > 1250 ? 4 : width < 1250 && width >= 770 ? 5 : 6 },(_,i)=>i).map((acitve,index)=>{
           return (
             <span key={index}  className={currentIndex === index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:theme==='dark' ? 'white' :'#807a7a' }}>.</span></span>//52d3d8 98eecc
           )
