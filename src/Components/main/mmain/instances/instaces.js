@@ -107,11 +107,11 @@ const Instances = ({theme}) => {
   // setCurrentIndex(preIndex => preIndex === 0 ? width <=1100 && width >= 770 ? images.length - 2 : width > 1100 ? images.length-3 : images.length-1 : preIndex - 1)
 
   function nextSlide() {
-  setCurrentIndex(preIndex => width > 1250 && preIndex === images.length-3 ? preIndex = 0 :  width > 1100 && width < 1250 && preIndex === images.length-2  ? preIndex = 0 : width  > 770 && width < 1100 && preIndex === images.length-2 ? preIndex = 0 : (preIndex + 1) % images.length)
+  setCurrentIndex(preIndex => width > 1480 && preIndex === images.length-3 ? preIndex = 0 :  width > 1100 && width < 1480 && preIndex === images.length-2  ? preIndex = 0 : width  > 770 && width < 1100 && preIndex === images.length-2 ? preIndex = 0 : (preIndex + 1) % images.length)
 }
   
   function prevSlide() {
-    setCurrentIndex(preIndex => preIndex === 0 ? width <=1100 && width >= 770 ? images.length - 2 : width <1250 && width > 1100  ? images.length-2 :  width > 1100 ? images.length-3 : images.length-1 : preIndex - 1)
+    setCurrentIndex(preIndex => preIndex === 0 ? width <=1100 && width >= 770 ? images.length - 2 : width <1480 && width > 1100  ? images.length-2 :  width > 1100 ? images.length-3 : images.length-1 : preIndex - 1)
   }
 
   function acitveHandler(active){    
