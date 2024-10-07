@@ -159,7 +159,7 @@ function Main({ theme }) {
                 {isenglish ?
                   <div className='info'>
                     <h2 className='pt-2 ' style={{ textAlign: 'center' }}><b>Mohammad Owais Azizi</b></h2>
-                    <p className='pt-1'>Living in Herat city, pursuing studies in Computer Sience in Herat university.
+                    <p className='pt-1'>is living in Herat city, pursuing studies in Computer Sience in Herat university.
                       Should you require assistance? please feel free to contact me through any of the provided ways: <br />
                     </p>
                     <div className='phone mb-1 mb-md-0' data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
