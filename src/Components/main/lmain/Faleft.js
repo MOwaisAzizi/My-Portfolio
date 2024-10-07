@@ -10,9 +10,9 @@ class Faleft extends React.Component {
     const myElement = document.querySelector('#left')
     init(myElement, { showCursor: false, strings: ['انجینیر نرم افزار'] })
   }
-  render() {
+  render() {  //mt-4 mt-sm-5
     return (
-      <div className='leftmain faLeft mt-4 mt-sm-5 mt-lg-0  ms-2  ms-lg-0  ps-lg-0 mb-2 mb-lg-0' style={{ direction: 'rtl' }} >
+      <div className='leftmain faLeft  mt-sm-5  mt-5 mt-lg-0   ms-2  ms-lg-0  ps-lg-0 mb-2 mb-lg-0' style={{ direction: 'rtl' }} >
 
         <div className=''>
           <b><h2 id='left' className=' mt-5 mt-lg-0' style={{ textAlign: 'center' }}><b>ا</b></h2></b>

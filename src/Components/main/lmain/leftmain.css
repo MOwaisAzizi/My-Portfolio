@@ -7,12 +7,14 @@
   }
 
 .leftmain{
-  text-align: center;
+   text-align: center;
    display: flex;
    align-items: center;
    justify-content: center;
    margin: auto;
-   height: 73%;
+   height: 68%;
    padding: 0;
-
+   /* border: solid 1px greenyellow; */
+}.left{
+  height: 65%;
 }

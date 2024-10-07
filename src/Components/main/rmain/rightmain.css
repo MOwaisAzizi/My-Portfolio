@@ -10,15 +10,18 @@
     text-align: center;
   display: flex;
   align-items:center;
-  height: 75%;
+  height: 70%;
   justify-content:center;
   text-align: center;
   padding: 0;
   margin: auto;
+}.right{
+  height: 67%;
+
 }
 
 @media only screen and (max-width: 991px) {
   .frontheader{
- margin-top: 5px;
+ margin-top: 10px;
   }
 }
