@@ -1,6 +1,5 @@
 import React from 'react'
 import './rightmain.css'
-import { Row, Col } from 'react-bootstrap';
 import { init } from 'ityped'
 
 class Faright extends React.Component {
@@ -9,7 +8,7 @@ class Faright extends React.Component {
     const myElement = document.querySelector('#right')
     init(myElement, { showCursor: false, strings: [' توسعه دهنده فرانت اند'] })
   }
-  // mt-2 mt-md-3 mt-lg-0
+
   render() {
     return (
       <div className='rightmain faRight mt-2 mt-sm-2 mt-md-4  mt-lg-0 ms-2 ms-lg-0 mb-4 mb-lg-0' style={{ direction: 'rtl' }}>
