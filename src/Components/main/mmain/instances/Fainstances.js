@@ -18,7 +18,7 @@ const FaInstances = (props) => {
   const style = {
     background: props.theme === 'dark' ? '#52d3d8' : '#98eecc',
     color: props.theme === 'dark' ? 'white' : 'black',
-    boxShadow: props.theme === 'dark' ? '0px 3px 8px #22abaf':'2px 5px 10px rgba(0, 0, 0,0.15) '
+    boxShadow: props.theme === 'dark' ? '0px 2px 8px #22abaf':'2px 5px 10px rgba(0, 0, 0,0.15) '
   }
   const style1 = {
     background: props.theme==='dark' ? '#52d3d8' : '#98eecc',
