@@ -142,8 +142,8 @@ const FaInstances = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Weather-App'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://weather-app-delta-ebon.vercel.app/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Weather-App'><i style={style2} className="fa fa-github icons"></i></a> گیت هاب</Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://weather-app-delta-ebon.vercel.app/'> <i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </Row>
                 </div>
@@ -214,8 +214,8 @@ const FaInstances = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/MoveList-app'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://movielist-phi.vercel.app/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/MoveList-app'><i style={style2} className="fa fa-github icons"></i></a> گیت هاب</Button>
+                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://movielist-phi.vercel.app/'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </Row>
                 </div>
