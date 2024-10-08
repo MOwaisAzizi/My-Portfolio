@@ -142,8 +142,8 @@ const FaInstances = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Weather-App'><i style={style2} className="fa fa-github icons"></i></a> گیت هاب</Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://weather-app-delta-ebon.vercel.app/'> <i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a  href='https://github.com/MOwaisAzizi/Weather-App'><i style={style2} className="fa fa-github icons"></i> گیت هاب</a></Button>
+                      <Button className="btn btn-light ms-2 pe-2 " data-aos="fade-left" data-aos-duration="500"><a  href='https://weather-app-delta-ebon.vercel.app/'> <i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </Row>
                 </div>
@@ -169,7 +169,7 @@ const FaInstances = (props) => {
                   <div>
                     <div className='links'>
                       <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Online-Market' ><i style={style2} className="fa fa-github icons"></i> گیت هاب</a></Button>
-                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-duration="500"><a href='http://online-market-phi.vercel.app'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light ms-2 pe-2" data-aos="fade-left" data-aos-duration="500"><a href='http://online-market-phi.vercel.app'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </div>
                 </div>
@@ -191,8 +191,8 @@ const FaInstances = (props) => {
                 <div className="backdrop">
                   <div>
                     <div className='links'  >
-                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Mapty-ToDoList'><i style={style2} className="fa fa-github icons"></i></a> گیت هاب</Button>
-                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-duration="500"><a href='https://mapty-gules.vercel.app'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Mapty-ToDoList'><i style={style2} className="fa fa-github icons"></i> گیت هاب</a></Button>
+                      <Button className="btn btn-light ms-2 pe-2" data-aos="fade-left" data-aos-duration="500"><a href='https://mapty-gules.vercel.app'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </div>
                 </div>
@@ -214,8 +214,8 @@ const FaInstances = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/MoveList-app'><i style={style2} className="fa fa-github icons"></i></a> گیت هاب</Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://movielist-phi.vercel.app/'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a  href='https://github.com/MOwaisAzizi/MoveList-app'><i style={style2} className="fa fa-github icons"></i></a> گیت هاب</Button>
+                      <Button className="btn btn-light ms-2 pe-2" data-aos="fade-left" data-aos-duration="500"><a  href='https://movielist-phi.vercel.app/'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </Row>
                 </div>
@@ -237,7 +237,7 @@ const FaInstances = (props) => {
                   <div>
                     <div className='links'  >
                       <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/BankApplication'><i style={style2} className="fa fa-github icons"></i>گیت هاب</a></Button>
-                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-duration="500"><a href='http://mowaisazizi.github.io/BankApplication/'><i style={style2} className="fa fa-globe icons"></i></a>دیدن</Button>
+                      <Button className="btn btn-light ms-2 pe-2" data-aos="fade-left" data-aos-duration="500"><a href='http://mowaisazizi.github.io/BankApplication/'><i style={style2} className="fa fa-globe icons"></i></a>دیدن</Button>
                     </div>
 
                   </div>
@@ -261,7 +261,7 @@ const FaInstances = (props) => {
                   <div>
                     <div className='links'  >
                       <Button className="btn btn-light pe-2 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/library'><i style={style2} className="fa fa-github icons"></i> گیت هاب</a></Button>
-                      <Button className="btn btn-light ms-2 pe-3" data-aos="fade-left" data-aos-duration="500"><a href='http://library-isos.vercel.app'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
+                      <Button className="btn btn-light ms-2 pe-2" data-aos="fade-left" data-aos-duration="500"><a href='http://library-isos.vercel.app'><i style={style2} className="fa fa-globe icons"></i> دیدن</a></Button>
                     </div>
                   </div>
                 </div>
