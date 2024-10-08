@@ -218,6 +218,7 @@ const Instances = ({theme}) => {
                 </div>
                 : null}
             </li>
+            
             <p className="card-title">React,CSS,API</p>
           </div >
 
