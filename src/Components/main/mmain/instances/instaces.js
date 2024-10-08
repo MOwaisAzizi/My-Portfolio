@@ -226,13 +226,13 @@ const Instances = ({theme}) => {
           <div data-aos="zoom-in" data-aos-duration="1500" className="mb-3 slide">
             <h5 style={{ textAlign: 'center' }} className="pt-3 pb-lg-0">Bank Application</h5>
             <li className='li' onClick={showlinks4Handler}>
-              <Card className="card " >
+              <Card className="card" >
                 <img className="card-img" src={note}></img>
               </Card>
               { showlinks4 ?
                 <div className="backdrop">
                   <Row>
-                    <div className='links'  >
+                    <div className='links' >
                       <Button className="btn btn-light me-sm-2 " data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/BankApplication'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
                       <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='http://mowaisazizi.github.io/BankApplication/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
                     </div>

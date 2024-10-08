@@ -265,14 +265,6 @@
     padding: 0;
   }.arrow{
     font-size: 25px;
-  }.backdrop{
-    border-radius: 15px;
-  }.card{
-    border-radius: 15px;
-
-  }img{
-    border-radius: 15px;
-
   }
 }
 
