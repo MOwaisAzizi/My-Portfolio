@@ -58,6 +58,7 @@ const Project = (props) => {
     setshowlinks11(false)
     setshowlinks12(false)
     setshowlinks13(false)
+    setshowlinks14(false)
 
     
   }
@@ -75,6 +76,7 @@ const Project = (props) => {
     setshowlinks11(false)
     setshowlinks12(false)
     setshowlinks13(false)
+    setshowlinks14(false)
 
   }
   function showlinks3Handler(){
@@ -82,6 +84,7 @@ const Project = (props) => {
     setshowlinks1(false)
     setshowlinks2(false)
     setshowlinks4(false)
+    setshowlinks14(false)
     setshowlinks5(false)
     setshowlinks6(false)
     setshowlinks7(false)
@@ -97,6 +100,7 @@ const Project = (props) => {
     setshowlinks4(showlink=>!showlink)
     setshowlinks1(false)
     setshowlinks2(false)
+    setshowlinks14(false)
     setshowlinks3(false)
     setshowlinks5(false)
     setshowlinks6(false)
@@ -123,6 +127,7 @@ const Project = (props) => {
     setshowlinks11(false)
     setshowlinks12(false)
     setshowlinks13(false)
+    setshowlinks14(false)
 
   }
   function showlinks6Handler(){
@@ -130,6 +135,7 @@ const Project = (props) => {
     setshowlinks2(false)
     setshowlinks3(false)
     setshowlinks4(false)
+    setshowlinks14(false)
     setshowlinks1(false)
     setshowlinks5(false)
     setshowlinks7(false)
@@ -155,6 +161,7 @@ const Project = (props) => {
     setshowlinks11(false)
     setshowlinks12(false)
     setshowlinks13(false)
+    setshowlinks14(false)
 
   }
   function showlinks8Handler(){
@@ -166,6 +173,7 @@ const Project = (props) => {
     setshowlinks1(false)
     setshowlinks7(false)
     setshowlinks6(false)
+    setshowlinks14(false)
     setshowlinks9(false)
     setshowlinks10(false)
     setshowlinks11(false)
@@ -183,6 +191,7 @@ const Project = (props) => {
     setshowlinks7(false)
     setshowlinks8(false)
     setshowlinks6(false)
+    setshowlinks14(false)
     setshowlinks10(false)
     setshowlinks11(false)
     setshowlinks12(false)
@@ -198,6 +207,7 @@ const Project = (props) => {
     setshowlinks1(false)
     setshowlinks7(false)
     setshowlinks8(false)
+    setshowlinks14(false)
     setshowlinks9(false)
     setshowlinks6(false)
     setshowlinks11(false)
@@ -213,6 +223,7 @@ const Project = (props) => {
     setshowlinks5(false)
     setshowlinks1(false)
     setshowlinks7(false)
+    setshowlinks14(false)
     setshowlinks8(false)
     setshowlinks9(false)
     setshowlinks10(false)
@@ -227,6 +238,7 @@ const Project = (props) => {
     setshowlinks3(false)
     setshowlinks4(false)
     setshowlinks5(false)
+    setshowlinks14(false)
     setshowlinks1(false)
     setshowlinks7(false)
     setshowlinks8(false)
@@ -240,6 +252,7 @@ const Project = (props) => {
     setshowlinks13(showlink=>!showlink)
     setshowlinks2(false)
     setshowlinks3(false)
+    setshowlinks14(false)
     setshowlinks4(false)
     setshowlinks5(false)
     setshowlinks1(false)
@@ -290,8 +303,8 @@ const Project = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500" ><a href='https://github.com/MOwaisAzizi/travel-list-note'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-duration="500" ><a href='https://travel-ashy-eight.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2" data-aos="fade-right" data-aos-duration="500" ><a href='https://travel-ashy-eight.vercel.app'>Visit<i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500" ><a href='https://github.com/MOwaisAzizi/travel-list-note'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -314,8 +327,8 @@ const Project = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Random-Match-Game'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://game-iota-five.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2 " data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://game-iota-five.vercel.app'>Visit<i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Random-Match-Game'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -334,8 +347,8 @@ const Project = (props) => {
                 <div className="backdrop" >
                       <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Bootstrap-Project'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='http://mowaisazizi.github.io/Bootstrap-Project/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2 " data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='http://mowaisazizi.github.io/Bootstrap-Project/'>Visit<i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Bootstrap-Project'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -356,8 +369,8 @@ const Project = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Eat-split-app'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-duration="500"><a href='https://split-eat.vercel.app'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://split-eat.vercel.app'>Visit<i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Eat-split-app'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -378,8 +391,8 @@ const Project = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Countries-Data-App'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-duration="500"><a href='http://mowaisazizi.github.io/Countries-Data-App'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='http://mowaisazizi.github.io/Countries-Data-App'>Visit<i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Countries-Data-App'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -399,8 +412,8 @@ const Project = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/React-Culculator'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://react-culculator.vercel.app/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2 " data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://react-culculator.vercel.app/'>Visit<i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/React-Culculator'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -422,8 +435,8 @@ const Project = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Pig-Game'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-duration="500"><a href='https://mowaisazizi.github.io/Pig-Game/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://mowaisazizi.github.io/Pig-Game/'>Visit<i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Pig-Game'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -444,8 +457,8 @@ const Project = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Back_Info-Website'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='http://mowaisazizi.github.io/Back_Info-Website/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2 " data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='http://mowaisazizi.github.io/Back_Info-Website/'>Visit<i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Back_Info-Website'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -469,8 +482,8 @@ const Project = (props) => {
                 <div className="backdrop">
                   <Row>
                     <div className='links'  >
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Alarm_Clock-App'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2 " data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://alarm-clock-app-ebon.vercel.app'>Visit <i style={style2}  className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2 " data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://alarm-clock-app-ebon.vercel.app'>Visit<i style={style2}  className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Alarm_Clock-App'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -493,8 +506,8 @@ const Project = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Calculator'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-duration="500"><a href='http://mowaisazizi.github.io/Calculator/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='http://mowaisazizi.github.io/Calculator/'>Visit<i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Calculator'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -514,8 +527,8 @@ const Project = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/progect1'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-duration="500"><a href='https://mowaisazizi.github.io/progect1/'>Visit<i style={style2}  className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://mowaisazizi.github.io/progect1/'>Visit<i style={style2}  className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/progect1'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -537,8 +550,8 @@ const Project = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Note-Management-App'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-duration="500"><a href='http://mowaisazizi.github.io/Note-Management-App/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='http://mowaisazizi.github.io/Note-Management-App/'>Visit<i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Note-Management-App'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -561,8 +574,8 @@ const Project = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Guess-My-Number'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-duration="500"><a href='http://mowaisazizi.github.io/Guess-My-Number/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a href='http://mowaisazizi.github.io/Guess-My-Number/'>Visit<i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500"><a href='https://github.com/MOwaisAzizi/Guess-My-Number'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
@@ -584,8 +597,8 @@ const Project = (props) => {
                 <div className="backdrop" >
                   <Row>
                     <div className='links'>
-                      <Button className="btn btn-light me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/project-4-of--4'>Github <i style={style2} className="fa fa-github icons"></i></a></Button>
-                      <Button className="btn btn-light ms-2" data-aos="fade-left" data-aos-delay="200"><a href='https://mowaisazizi.github.io/project-4-of--4/'>Visit <i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light me-1 me-sm-2" data-aos="fade-right" data-aos-delay="200"><a href='https://mowaisazizi.github.io/project-4-of--4/'>Visit<i style={style2} className="fa fa-globe icons"></i></a></Button>
+                      <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-delay="200"><a href='https://github.com/MOwaisAzizi/project-4-of--4'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
                   </Row>
                 </div>
