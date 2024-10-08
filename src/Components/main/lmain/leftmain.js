@@ -15,7 +15,7 @@ class LeftMain extends React.Component {
     return (
       <div className='leftmain left mt-5 mt-lg-0 ms-2 ms-lg-0 p-0  mb-2 mb-lg-0' >
 
-          <div className='mt-4 mt-lg-0' >
+          <div className='mt-4 mt-sm-5 mt-lg-0' >
             <h2 id='left' className='' style={{ textAlign: 'center' }}></h2>
             <p className='' style={{ textAlign: 'center' }}>An Afghan software engineer enrolled in the Software Engineering at Herat University.
             </p>
