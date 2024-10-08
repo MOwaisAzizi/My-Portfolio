@@ -127,7 +127,7 @@ const Instances = ({theme}) => {
 
         <h2 className="pt-sm-5 pt-lg-1 pt-4" style={{ textAlign: 'center' }} data-aos="fade-up" data-aos-duration="500">My  Projects Instances</h2>
 
-        <div className="slides" style={{ transform: `translateX(-${ currentIndex * 16.8}%)` }}>
+        <div className="slides" style={{ transform: `translateX(-${ currentIndex * 16.77}%)` }}>
          
 
           <div className="mb-3 slide" data-aos="zoom-in" data-aos-duration="1500">
