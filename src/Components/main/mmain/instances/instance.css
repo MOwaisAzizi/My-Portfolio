@@ -98,7 +98,6 @@
   width: 100%;
   border-radius: 10px;
   height: 100%;
-
   transition: 0.5s;
   object-fit: cover;
 }
@@ -266,6 +265,14 @@
     padding: 0;
   }.arrow{
     font-size: 25px;
+  }.backdrop{
+    border-radius: 12px;
+  }.card{
+    border-radius: 12px;
+
+  }img{
+    border-radius: 12px;
+
   }
 }
 
