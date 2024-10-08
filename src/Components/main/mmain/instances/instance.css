@@ -266,12 +266,12 @@
   }.arrow{
     font-size: 25px;
   }.backdrop{
-    border-radius: 12px;
+    border-radius: 15px;
   }.card{
-    border-radius: 12px;
+    border-radius: 15px;
 
   }img{
-    border-radius: 12px;
+    border-radius: 15px;
 
   }
 }
