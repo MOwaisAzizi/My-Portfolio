@@ -21,7 +21,7 @@ const Contact = ({ theme, click, refResult }) => {
     setEmail('')
     setNum('')
     setMessage('')
-    alert('Message Sended!')
+    alert('Your Data Sended')
   }
 
 

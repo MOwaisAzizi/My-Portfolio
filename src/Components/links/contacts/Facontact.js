@@ -21,7 +21,7 @@ const FaContact = ({ theme, refResult, click }) => {
     setEmail('')
     setNum('')
     setMessage('')
-    alert('پیام ارسال شد')
+    alert('اطلاعات شماارسال شد')
   }
 
   const style = {
