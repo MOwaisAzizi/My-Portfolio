@@ -237,10 +237,10 @@
 }
 @media only screen and (max-width: 576px) {
   .card{
-    height: 27.8rem;
+    height: 26.8rem;
   }
   .li{
-    height: 27.8rem;
+    height: 26.9rem;
   }.arrows{
     top: 43%;
   }
