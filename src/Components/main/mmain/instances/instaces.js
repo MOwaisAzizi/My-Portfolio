@@ -270,7 +270,7 @@ const Instances = ({theme}) => {
 
         </div>
 
-        <div className="mt-sm-5 mt-1 activeContainer">
+        <div className="mt-sm-4 mt-lg-5 mt-1 activeContainer">
  {Array.from({length: width > 1250 ? 4 : width < 1250 && width >= 770 ? 5 : 6 },(_,i)=>i).map((acitve,index)=>{
           return (
             <span key={index}  className={currentIndex === index ? 'dot dot--active' : 'dot'} onClick={()=>acitveHandler(acitve)}><span style={{color:theme==='dark' ? 'white' :'#807a7a' }}>.</span></span>//52d3d8 98eecc

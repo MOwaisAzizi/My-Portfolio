@@ -113,7 +113,7 @@
 }.h{
   box-sizing: border-box;
   text-align: center;
-  font-size: 30px;
+  font-size: 27px;
   cursor: pointer;
   width: 100%;
   border: none;
@@ -183,7 +183,7 @@
       left: 40px;
      }
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 991.5px) {
   .slides{
     gap: 1rem;
    }
@@ -192,6 +192,12 @@
    }
    .arrows{
     top: 45%;
+  }
+  .card{
+    height: 27.8rem;
+  }
+  .li{
+    height: 27.9rem;
   }
 }
 @media only screen and (max-width: 840px) {
@@ -220,7 +226,7 @@
     right: 0px;
    }
    .arrows{
-    top: 42%;
+    top: 44%;
   }
 }
 @media only screen and (max-width: 600px) {
