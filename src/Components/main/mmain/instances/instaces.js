@@ -140,7 +140,7 @@ const Instances = ({theme}) => {
               { showlinks7 ?
                 <div className="backdrop">
                   <Row>
-                    <div className='links'  >
+                    <div className='links'>
                       <Button className="btn btn-light me-1 me-sm-2" data-aos="fade-right" data-aos-duration="500"><a className="ps-1" href='https://weather-app-delta-ebon.vercel.app/'>Visit<i  style={style2} className="fa fa-globe icons"></i></a></Button>
                       <Button className="btn btn-light ms-1 ms-sm-2" data-aos="fade-left" data-aos-duration="500"><a className="ps-1" href='https://github.com/MOwaisAzizi/Weather-App'>Github<i style={style2} className="fa fa-github icons"></i></a></Button>
                     </div>
