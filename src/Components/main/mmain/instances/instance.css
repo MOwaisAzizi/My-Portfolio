@@ -189,7 +189,7 @@
     width: 330px;
    }
    .arrows{
-    top: 45%;
+    top: 45.5%;
   }
   .card{
     height: 27.8rem;
@@ -224,7 +224,7 @@
     right: 0px;
    }
    .arrows{
-    top: 44%;
+    top: 44.5%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -246,7 +246,7 @@
   .li{
     height: 26.9rem;
   }.arrows{
-    top: 43%;
+    top: 44%;
   }
   }
 @media only screen and (max-width: 500px) {
@@ -264,7 +264,7 @@
    }
 
   .arrow-left{
-    left: 31px;
+    left: 31.5px;
    }.arrow-right{
     right: 0px;
    }
