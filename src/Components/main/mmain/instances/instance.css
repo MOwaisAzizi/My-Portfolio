@@ -44,7 +44,6 @@
   height: 40px;
   width: 40px;
   background-color: rgba(255, 255, 255, 0.7);
-
   border-radius: 50%;
   cursor: pointer;
  }.arrow-left{
@@ -258,8 +257,9 @@
     width: 94vw; 
    }
    .arrows{
-    height: 30px;
-    width: 30px;
+  font-size: 18px;
+    height: 32px;
+    width: 32px;
    }
 
   .arrow-left{
