@@ -21,7 +21,7 @@
 }
 .slides{
   display: flex;
-  transition: transform 0.6s ease;
+  transition: transform 0.55s ease;
   flex-wrap: nowrap;
   gap: 1rem;
   width: max-content;
@@ -251,13 +251,14 @@
   }
 @media only screen and (max-width: 500px) {
   .slides{
+    transition: transform 0.6s ease;
     gap: 1rem;
    }
    .slide{
     width: 94vw; 
    }
    .arrows{
-  font-size: 19px;
+    font-size: 19px;
     height: 32.5px;
     width: 32.5px;
     
