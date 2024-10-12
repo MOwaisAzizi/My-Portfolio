@@ -251,7 +251,6 @@
   }
 @media only screen and (max-width: 500px) {
   .slides{
-    transition: transform 0.65s ease;
     gap: 1rem;
    }
    .slide{
@@ -265,7 +264,7 @@
    }
 
   .arrow-left{
-    left: 32px;
+    left: 31.5px;
    }.arrow-right{
     right: 0px;
    }
