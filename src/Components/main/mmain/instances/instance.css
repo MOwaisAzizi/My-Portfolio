@@ -251,7 +251,6 @@
   }
 @media only screen and (max-width: 500px) {
   .slides{
-    transition: transform 0.55s ease;
     gap: 1rem;
    }
    .slide{
