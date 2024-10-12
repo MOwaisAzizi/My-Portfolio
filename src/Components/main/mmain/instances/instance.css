@@ -260,11 +260,10 @@
     font-size: 19px;
     height: 32.5px;
     width: 32.5px;
-    
    }
 
   .arrow-left{
-    left: 30.5px;
+    left: 30.25px;
    }.arrow-right{
     right: 0px;
    }
