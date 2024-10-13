@@ -1,4 +1,4 @@
-import { React, useRef, useState, useEffect,useCallback, memo } from 'react'
+import { React, useRef, useState, useEffect, memo } from 'react'
 import Rightmain from './rmain/rightmain'
 import LeftMain from './lmain/leftmain'
 import Middlemain from './mmain/middlemain'
@@ -27,7 +27,7 @@ function Main({ theme }) {
   const [isenglish, setisenglish] = useState(true)
   const [isopen, setisopen] = useState(false)
 
-  const handlelangeage = useCallback(function ()  {
+  const handlelangeage = function ()  {
     if (isenglish === true) {
       window.localStorage.setItem('isenglish', 'true')
       setisenglish(false)
@@ -35,9 +35,7 @@ function Main({ theme }) {
       window.localStorage.setItem('isenglish', 'false')
       setisenglish(true)
     }
-
-  },[isenglish]
-)
+  }
 
   useEffect(() => {
     const localtheme = window.localStorage.getItem('isenglish')
@@ -50,10 +48,10 @@ function Main({ theme }) {
   }, [])
 
 
-  const toggleNav = useCallback(function () {
+  const toggleNav = function () {    
     setisopen(!isopen)
-  },[isopen]
-  )
+  }
+  
 
   const style2 = {
       background: theme === 'dark' ? '#52d3d8' : '#98eecc',
