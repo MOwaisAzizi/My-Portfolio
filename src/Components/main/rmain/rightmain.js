@@ -1,6 +1,5 @@
 import React from 'react'
 import './rightmain.css'
-import { Row, Col } from 'react-bootstrap';
 import { init } from 'ityped'
 
 class Rightmain extends React.Component {
