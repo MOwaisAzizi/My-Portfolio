@@ -2,6 +2,7 @@ import './about.css'
 import { Container } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
 import CV from './CV.pdf'
+import { memo } from 'react';
 
 
 const About = (props) => {
@@ -33,4 +34,4 @@ const About = (props) => {
   </div>
   )
 }
-export default About
+export default memo(About)

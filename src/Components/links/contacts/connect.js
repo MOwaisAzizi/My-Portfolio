@@ -3,6 +3,7 @@ import './conect.css'
 import { Container } from "react-bootstrap";
 import emailjs from '@emailjs/browser'
 import { FaPaperPlane } from 'react-icons/fa'
+import { memo } from "react";
 
 const Contact = ({ theme, click, refResult }) => {
 
@@ -28,7 +29,7 @@ const Contact = ({ theme, click, refResult }) => {
   const style = {
     background: theme === 'dark' ? 'linear-gradient(to left,#52d3d8,#30b5b9)' : 'linear-gradient(to left,#98eecc,#82e5bd)',
     color: theme === 'dark' ? 'white' : 'black',
-    boxShadow: theme === 'dark' ? '2px 3px 10px #22abaf' : '5px 6px 15px rgba(0, 0, 0,0.2)'
+    boxShadow: theme === 'dark' ? '2px 3px 10px #22abaf' : '5px 5px 12px rgba(0, 0, 0,0.2)'
   }
   const style1 = {
     background: theme === 'dark' ? '#52d3d8' : '#98eecc',
@@ -72,4 +73,4 @@ const Contact = ({ theme, click, refResult }) => {
   );
 }
 
-export default Contact;
+export default memo(Contact);

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import './exprence.css'
 import pic4 from './pic4.png'
@@ -35,4 +35,4 @@ const FaExprence = () => {
       </div>
    )
 }
-export default FaExprence
+export default memo(FaExprence)

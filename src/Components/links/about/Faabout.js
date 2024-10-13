@@ -3,26 +3,14 @@ import './about.css'
 import {Container } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
 import CV from './CV.pdf'
-
-
+import { memo } from "react";
 
 const Faabout = (props) => {
-
-    const downLoadCV = () => {
-        const downLoadLink = document.createElement('a');
-        downLoadLink.href = './CV of Mohammad Owais Azizi.docx'
-        downLoadLink.download = 'CV of Mohammad Owais Azizi.docx'
-        document.body.appendChild(downLoadLink)
-        downLoadLink.click();
-        document.body.removeChild(downLoadLink)
-    }
-
 
     return (
         <div className="about mb-lg-3 mb-3 faAbout" >
             <Container>
-    
-                         
+        
                         <h1 data-aos="fade-up" className="mx-auto  t-center pt-2 pt-gl-5 pt-md-5 pt-0">
                         <span style={{ fontSize: '40px' }}>؟</span> <span>هستم</span> <span>کی</span> <span>من</span>  </h1> 
                         <p data-aos="fade-up" data-aos-duration="800" style={{ direction: 'rtl' }} className="px-lg-5 mx-lg-5 center px-1  mx-0" >
@@ -40,4 +28,4 @@ const Faabout = (props) => {
         </div>
     )
 }
-export default Faabout
+export default memo(Faabout)

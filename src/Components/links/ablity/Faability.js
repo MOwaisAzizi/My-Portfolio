@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import './ablity.css'
 import { Container } from "react-bootstrap";
+import { memo } from "react";
 
 const FaAblity = ({ theme }) => {
 
@@ -180,4 +181,4 @@ const FaAblity = ({ theme }) => {
 
   )
 }
-export default FaAblity
+export default memo(FaAblity)

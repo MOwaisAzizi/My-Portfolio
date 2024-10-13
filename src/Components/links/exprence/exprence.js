@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import './exprence.css'
 import pic4 from './pic4.png'
+import { memo } from "react";
 
 
 const Exprence = () => {
@@ -33,4 +34,4 @@ const Exprence = () => {
       </div>
    )
 }
-export default Exprence
+export default memo(Exprence)

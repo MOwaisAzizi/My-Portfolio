@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState,useEffect, memo } from "react";
 import mapty from './Mapty.png'
 import note from './note.png'
 import sell from './sell.png'
@@ -10,16 +10,16 @@ import { Card, Row, Container, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 
-
+const images = [note, sell, library, mapty,weather,Movie]
 
 const FaInstances = (props) => {
-  const images = [note, sell, library, mapty,weather,Movie]
 
   const style = {
     background: props.theme === 'dark' ? '#52d3d8' : '#98eecc',
     color: props.theme === 'dark' ? 'white' : 'black',
     boxShadow: props.theme === 'dark' ? '0px 2px 8px #22abaf':'2px 5px 10px rgba(0, 0, 0,0.15) '
   }
+
   const style1 = {
     background: props.theme==='dark' ? '#52d3d8' : '#98eecc',
     color: props.theme === 'dark' ? 'white' : 'black',
@@ -31,7 +31,6 @@ const FaInstances = (props) => {
 
   const [showlinks1, setshowlinks1] = useState(false)
   const [showlinks2, setshowlinks2] = useState(false)
-  const [showlinks3, setshowlinks3] = useState(false)
   const [showlinks4, setshowlinks4] = useState(false)
   const [showlinks6, setshowlinks6] = useState(false)
   const [showlinks7, setshowlinks7] = useState(false)
@@ -40,7 +39,6 @@ const FaInstances = (props) => {
   function showlinks1Handler(){
     setshowlinks1(showlink=>!showlink)
     setshowlinks2(false)
-    setshowlinks3(false)
     setshowlinks4(false)
     setshowlinks6(false)
     setshowlinks7(false)
@@ -50,7 +48,6 @@ const FaInstances = (props) => {
   function showlinks2Handler(){
     setshowlinks2(showlink=>!showlink)
     setshowlinks1(false)
-    setshowlinks3(false)
     setshowlinks4(false)
     setshowlinks6(false)
     setshowlinks7(false)
@@ -60,7 +57,6 @@ const FaInstances = (props) => {
     setshowlinks4(showlink=>!showlink)
     setshowlinks1(false)
     setshowlinks2(false)
-    setshowlinks3(false)
     setshowlinks6(false)
     setshowlinks7(false)
     setshowlinks8(false)
@@ -69,7 +65,6 @@ const FaInstances = (props) => {
   function showlinks6Handler(){
     setshowlinks6(showlink=>!showlink)
     setshowlinks2(false)
-    setshowlinks3(false)
     setshowlinks4(false)
     setshowlinks1(false)
     setshowlinks7(false)
@@ -80,7 +75,6 @@ const FaInstances = (props) => {
     setshowlinks6(false)
     setshowlinks8(false)
     setshowlinks2(false)
-    setshowlinks3(false)
     setshowlinks4(false)
     setshowlinks1(false)
   }
@@ -89,7 +83,6 @@ const FaInstances = (props) => {
     setshowlinks6(false)
     setshowlinks7(false)
     setshowlinks2(false)
-    setshowlinks3(false)
     setshowlinks4(false)
     setshowlinks1(false)
   }
@@ -297,4 +290,4 @@ const FaInstances = (props) => {
     </div>
   )
 }
-export default FaInstances
+export default memo(FaInstances)
