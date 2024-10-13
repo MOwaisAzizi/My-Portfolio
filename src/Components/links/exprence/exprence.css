@@ -93,12 +93,7 @@ h2 span{
     margin: auto;
   }
 }
-@media screen and (max-width: 767px) {
 
-  h2{
-    /* font-size: 25px; */
-  }
-}
 li {
   text-align: start;
 }

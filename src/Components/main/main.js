@@ -1,4 +1,4 @@
-import { React, useRef, useState, useEffect,useCallback, memo, useMemo } from 'react'
+import { React, useRef, useState, useEffect,useCallback, memo } from 'react'
 import Rightmain from './rmain/rightmain'
 import LeftMain from './lmain/leftmain'
 import Middlemain from './mmain/middlemain'
@@ -55,13 +55,10 @@ function Main({ theme }) {
   },[isopen]
   )
 
-  const style2 = useMemo(()=>{
-    return {
+  const style2 = {
       background: theme === 'dark' ? '#52d3d8' : '#98eecc',
       color: theme === 'dark' ? 'white' : 'black',
     }
-  },[theme]
-)
 
   const home = useRef(null);
   const about = useRef(null);
