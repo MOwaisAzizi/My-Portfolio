@@ -29,7 +29,7 @@ const Contact = ({ theme, click, refResult }) => {
   const style = {
     background: theme === 'dark' ? 'linear-gradient(to left,#52d3d8,#30b5b9)' : 'linear-gradient(to left,#98eecc,#82e5bd)',
     color: theme === 'dark' ? 'white' : 'black',
-    boxShadow: theme === 'dark' ? '2px 3px 10px #22abaf' : '5px 5px 12px rgba(0, 0, 0,0.2)'
+    boxShadow: theme === 'dark' ? '2px 3px 10px #22abaf' : '5px 5px 10px rgba(0, 0, 0,0.2)'
   }
   const style1 = {
     background: theme === 'dark' ? '#52d3d8' : '#98eecc',
@@ -42,7 +42,7 @@ const Contact = ({ theme, click, refResult }) => {
         <div className="form py-4" style={style}>
           <form id="contact-form" onSubmit={sendEmail} method="POST">
             <h2 style={{ textAlign: 'center' }}>Contact Me</h2>
-            <div className="f mt-2">
+            <div className="f mt-2 mt-lg-3">
             <label >Name</label> <br />
             <input data-aos="zoom-in" data-aos-duration="1500" value={name} onChange={(e) => setName(e.target.value)} type="text" name='email-from' id="emailfrom0" placeholder="Your Name" className="input"></input> <br />
               <label >Email Address</label> <br />

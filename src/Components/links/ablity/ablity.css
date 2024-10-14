@@ -96,7 +96,7 @@ li span{
   height: 12px;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s;
 }
 .bar div {
