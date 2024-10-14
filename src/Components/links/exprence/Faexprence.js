@@ -6,7 +6,7 @@ import pic4 from './pic4.png'
 
 const FaExprence = () => {
    return (
-      <div data-aos="fade-in" data-aos-delay="200" style={{ direction: 'rtl' }}>
+      <div style={{ direction: 'rtl' }}>
          <Container className="exprence mt-lg-2 mt-0">
                <div lg={12} className="img pt-lg-5 pt-md-5 pt-4" >
                   <div className="img" data-aos="fade-right" data-aos-delay="50" data-aos-duration="3000">
@@ -14,7 +14,6 @@ const FaExprence = () => {
                   </div>
                </div>
 
-               {/* <div  className="text"> */}
                   <div className="dtext dftext faexprence">
                      <h2 data-aos="fade-up"><b>
                      <span>چیکار</span> <span>انجام</span> <span>دادم</span> <span>؟</span> 
@@ -29,7 +28,6 @@ const FaExprence = () => {
                      </ul>
                   </div>
 
-               {/* </div> */}
 
          </Container>
       </div>
