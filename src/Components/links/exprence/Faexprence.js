@@ -9,7 +9,7 @@ const FaExprence = () => {
       <div style={{ direction: 'rtl' }}>
          <Container className="exprence mt-lg-2 mt-0">
                <div lg={12} className="img pt-lg-5 pt-md-5 pt-4" >
-                  <div className="img" data-aos="fade-right" data-aos-delay="50" data-aos-duration="3000">
+                  <div className="img" data-aos="fade-right" data-aos-delay="50" data-aos-duration="2000">
                      <img src={pic4}></img>
                   </div>
                </div>
