@@ -11,7 +11,7 @@ const About = (props) => {
   return (<div className="about mb-lg-3 mb-2 mt-3" >
     <Container>
 
-      <div className="text pt-0" lg={12} > <h1 data-aos="fade-up" className="mx-auto pt-0 pt-gl-5 pt-md-5 t-center ">
+      <div className="text pt-0" lg={12} > <h1 data-aos="fade-up" className="mx-auto pt-1 pt-gl-5 pt-md-5 t-center ">
         <span>W</span><span>h</span><span>o</span> <span>A</span><span>m</span> <span>I</span> <span style={{ fontSize: '40px' }}>?</span></h1> 
 
         <p data-aos="fade-up" data-aos-duration="800" className="center px-0 mx-0 ps-1 ps-sm-0"> I am a professional front-end developer with two years experience residing in city Herat, Afghanistan.
