@@ -37,7 +37,7 @@ function Main({ theme }) {
     }
   }
 
-  useEffect(() => {
+  useEffect(() => {    
     const localtheme = window.localStorage.getItem('isenglish')
     if (localtheme === 'true') {
       setisenglish(false)

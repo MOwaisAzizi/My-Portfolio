@@ -99,7 +99,6 @@ const Instances = ({ theme }) => {
   useEffect(function () {
     window.addEventListener('resize', handlResize)
     return () => window.removeEventListener('resize', handlResize)
-
   }, [])
 
   function nextSlide() {
