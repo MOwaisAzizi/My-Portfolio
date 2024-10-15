@@ -24,3 +24,9 @@
  margin-top: 10px;
   }
 }
+
+  @media only screen and (max-width: 767px) {
+    .frontheader{
+      margin-top: 15px;
+    }
+}
