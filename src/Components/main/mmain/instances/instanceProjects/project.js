@@ -14,13 +14,13 @@ import market from '../market.png'
 import calculator from '../culculator2.png'
 import lib from '../lib.png'
 import RandomGame from '../RandomGame.png'
-
-
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Row, Col, Button, Card } from "react-bootstrap";
 
-const Project = (props) => {
 
+const Project = (props) => {
+  const navigate = useNavigate()
+  
   const style2 = {
     color: props.theme === 'dark' ? '#52d3d8' : '#58f1b4',
   }
@@ -284,12 +284,10 @@ const Project = (props) => {
 
 
 
-
-
   return (
     <div className="project pt-3 pt-md-0" >
-      <Link to={'/'} className="link" onClick={props.back}>
-         <i style={style} className="fa fa-arrow-left leftArrow" ></i> <span style={style} className="back">Back</span></Link>
+      <button to={'/'} className="link" onClick={()=>navigate(-1)}>
+         <i style={style} className="fa fa-arrow-left leftArrow" ></i> <span style={style} className="back">Back</span></button>
         
         <Row className="pt-3 pb-5 pt-md-5">
 

@@ -9,6 +9,7 @@ import './instance.css'
 import { Card, Row, Container, Button } from "react-bootstrap";
 import { Link } from 'react-router-dom'
 import { memo } from "react";
+import { log } from "three/webgpu";
 
 const images = [note, sell, weather, Movie, library, mapty]
 
@@ -111,12 +112,19 @@ const Instances = ({ theme }) => {
 
   function acitveHandler(active) {
     setCurrentIndex(active)
-
   }
+
+  function handleKey(e){
+      if(e.key==='ArrowRight') nextSlide()
+      if(e.key==='ArrowLeft') prevSlide()
+  }
+  useEffect(function(){
+   window.addEventListener('keydown',handleKey)
+    return ()=> window.removeEventListener('keydown',handleKey)
+  },[])
 
   return (
     <div className="instance">
-
       <Container className="contain">
         <div className="pb-md-3 pb-1 slider ">
 

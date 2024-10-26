@@ -15,7 +15,7 @@ const Contact = ({ theme, click, refResult }) => {
   const sendEmail = (e) => {
     e.preventDefault();
     if(email.trim() === '' && num.trim()==='') return alert('Please fill the email or number input')
-    if (Message.trim() === '') return alert('Please fill the message input')
+    // if (Message.trim() === '') return alert('Please fill the message input')
 
     emailjs.sendForm('service_wbk8n58', 'template_cd72onu', e.target, 'D6YlJfjXbdiipAnl2')
     setName('')
@@ -50,7 +50,7 @@ const Contact = ({ theme, click, refResult }) => {
               <label >Phone No</label> <br />
               <input data-aos="zoom-in" data-aos-duration="1500" value={num} onChange={(e) => setNum(e.target.value)} type="number" name='email-from' id="emailfrom2" placeholder="Your Phone Number" className="input"></input> <br />
               <label >Message</label> <br />
-              <textarea data-aos="zoom-in" data-aos-duration="1500" value={Message} onChange={(e) => setMessage(e.target.value)} name='message' id="message" placeholder="Your Message" rows={5}></textarea> <br />
+              <textarea required data-aos="zoom-in" data-aos-duration="1500" value={Message} onChange={(e) => setMessage(e.target.value)} name='message' id="message" placeholder="Your Message" rows={5}></textarea> <br />
               <button type="submit" className="btn btn-primary  ms-1 button px-2 py-1  px-md-3 py-md-2 text-white">Send <FaPaperPlane color="white" className="me-2 me-sm-0" /></button>
 
             </div>
