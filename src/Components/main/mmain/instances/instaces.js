@@ -118,6 +118,7 @@ const Instances = ({ theme }) => {
       if(e.key==='ArrowRight') nextSlide()
       if(e.key==='ArrowLeft') prevSlide()
   }
+
   useEffect(function(){
    window.addEventListener('keydown',handleKey)
     return ()=> window.removeEventListener('keydown',handleKey)
