@@ -21,7 +21,7 @@
 }
 .slides{
   display: flex;
-  transition: transform 0.6s ease;
+  transition: transform 0.7s ease;
   flex-wrap: nowrap;
   gap: 1rem;
   width: max-content;
@@ -251,6 +251,7 @@
 @media only screen and (max-width: 500px) {
   .slides{
     gap: 1rem;
+    transition: transform 0.6s ease;
    }
    .slide{
     width: 94vw; 
