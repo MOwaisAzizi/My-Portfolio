@@ -280,7 +280,7 @@ const FaInstances = (props) => {
 
         <Container className="mb-3 mb-md-0 mt-3">
             <div  className="btn-more mb-4 mb-md-0  mt-3" >
-              <Link  to='/project'><button  style={style} className="h py-1 More " onClick={props.click}> <span className="faarrow" >&larr;</span> دیدن بیشتر</button></Link>
+              <Link  to='/project'><button  style={style} className="h py-1 More " onClick={props.click}> <span className="faarrow" ><i className="fa fa-arrow-left"></i></span> دیدن بیشتر</button></Link>
             </div>
         </Container>
       </div>

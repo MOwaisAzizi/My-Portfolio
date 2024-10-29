@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 import emailjs from '@emailjs/browser'
 import { FaPaperPlane } from 'react-icons/fa'
 import { memo } from "react";
-
+import { FaArrowUp } from 'react-icons/fa';
 const Contact = ({ theme, click, refResult }) => {
 
   const [name, setName] = useState('')
@@ -67,7 +67,7 @@ const Contact = ({ theme, click, refResult }) => {
         </div>
 
       </Container>
-      <button className='goTop' style={style1} onClick={click} ref={refResult}>&#11014;</button>
+      <button className='goTop' style={style1} onClick={click} ref={refResult}><FaArrowUp size={18}/> </button>
 
     </div>
   );
