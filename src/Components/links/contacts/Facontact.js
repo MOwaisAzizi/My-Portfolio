@@ -67,7 +67,7 @@ const FaContact = ({ theme, refResult, click }) => {
           <br />
         </div>
       </Container>
-      <button className='goTop fa' style={style1} onClick={click} ref={refResult}><FaArrowUp size={18} /></button>
+      <button className='goTop' style={style1} onClick={click} ref={refResult}><FaArrowUp size={18} /></button>
 
     </div>
   );
