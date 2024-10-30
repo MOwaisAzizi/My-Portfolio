@@ -67,7 +67,7 @@ const Contact = ({ theme, click, refResult }) => {
         </div>
 
       </Container>
-      <button className='goTop' style={style1} onClick={click} ref={refResult}><FaArrowUp size={18}/> </button>
+      <button className='goTop' style={style1} onClick={click} ref={refResult}>	&uarr; </button>
 
     </div>
   );

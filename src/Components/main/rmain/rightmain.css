@@ -10,13 +10,13 @@
     text-align: center;
   display: flex;
   align-items:center;
-  height: 70%;
+  height: 69%;
   justify-content:center;
   text-align: center;
   padding: 0;
   margin: auto;
 }.right{
-  height: 67%;
+  height: 66%;
 }
 
 @media only screen and (max-width: 991px) {
