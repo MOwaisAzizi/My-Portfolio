@@ -182,7 +182,7 @@
 }
 @media only screen and (max-width: 950px) {
   .navbar-links {
-    margin-left: 2rem;
+    margin-left: 2.5rem;
     gap: 2rem;
   }
 

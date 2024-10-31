@@ -9,7 +9,6 @@ import './instance.css'
 import { Card, Row, Container, Button } from "react-bootstrap";
 import { Link } from 'react-router-dom'
 import { memo } from "react";
-import { log } from "three/webgpu";
 
 const images = [note, sell, weather, Movie, library, mapty]
 
@@ -288,7 +287,7 @@ const Instances = ({ theme }) => {
           </div>
           <Container className="">
             <div className=" btn-more mb-3 mb-md-0 mt-3 ">
-              <Link to='/project'>  <button style={style} className="h ms-lg-1  py-1 More" >See More <span className="arrow"><i className="fa fa-arrow-right"></i></span></button></Link>
+              <Link to='/project' >  <button style={style} className="h ms-lg-1  py-1 More" >See More <span className="arrow"><i className="fa fa-arrow-right"></i></span></button></Link>
             </div>
           </Container>
         </div>
