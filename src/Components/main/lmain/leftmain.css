@@ -12,8 +12,10 @@
    align-items: center;
    justify-content: center;
    margin: auto;
-   height: 70%;
-   padding: 0;
+   /* height: 70%; */
+   height: 68%;
+   padding: 0;   
+
 }.left{
-  height: 66%;
+  height: 65.75%;
 }
